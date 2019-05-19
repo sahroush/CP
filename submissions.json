@@ -2767,6 +2767,22 @@
     ],
     "timestamp": "Apr/26/2021 22:25"
   },
+  "AC5452886": {
+    "contest_id": "abc126",
+    "language": "Python3 (3.4.3)",
+    "path": "atcoder/abc126/B.py",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "YYMM or MMYY",
+    "problem_url": "https://atcoder.jp/contests/abc126/tasks/abc126_b",
+    "submission_id": "AC5452886",
+    "submission_url": "https://atcoder.jp/contests/abc126/submissions/5452886",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "May/19/2019 16:38"
+  },
   "AC5465122": {
     "contest_id": "abc126",
     "language": "Python3 (3.4.3)",
