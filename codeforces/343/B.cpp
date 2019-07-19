@@ -1,39 +1,39 @@
 #include <bits/stdc++.h>
- 
-using namespace std;
- 
-typedef long long ll;
- 
-const ll MAX = 5e5+10;
-const ll ZERO = 0; 
-const ll SADAT = 7.84e-17;
-const ll INF = 1e10;
- 
-#define endl '\n'
-#define dokme(x) cout << x ;  return(0);
-#define migmig ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 
-stack<char> st;
-string str;
+#define rep(i,n) for(int i=0; i<n; i++)
+#define repa(i,a,b,d) for(int i=a; i<=b; i+=d)
+#define repd(i,a,b,d) for(int i=a; i>=b; i-=d)
+#define repi(it,stl) for(auto it = (stl).begin(); (it)!=stl.end(); ++(it))
+#define sz(a) ((int)(a).size())
+#define mem(a,n) memset((a), (n), sizeof(a))
+#define all(n) (n).begin(),(n).end()
+#define mp(a,b) make_pair((a),(b))
+#define pii pair<int,int>
+#define vi vector<int>
+#define vs vector<string>
+#define sstr stringstream
+#define indexof(v,x) (find(all((v)),(x))-(v).begin())
+
+typedef long long ll;
+using namespace std;
+
 
 int main(){
-    migmig;
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+#ifndef ONLINE_JUDGE
+    freopen("main.txt","rt",stdin);
+    //  freopen("out.txt","wt",stdout);
+#endif
 
+    string str;
     cin >> str;
-	int n = str.size();
-    for(int i=0;i<n;i++){
-        if (st.empty()){
-        	st.push(str[i]);
-		}
-		else if (st.top()!=str[i]){
-			st.push(str[i]);
-		}
-		else{
-			st.pop();
-		}
+    stack<char> st;
+    rep(i,sz(str)){
+        if(st.empty() || st.top() != str[i]) st.push(str[i]);
+        else st.pop();
     }
-    if (st.empty()) cout << "Yes";
-    else cout << "No";
- 
-    return (0);
+    cout << (st.empty()? "Yes" : "No");
+
+    return 0;
 }
