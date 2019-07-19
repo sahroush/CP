@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF57334450": {
+    "contest_id": 867,
+    "language": "GNU C++17",
+    "path": "codeforces/867/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Between the Offices",
+    "problem_url": "https://codeforces.com/contest/867/problem/A",
+    "submission_id": "CF57334450",
+    "submission_url": "https://codeforces.com/contest/867/submission/57334450",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/19/2019 19:59"
+  },
   "CF57334780": {
     "contest_id": 1146,
     "language": "GNU C++17",
