@@ -9051,6 +9051,22 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF57701043": {
+    "contest_id": 703,
+    "language": "GNU C++17",
+    "path": "codeforces/703/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Mishka and Game",
+    "problem_url": "https://codeforces.com/contest/703/problem/A",
+    "submission_id": "CF57701043",
+    "submission_url": "https://codeforces.com/contest/703/submission/57701043",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/24/2019 22:22"
+  },
   "CF57729325": {
     "contest_id": 749,
     "language": "GNU C++17",
