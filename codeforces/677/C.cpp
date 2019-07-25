@@ -1,46 +1,47 @@
 #include<iostream>
-#include<cstdio>
-#include<cstdlib>
-#include<cstring>
-#include<algorithm>
-#include<list>
-#include<vector>
-#include<queue>
-#include<cmath>
-#include<map>
-#define MOD 1000000007
+#include <bits/stdc++.h>
+#define M 1000000007
 using namespace std;
 const int maxn=100010;
-char str[maxn];
-long long num[maxn];
+char s[maxn];
+long long n[maxn];
+
+
+
 int main()
 {
-    for(int i=0;i<64;++i){
-        for(int j=0;j<64;++j){
-            num[i&j]++;//????i&j??????????i j??
+    for(int i=0;i<64;i++){
+        for(int j=0;j<64;j++){
+            n[i&j]++;
         }
     }
-    scanf("%s",str);
-    long long ans=1;
-    for(int i=0;str[i];++i){
-        int temp;
-        if(str[i]>='0'&&str[i]<='9'){
-            temp=str[i]-'0';
+    scanf("%s",s);
+    long long cnt=1;
+    for(int i=0;s[i];i++){
+        int boz;
+        if(s[i]>='0' and s[i]<='9'){
+            boz=s[i]-'0';
         }
-        else if(str[i]>='A'&&str[i]<='Z'){
-            temp=str[i]-'A'+10;
+        else if(s[i]>='A' and s[i]<='Z'){
+            boz=s[i]-'A'+10;
         }
-        else if(str[i]>='a'&&str[i]<='z'){
-            temp=str[i]-'a'+36;
+        else if(s[i]>='a' and s[i]<='z'){
+            boz=s[i]-'a'+36;
         }
-        else if(str[i]=='-'){
-            temp=62;
+        else if(s[i]=='-'){
+            boz=62;
         }
-        else if(str[i]=='_'){
-            temp=63;
+        else if(s[i]=='_'){
+            boz=63;
         }
-        ans=ans*(num[temp])%MOD;
+        cnt=cnt*(n[boz])%M;
     }
-    printf("%lld\n",ans%MOD);
+    printf("%lld\n",cnt%M);
     return 0;
 }
+
+
+//When we hit our lowest point, we are open to the greatest change.
+//If I try, I fail. If I don't try, I'm NEVER GOING TO GET IT.
+//Sometimes, life is like this dark tunnel. You can't always see the light at the end of the tunnel. But if you just keep moving... you will come to a better place.
+
