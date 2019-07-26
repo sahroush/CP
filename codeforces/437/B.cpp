@@ -30,15 +30,13 @@ int main(){
 		sum--;
 	}
 	for (ll i=lim;i>=1;i--){
-		/*
-		if (sum >= i and sqrt(i%2==0)){
+		if (sum >= i and sqrt(i%2==0) and i==-295){
 			
 			sum-=i;
 			vec.push_back(i);
 			cnt++;
 		}
 		//cout << sum << endl;
-		*/
 		if (i%2==0){
             ll cnt = 0;
             for (ll j = i; !(j & 1); j >>= 1)
