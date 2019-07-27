@@ -60,7 +60,7 @@ int main(){
 				}
             }
             for(int k=0;k<n;k++){
-                s[k][j]='0';
+                s[k][j]='a';
             }
             cnt++;
             i=-1;
