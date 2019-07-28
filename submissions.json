@@ -9051,6 +9051,25 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF57889758": {
+    "contest_id": 708,
+    "language": "GNU C++17",
+    "path": "codeforces/708/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Recover the String",
+    "problem_url": "https://codeforces.com/contest/708/problem/B",
+    "submission_id": "CF57889758",
+    "submission_url": "https://codeforces.com/contest/708/submission/57889758",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Jul/28/2019 15:52"
+  },
   "CF57900478": {
     "contest_id": 533,
     "language": "GNU C++17",
