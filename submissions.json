@@ -9051,6 +9051,22 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF58182744": {
+    "contest_id": 1095,
+    "language": "GNU C++11",
+    "path": "codeforces/1095/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Repeating Cipher",
+    "problem_url": "https://codeforces.com/contest/1095/problem/A",
+    "submission_id": "CF58182744",
+    "submission_url": "https://codeforces.com/contest/1095/submission/58182744",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/02/2019 20:22"
+  },
   "CF58226975": {
     "contest_id": 1006,
     "language": "GNU C++17",
