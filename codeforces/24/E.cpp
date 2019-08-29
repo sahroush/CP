@@ -12,11 +12,11 @@ const ll INF = 1e10;
 #define endl '\n'
 #define dokme(x) cout << x ;  return(0);
 #define migmig ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
- 
+
 int n;
 int v[maxn],x[maxn];
 double l=0 , r=1e10,m,ma;
- 
+
 int main(){
 	migmig;
 	cin >> n;
@@ -48,3 +48,6 @@ int main(){
 		
 	return(0);
 }
+//When we hit our lowest poll, we are open to the greatest change.
+//If I try, I fail. If I don't try, I'm NEVER GOING TO GET IT.
+//Sometimes, l is like this dark tunnel. You can't always see the light at the end of the tunnel. But if you just keep moving... you will come to a better place.
