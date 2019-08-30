@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF59727731": {
+    "contest_id": 1213,
+    "language": "GNU C++14",
+    "path": "codeforces/1213/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Bad Prices",
+    "problem_url": "https://codeforces.com/contest/1213/problem/B",
+    "submission_id": "CF59727731",
+    "submission_url": "https://codeforces.com/contest/1213/submission/59727731",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Aug/30/2019 19:37"
+  },
   "CF59739859": {
     "contest_id": 1213,
     "language": "GNU C++14",
