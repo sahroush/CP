@@ -17,7 +17,7 @@ const ll Mod = 1e9+7;
 int n,k;
 ll dp[maxn] , sum[maxn];
 
-//fuck stopstalk
+
 int main(){
 	cin >> n >> k;
 	fill(dp,dp+k,1);
