@@ -5535,6 +5535,23 @@
     ],
     "timestamp": "Jul/21/2019 19:52"
   },
+  "CF59864042": {
+    "contest_id": 234,
+    "language": "GNU C++17",
+    "path": "codeforces/234/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Weather",
+    "problem_url": "https://codeforces.com/contest/234/problem/C",
+    "submission_id": "CF59864042",
+    "submission_url": "https://codeforces.com/contest/234/submission/59864042",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Sep/01/2019 20:54"
+  },
   "CF59900118": {
     "contest_id": 466,
     "language": "GNU C++17",
