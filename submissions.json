@@ -2767,6 +2767,22 @@
     ],
     "timestamp": "Apr/26/2021 22:25"
   },
+  "AC7387455": {
+    "contest_id": "abc140",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc140/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Buffet",
+    "problem_url": "https://atcoder.jp/contests/abc140/tasks/abc140_b",
+    "submission_id": "AC7387455",
+    "submission_url": "https://atcoder.jp/contests/abc140/submissions/7387455",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/07/2019 16:42"
+  },
   "AC7392303": {
     "contest_id": "abc140",
     "language": "C++14 (GCC 5.4.1)",
