@@ -2767,6 +2767,22 @@
     ],
     "timestamp": "Apr/26/2021 22:25"
   },
+  "AC7381698": {
+    "contest_id": "abc140",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc140/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Password",
+    "problem_url": "https://atcoder.jp/contests/abc140/tasks/abc140_a",
+    "submission_id": "AC7381698",
+    "submission_url": "https://atcoder.jp/contests/abc140/submissions/7381698",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Sep/07/2019 16:31"
+  },
   "AC7387455": {
     "contest_id": "abc140",
     "language": "C++14 (GCC 5.4.1)",
