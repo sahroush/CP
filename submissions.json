@@ -5535,6 +5535,25 @@
     ],
     "timestamp": "Jul/21/2019 19:52"
   },
+  "CF60320499": {
+    "contest_id": 1207,
+    "language": "GNU C++17",
+    "path": "codeforces/1207/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "There Are Two Types Of Burgers",
+    "problem_url": "https://codeforces.com/contest/1207/problem/A",
+    "submission_id": "CF60320499",
+    "submission_url": "https://codeforces.com/contest/1207/submission/60320499",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/10/2019 00:42"
+  },
   "CF60346343": {
     "contest_id": 1217,
     "language": "Python 3",
