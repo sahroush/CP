@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF60583951": {
+    "contest_id": 115,
+    "language": "Python 3",
+    "path": "codeforces/115/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Lawnmower",
+    "problem_url": "https://codeforces.com/contest/115/problem/B",
+    "submission_id": "CF60583951",
+    "submission_url": "https://codeforces.com/contest/115/submission/60583951",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Sep/15/2019 00:25"
+  },
   "CF60584146": {
     "contest_id": 1093,
     "language": "GNU C++17",
