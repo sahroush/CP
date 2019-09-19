@@ -64,7 +64,7 @@ int main(){
             s2 = 1;
         }
         else if (i == dn){
-            s3 = 1;////////
+            s3 = 1;//////
         }
         else if (s1 and s[i] == '|' and s2 and !s3){
             continue;
