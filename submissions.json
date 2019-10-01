@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF61643242": {
+    "contest_id": 1234,
+    "language": "GNU C++17",
+    "path": "codeforces/1234/B2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B2",
+    "problem_name": "Social Network (hard version)",
+    "problem_url": "https://codeforces.com/contest/1234/problem/B2",
+    "submission_id": "CF61643242",
+    "submission_url": "https://codeforces.com/contest/1234/submission/61643242",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Oct/01/2019 19:09"
+  },
   "CF61657595": {
     "contest_id": 1234,
     "language": "GNU C++17",
