@@ -3094,6 +3094,24 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF61793580": {
+    "contest_id": 768,
+    "language": "GNU C++17",
+    "path": "codeforces/768/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Jon and Orbs",
+    "problem_url": "https://codeforces.com/contest/768/problem/D",
+    "submission_id": "CF61793580",
+    "submission_url": "https://codeforces.com/contest/768/submission/61793580",
+    "tags": [
+      "dp",
+      "math",
+      "probabilities",
+      "*2200"
+    ],
+    "timestamp": "Oct/03/2019 20:04"
+  },
   "CF61801243": {
     "contest_id": 598,
     "language": "GNU C++17",
