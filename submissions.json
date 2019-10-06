@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF61991551": {
+    "contest_id": 1241,
+    "language": "GNU C++17",
+    "path": "codeforces/1241/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "CME",
+    "problem_url": "https://codeforces.com/contest/1241/problem/A",
+    "submission_id": "CF61991551",
+    "submission_url": "https://codeforces.com/contest/1241/submission/61991551",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/06/2019 18:39"
+  },
   "CF62016497": {
     "contest_id": 1241,
     "language": "GNU C++17",
