@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF62075491": {
+    "contest_id": 132,
+    "language": "GNU C++17",
+    "path": "codeforces/132/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Logo Turtle",
+    "problem_url": "https://codeforces.com/contest/132/problem/C",
+    "submission_id": "CF62075491",
+    "submission_url": "https://codeforces.com/contest/132/submission/62075491",
+    "tags": [
+      "dp",
+      "*1800"
+    ],
+    "timestamp": "Oct/07/2019 21:45"
+  },
   "CF62122139": {
     "contest_id": 1238,
     "language": "GNU C++17",
