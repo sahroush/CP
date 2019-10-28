@@ -3094,6 +3094,27 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF63651925": {
+    "contest_id": 500,
+    "language": "GNU C++17",
+    "path": "codeforces/500/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "New Year Permutation",
+    "problem_url": "https://codeforces.com/contest/500/problem/B",
+    "submission_id": "CF63651925",
+    "submission_url": "https://codeforces.com/contest/500/submission/63651925",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "math",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Oct/28/2019 15:08"
+  },
   "CF63659289": {
     "contest_id": 505,
     "language": "GNU C++17",
