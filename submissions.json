@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF63642409": {
+    "contest_id": 320,
+    "language": "GNU C++17",
+    "path": "codeforces/320/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ping-Pong (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/320/problem/B",
+    "submission_id": "CF63642409",
+    "submission_url": "https://codeforces.com/contest/320/submission/63642409",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*1500"
+    ],
+    "timestamp": "Oct/28/2019 12:02"
+  },
   "CF63651925": {
     "contest_id": 500,
     "language": "GNU C++17",
