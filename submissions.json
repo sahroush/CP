@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF64013290": {
+    "contest_id": 1245,
+    "language": "GNU C++17",
+    "path": "codeforces/1245/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Constanze's Machine",
+    "problem_url": "https://codeforces.com/contest/1245/problem/C",
+    "submission_id": "CF64013290",
+    "submission_url": "https://codeforces.com/contest/1245/submission/64013290",
+    "tags": [
+      "dp",
+      "*1400"
+    ],
+    "timestamp": "Nov/01/2019 18:47"
+  },
   "CF64109184": {
     "contest_id": 1064,
     "language": "GNU C++17",
