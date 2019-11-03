@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF64166514": {
+    "contest_id": 412,
+    "language": "GNU C++17",
+    "path": "codeforces/412/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Giving Awards",
+    "problem_url": "https://codeforces.com/contest/412/problem/D",
+    "submission_id": "CF64166514",
+    "submission_url": "https://codeforces.com/contest/412/submission/64166514",
+    "tags": [
+      "dfs and similar",
+      "*2000"
+    ],
+    "timestamp": "Nov/03/2019 20:00"
+  },
   "CF64189704": {
     "contest_id": 1241,
     "language": "GNU C++17",
