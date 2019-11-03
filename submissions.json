@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF64165516": {
+    "contest_id": 1144,
+    "language": "GNU C++17",
+    "path": "codeforces/1144/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Diverse Strings",
+    "problem_url": "https://codeforces.com/contest/1144/problem/A",
+    "submission_id": "CF64165516",
+    "submission_url": "https://codeforces.com/contest/1144/submission/64165516",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Nov/03/2019 19:37"
+  },
   "CF64166514": {
     "contest_id": 412,
     "language": "GNU C++17",
