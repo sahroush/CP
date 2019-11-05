@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF64332571": {
+    "contest_id": 886,
+    "language": "Python 3",
+    "path": "codeforces/886/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "ACM ICPC",
+    "problem_url": "https://codeforces.com/contest/886/problem/A",
+    "submission_id": "CF64332571",
+    "submission_url": "https://codeforces.com/contest/886/submission/64332571",
+    "tags": [
+      "brute force",
+      "*1000"
+    ],
+    "timestamp": "Nov/05/2019 23:32"
+  },
   "CF64333054": {
     "contest_id": 667,
     "language": "GNU C++17",
