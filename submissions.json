@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF64487127": {
+    "contest_id": 1243,
+    "language": "GNU C++17",
+    "path": "codeforces/1243/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Tile Painting",
+    "problem_url": "https://codeforces.com/contest/1243/problem/C",
+    "submission_id": "CF64487127",
+    "submission_url": "https://codeforces.com/contest/1243/submission/64487127",
+    "tags": [
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Nov/07/2019 21:44"
+  },
   "CF64537249": {
     "contest_id": 190,
     "language": "GNU C++17",
