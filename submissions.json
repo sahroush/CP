@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF64674726": {
+    "contest_id": 601,
+    "language": "GNU C++17",
+    "path": "codeforces/601/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "The Two Routes",
+    "problem_url": "https://codeforces.com/contest/601/problem/A",
+    "submission_id": "CF64674726",
+    "submission_url": "https://codeforces.com/contest/601/submission/64674726",
+    "tags": [
+      "graphs",
+      "shortest paths",
+      "*1600"
+    ],
+    "timestamp": "Nov/11/2019 11:04"
+  },
   "CF64690314": {
     "contest_id": 198,
     "language": "GNU C++17",
