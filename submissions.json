@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF65038828": {
+    "contest_id": 1191,
+    "language": "GNU C++11",
+    "path": "codeforces/1191/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tokitsukaze and Enhancement",
+    "problem_url": "https://codeforces.com/contest/1191/problem/A",
+    "submission_id": "CF65038828",
+    "submission_url": "https://codeforces.com/contest/1191/submission/65038828",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Nov/15/2019 16:11"
+  },
   "CF65039552": {
     "contest_id": 1167,
     "language": "GNU C++11",
