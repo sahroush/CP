@@ -3094,6 +3094,24 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF65037626": {
+    "contest_id": 546,
+    "language": "GNU C++11",
+    "path": "codeforces/546/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Soldier and Bananas",
+    "problem_url": "https://codeforces.com/contest/546/problem/A",
+    "submission_id": "CF65037626",
+    "submission_url": "https://codeforces.com/contest/546/submission/65037626",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Nov/15/2019 15:44"
+  },
   "CF65038441": {
     "contest_id": 158,
     "language": "GNU C++11",
