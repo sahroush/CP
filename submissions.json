@@ -3094,6 +3094,24 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF65762811": {
+    "contest_id": 543,
+    "language": "GNU C++11",
+    "path": "codeforces/543/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Destroying Roads",
+    "problem_url": "https://codeforces.com/contest/543/problem/B",
+    "submission_id": "CF65762811",
+    "submission_url": "https://codeforces.com/contest/543/submission/65762811",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "shortest paths",
+      "*2100"
+    ],
+    "timestamp": "Nov/26/2019 20:04"
+  },
   "CF65763464": {
     "contest_id": 566,
     "language": "GNU C++11",
