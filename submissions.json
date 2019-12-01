@@ -3094,6 +3094,28 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF66138463": {
+    "contest_id": 87,
+    "language": "GNU C++17",
+    "path": "codeforces/87/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Beautiful Road",
+    "problem_url": "https://codeforces.com/contest/87/problem/D",
+    "submission_id": "CF66138463",
+    "submission_url": "https://codeforces.com/contest/87/submission/66138463",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "graphs",
+      "implementation",
+      "sortings",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Dec/01/2019 16:48"
+  },
   "CF66152645": {
     "contest_id": 133,
     "language": "PyPy 3",
