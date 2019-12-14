@@ -3094,6 +3094,21 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF66882160": {
+    "contest_id": 405,
+    "language": "GNU C++14",
+    "path": "codeforces/405/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Domino Effect",
+    "problem_url": "https://codeforces.com/contest/405/problem/B",
+    "submission_id": "CF66882160",
+    "submission_url": "https://codeforces.com/contest/405/submission/66882160",
+    "tags": [
+      "*1100"
+    ],
+    "timestamp": "Dec/14/2019 20:26"
+  },
   "CF66883780": {
     "contest_id": 405,
     "language": "GNU C++14",
