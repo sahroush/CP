@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF67008492": {
+    "contest_id": 508,
+    "language": "GNU C++14",
+    "path": "codeforces/508/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Anya and Ghosts",
+    "problem_url": "https://codeforces.com/contest/508/problem/C",
+    "submission_id": "CF67008492",
+    "submission_url": "https://codeforces.com/contest/508/submission/67008492",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Dec/16/2019 12:27"
+  },
   "CF67020822": {
     "contest_id": 987,
     "language": "GNU C++14",
