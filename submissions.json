@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF67085443": {
+    "contest_id": 1266,
+    "language": "GNU C++11",
+    "path": "codeforces/1266/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Competitive Programmer",
+    "problem_url": "https://codeforces.com/contest/1266/problem/A",
+    "submission_id": "CF67085443",
+    "submission_url": "https://codeforces.com/contest/1266/submission/67085443",
+    "tags": [
+      "chinese remainder theorem",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/17/2019 18:53"
+  },
   "CF67091520": {
     "contest_id": 1266,
     "language": "GNU C++11",
