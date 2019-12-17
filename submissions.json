@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF67068967": {
+    "contest_id": 1148,
+    "language": "GNU C++11",
+    "path": "codeforces/1148/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Born This Way",
+    "problem_url": "https://codeforces.com/contest/1148/problem/B",
+    "submission_id": "CF67068967",
+    "submission_url": "https://codeforces.com/contest/1148/submission/67068967",
+    "tags": [
+      "binary search",
+      "brute force",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Dec/17/2019 15:37"
+  },
   "CF67073275": {
     "contest_id": 597,
     "language": "GNU C++11",
