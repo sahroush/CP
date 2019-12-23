@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF67476623": {
+    "contest_id": 444,
+    "language": "GNU C++11",
+    "path": "codeforces/444/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "DZY Loves Planting",
+    "problem_url": "https://codeforces.com/contest/444/problem/E",
+    "submission_id": "CF67476623",
+    "submission_url": "https://codeforces.com/contest/444/submission/67476623",
+    "tags": [
+      "binary search",
+      "dsu",
+      "trees",
+      "*2700"
+    ],
+    "timestamp": "Dec/23/2019 18:04"
+  },
   "CF67480417": {
     "contest_id": 417,
     "language": "GNU C++11",
