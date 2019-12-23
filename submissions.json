@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF67480417": {
+    "contest_id": 417,
+    "language": "GNU C++11",
+    "path": "codeforces/417/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Elimination",
+    "problem_url": "https://codeforces.com/contest/417/problem/A",
+    "submission_id": "CF67480417",
+    "submission_url": "https://codeforces.com/contest/417/submission/67480417",
+    "tags": [
+      "dp",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Dec/23/2019 19:16"
+  },
   "CF67519237": {
     "contest_id": 71,
     "language": "GNU C++11",
