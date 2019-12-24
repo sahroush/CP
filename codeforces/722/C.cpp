@@ -60,7 +60,7 @@ int main(){
     for (ll  i = 1 ; i <= n ; i ++){
         cin >> a[i];
         par[i] = i;
-        sum[i] = a[i];//s
+        sum[i] = a[i];//
         sz[i] = 1;
     }
     for (ll i  = 1; i <= n ; i ++){
