@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF67610709": {
+    "contest_id": 1075,
+    "language": "GNU C++11",
+    "path": "codeforces/1075/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Taxi drivers and Lyft",
+    "problem_url": "https://codeforces.com/contest/1075/problem/B",
+    "submission_id": "CF67610709",
+    "submission_url": "https://codeforces.com/contest/1075/submission/67610709",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Dec/25/2019 18:46"
+  },
   "CF67658222": {
     "contest_id": 23,
     "language": "GNU C++11",
