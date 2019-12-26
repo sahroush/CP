@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF67658222": {
+    "contest_id": 23,
+    "language": "GNU C++11",
+    "path": "codeforces/23/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Oranges and Apples",
+    "problem_url": "https://codeforces.com/contest/23/problem/C",
+    "submission_id": "CF67658222",
+    "submission_url": "https://codeforces.com/contest/23/submission/67658222",
+    "tags": [
+      "constructive algorithms",
+      "sortings",
+      "*2500"
+    ],
+    "timestamp": "Dec/26/2019 18:12"
+  },
   "CF67660772": {
     "contest_id": 22,
     "language": "GNU C++11",
