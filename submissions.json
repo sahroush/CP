@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF67734621": {
+    "contest_id": 18,
+    "language": "GNU C++11",
+    "path": "codeforces/18/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Flag 2",
+    "problem_url": "https://codeforces.com/contest/18/problem/E",
+    "submission_id": "CF67734621",
+    "submission_url": "https://codeforces.com/contest/18/submission/67734621",
+    "tags": [
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Dec/27/2019 19:28"
+  },
   "CF67795113": {
     "contest_id": 78,
     "language": "GNU C++11",
