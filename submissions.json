@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF67959424": {
+    "contest_id": 31,
+    "language": "GNU C++11",
+    "path": "codeforces/31/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "TV Game",
+    "problem_url": "https://codeforces.com/contest/31/problem/E",
+    "submission_id": "CF67959424",
+    "submission_url": "https://codeforces.com/contest/31/submission/67959424",
+    "tags": [
+      "dp",
+      "*2400"
+    ],
+    "timestamp": "Dec/30/2019 14:28"
+  },
   "CF68015118": {
     "contest_id": 938,
     "language": "GNU C++11",
