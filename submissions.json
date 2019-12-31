@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF68015118": {
+    "contest_id": 938,
+    "language": "GNU C++11",
+    "path": "codeforces/938/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Run For Your Prize",
+    "problem_url": "https://codeforces.com/contest/938/problem/B",
+    "submission_id": "CF68015118",
+    "submission_url": "https://codeforces.com/contest/938/submission/68015118",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Dec/31/2019 21:29"
+  },
   "CF68031903": {
     "contest_id": 707,
     "language": "GNU C++11",
