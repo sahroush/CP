@@ -3094,6 +3094,27 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF68196690": {
+    "contest_id": 1284,
+    "language": "GNU C++11",
+    "path": "codeforces/1284/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "New Year and Ascent Sequence",
+    "problem_url": "https://codeforces.com/contest/1284/problem/B",
+    "submission_id": "CF68196690",
+    "submission_url": "https://codeforces.com/contest/1284/submission/68196690",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "data structures",
+      "dp",
+      "implementation",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Jan/04/2020 17:54"
+  },
   "CF68208356": {
     "contest_id": 295,
     "language": "GNU C++11",
