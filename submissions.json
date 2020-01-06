@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF68308060": {
+    "contest_id": 198,
+    "language": "GNU C++17",
+    "path": "codeforces/198/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Jumping on Walls",
+    "problem_url": "https://codeforces.com/contest/198/problem/B",
+    "submission_id": "CF68308060",
+    "submission_url": "https://codeforces.com/contest/198/submission/68308060",
+    "tags": [
+      "shortest paths",
+      "*1400"
+    ],
+    "timestamp": "Jan/06/2020 13:22"
+  },
   "CF68319762": {
     "contest_id": 33,
     "language": "GNU C++17",
