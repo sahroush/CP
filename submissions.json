@@ -2767,6 +2767,22 @@
     ],
     "timestamp": "Apr/26/2021 22:25"
   },
+  "AC9430547": {
+    "contest_id": "abc150",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc150/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Count Order",
+    "problem_url": "https://atcoder.jp/contests/abc150/tasks/abc150_c",
+    "submission_id": "AC9430547",
+    "submission_url": "https://atcoder.jp/contests/abc150/submissions/9430547",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/11/2020 22:25"
+  },
   "AC9539381": {
     "contest_id": "abc151",
     "language": "C++14 (GCC 5.4.1)",
