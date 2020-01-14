@@ -9051,6 +9051,21 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF68825356": {
+    "contest_id": 391,
+    "language": "GNU C++17",
+    "path": "codeforces/391/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Word Folding",
+    "problem_url": "https://codeforces.com/contest/391/problem/B",
+    "submission_id": "CF68825356",
+    "submission_url": "https://codeforces.com/contest/391/submission/68825356",
+    "tags": [
+      "brute force"
+    ],
+    "timestamp": "Jan/14/2020 22:27"
+  },
   "CF68853775": {
     "contest_id": 20,
     "language": "GNU C++17",
