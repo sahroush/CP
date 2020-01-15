@@ -9051,6 +9051,22 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF68874721": {
+    "contest_id": 862,
+    "language": "GNU C++17",
+    "path": "codeforces/862/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Mahmoud and Ehab and the xor",
+    "problem_url": "https://codeforces.com/contest/862/problem/C",
+    "submission_id": "CF68874721",
+    "submission_url": "https://codeforces.com/contest/862/submission/68874721",
+    "tags": [
+      "constructive algorithms",
+      "*1900"
+    ],
+    "timestamp": "Jan/15/2020 19:59"
+  },
   "CF68878761": {
     "contest_id": 862,
     "language": "GNU C++17",
