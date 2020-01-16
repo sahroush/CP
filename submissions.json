@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF68935858": {
+    "contest_id": 858,
+    "language": "GNU C++17",
+    "path": "codeforces/858/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Wizard's Tour",
+    "problem_url": "https://codeforces.com/contest/858/problem/F",
+    "submission_id": "CF68935858",
+    "submission_url": "https://codeforces.com/contest/858/submission/68935858",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "*2300"
+    ],
+    "timestamp": "Jan/16/2020 16:19"
+  },
   "CF68955198": {
     "contest_id": 33,
     "language": "GNU C++17",
