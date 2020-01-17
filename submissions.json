@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF68974398": {
+    "contest_id": 346,
+    "language": "GNU C++17",
+    "path": "codeforces/346/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Robot Control",
+    "problem_url": "https://codeforces.com/contest/346/problem/D",
+    "submission_id": "CF68974398",
+    "submission_url": "https://codeforces.com/contest/346/submission/68974398",
+    "tags": [
+      "dp",
+      "graphs",
+      "shortest paths",
+      "*2600"
+    ],
+    "timestamp": "Jan/17/2020 11:46"
+  },
   "CF68995180": {
     "contest_id": 1207,
     "language": "GNU C++17",
