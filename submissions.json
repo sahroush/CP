@@ -3094,6 +3094,26 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF69303413": {
+    "contest_id": 767,
+    "language": "GNU C++17",
+    "path": "codeforces/767/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Cartons of milk",
+    "problem_url": "https://codeforces.com/contest/767/problem/D",
+    "submission_id": "CF69303413",
+    "submission_url": "https://codeforces.com/contest/767/submission/69303413",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*2100"
+    ],
+    "timestamp": "Jan/22/2020 18:01"
+  },
   "CF69304058": {
     "contest_id": 1294,
     "language": "GNU C++17",
