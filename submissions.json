@@ -9051,6 +9051,22 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF69297940": {
+    "contest_id": 104,
+    "language": "GNU C++17",
+    "path": "codeforces/104/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Russian Roulette",
+    "problem_url": "https://codeforces.com/contest/104/problem/D",
+    "submission_id": "CF69297940",
+    "submission_url": "https://codeforces.com/contest/104/submission/69297940",
+    "tags": [
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Jan/22/2020 16:23"
+  },
   "CF69315961": {
     "contest_id": 1294,
     "language": "GNU C++17",
