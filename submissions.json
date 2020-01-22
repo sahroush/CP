@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF69297921": {
+    "contest_id": 103,
+    "language": "GNU C++17",
+    "path": "codeforces/103/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Russian Roulette",
+    "problem_url": "https://codeforces.com/contest/103/problem/C",
+    "submission_id": "CF69297921",
+    "submission_url": "https://codeforces.com/contest/103/submission/69297921",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Jan/22/2020 16:22"
+  },
   "CF69297940": {
     "contest_id": 104,
     "language": "GNU C++17",
