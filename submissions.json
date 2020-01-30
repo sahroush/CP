@@ -3094,6 +3094,25 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF69825807": {
+    "contest_id": 571,
+    "language": "GNU C++17",
+    "path": "codeforces/571/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "CNF 2",
+    "problem_url": "https://codeforces.com/contest/571/problem/C",
+    "submission_id": "CF69825807",
+    "submission_url": "https://codeforces.com/contest/571/submission/69825807",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "*2500"
+    ],
+    "timestamp": "Jan/30/2020 12:38"
+  },
   "CF69842771": {
     "contest_id": 439,
     "language": "GNU C++17",
