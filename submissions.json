@@ -3094,6 +3094,25 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF69962677": {
+    "contest_id": 960,
+    "language": "GNU C++17",
+    "path": "codeforces/960/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Subsequence Counting",
+    "problem_url": "https://codeforces.com/contest/960/problem/C",
+    "submission_id": "CF69962677",
+    "submission_url": "https://codeforces.com/contest/960/submission/69962677",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Feb/01/2020 15:23"
+  },
   "CF70019096": {
     "contest_id": 1278,
     "language": "GNU C++17",
