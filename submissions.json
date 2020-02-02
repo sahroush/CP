@@ -2767,6 +2767,22 @@
     ],
     "timestamp": "Apr/26/2021 22:25"
   },
+  "AC9869081": {
+    "contest_id": "abc152",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc152/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "AC or WA",
+    "problem_url": "https://atcoder.jp/contests/abc152/tasks/abc152_a",
+    "submission_id": "AC9869081",
+    "submission_url": "https://atcoder.jp/contests/abc152/submissions/9869081",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Feb/02/2020 11:02"
+  },
   "AC9869161": {
     "contest_id": "abc152",
     "language": "PyPy3 (2.4.0)",
