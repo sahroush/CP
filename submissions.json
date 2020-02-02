@@ -2767,6 +2767,22 @@
     ],
     "timestamp": "Apr/26/2021 22:25"
   },
+  "AC9869161": {
+    "contest_id": "abc152",
+    "language": "PyPy3 (2.4.0)",
+    "path": "atcoder/abc152/B.py",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Comparing Strings",
+    "problem_url": "https://atcoder.jp/contests/abc152/tasks/abc152_b",
+    "submission_id": "AC9869161",
+    "submission_url": "https://atcoder.jp/contests/abc152/submissions/9869161",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Feb/02/2020 11:06"
+  },
   "AC9869213": {
     "contest_id": "abc152",
     "language": "C++14 (GCC 5.4.1)",
