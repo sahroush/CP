@@ -3094,6 +3094,28 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF70230447": {
+    "contest_id": 1266,
+    "language": "GNU C++17",
+    "path": "codeforces/1266/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Decreasing Debts",
+    "problem_url": "https://codeforces.com/contest/1266/problem/D",
+    "submission_id": "CF70230447",
+    "submission_url": "https://codeforces.com/contest/1266/submission/70230447",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "graphs",
+      "greedy",
+      "implementation",
+      "math",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Feb/04/2020 15:49"
+  },
   "CF70233878": {
     "contest_id": 314,
     "language": "GNU C++17",
