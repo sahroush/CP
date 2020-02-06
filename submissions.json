@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF70435971": {
+    "contest_id": 818,
+    "language": "GNU C++17",
+    "path": "codeforces/818/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Sofa Thief",
+    "problem_url": "https://codeforces.com/contest/818/problem/C",
+    "submission_id": "CF70435971",
+    "submission_url": "https://codeforces.com/contest/818/submission/70435971",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "Feb/06/2020 16:23"
+  },
   "CF70440570": {
     "contest_id": 687,
     "language": "GNU C++17",
