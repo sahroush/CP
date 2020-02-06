@@ -2639,6 +2639,22 @@
     ],
     "timestamp": "Feb/06/2021 15:16"
   },
+  "AC9930293": {
+    "contest_id": "abc150",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc150/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "500 Yen Coins",
+    "problem_url": "https://atcoder.jp/contests/abc150/tasks/abc150_a",
+    "submission_id": "AC9930293",
+    "submission_url": "https://atcoder.jp/contests/abc150/submissions/9930293",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Feb/06/2020 18:36"
+  },
   "AC9930298": {
     "contest_id": "abc150",
     "language": "C++14 (GCC 5.4.1)",
