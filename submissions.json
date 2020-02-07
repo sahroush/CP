@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF70490113": {
+    "contest_id": 359,
+    "language": "GNU C++17",
+    "path": "codeforces/359/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Prime Number",
+    "problem_url": "https://codeforces.com/contest/359/problem/C",
+    "submission_id": "CF70490113",
+    "submission_url": "https://codeforces.com/contest/359/submission/70490113",
+    "tags": [
+      "math",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Feb/07/2020 12:12"
+  },
   "CF70514174": {
     "contest_id": 721,
     "language": "GNU C++17",
