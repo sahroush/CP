@@ -1,4 +1,20 @@
 {
+  "AC10010918": {
+    "contest_id": "abc148",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc148/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Brick Break",
+    "problem_url": "https://atcoder.jp/contests/abc148/tasks/abc148_d",
+    "submission_id": "AC10010918",
+    "submission_url": "https://atcoder.jp/contests/abc148/submissions/10010918",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Feb/09/2020 17:12"
+  },
   "AC10011229": {
     "contest_id": "abc148",
     "language": "Python3 (3.4.3)",
