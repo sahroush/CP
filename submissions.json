@@ -1,4 +1,20 @@
 {
+  "AC10027388": {
+    "contest_id": "abc154",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc154/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "I miss you...",
+    "problem_url": "https://atcoder.jp/contests/abc154/tasks/abc154_b",
+    "submission_id": "AC10027388",
+    "submission_url": "https://atcoder.jp/contests/abc154/submissions/10027388",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Feb/10/2020 15:03"
+  },
   "AC10027415": {
     "contest_id": "abc154",
     "language": "C++14 (GCC 5.4.1)",
