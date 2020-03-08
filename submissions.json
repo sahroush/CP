@@ -1,4 +1,20 @@
 {
+  "AC10673236": {
+    "contest_id": "hitachi2020",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/hitachi2020/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Nice Shopping",
+    "problem_url": "https://atcoder.jp/contests/hitachi2020/tasks/hitachi2020_b",
+    "submission_id": "AC10673236",
+    "submission_url": "https://atcoder.jp/contests/hitachi2020/submissions/10673236",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Mar/08/2020 15:36"
+  },
   "AC11212971": {
     "contest_id": "dp",
     "language": "C++14 (GCC 5.4.1)",
