@@ -1,4 +1,20 @@
 {
+  "AC10669399": {
+    "contest_id": "hitachi2020",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/hitachi2020/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Hitachi String",
+    "problem_url": "https://atcoder.jp/contests/hitachi2020/tasks/hitachi2020_a",
+    "submission_id": "AC10669399",
+    "submission_url": "https://atcoder.jp/contests/hitachi2020/submissions/10669399",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Mar/08/2020 15:31"
+  },
   "AC10673236": {
     "contest_id": "hitachi2020",
     "language": "C++14 (GCC 5.4.1)",
