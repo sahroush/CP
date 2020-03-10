@@ -11644,6 +11644,22 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF72918033": {
+    "contest_id": 288,
+    "language": "GNU C++17",
+    "path": "codeforces/288/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Polo the Penguin and Houses ",
+    "problem_url": "https://codeforces.com/contest/288/problem/B",
+    "submission_id": "CF72918033",
+    "submission_url": "https://codeforces.com/contest/288/submission/72918033",
+    "tags": [
+      "combinatorics",
+      "*1500"
+    ],
+    "timestamp": "Mar/10/2020 23:28"
+  },
   "CF72919680": {
     "contest_id": 288,
     "language": "GNU C++17",
