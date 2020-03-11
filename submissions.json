@@ -11644,6 +11644,24 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF72935919": {
+    "contest_id": 613,
+    "language": "GNU C++17",
+    "path": "codeforces/613/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Peter and Snow Blower",
+    "problem_url": "https://codeforces.com/contest/613/problem/A",
+    "submission_id": "CF72935919",
+    "submission_url": "https://codeforces.com/contest/613/submission/72935919",
+    "tags": [
+      "binary search",
+      "geometry",
+      "ternary search",
+      "*1900"
+    ],
+    "timestamp": "Mar/11/2020 10:17"
+  },
   "CF72940093": {
     "contest_id": 717,
     "language": "GNU C++17",
