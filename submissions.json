@@ -11644,6 +11644,22 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF73091746": {
+    "contest_id": 190,
+    "language": "GNU C++17",
+    "path": "codeforces/190/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Non-Secret Cypher",
+    "problem_url": "https://codeforces.com/contest/190/problem/D",
+    "submission_id": "CF73091746",
+    "submission_url": "https://codeforces.com/contest/190/submission/73091746",
+    "tags": [
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Mar/12/2020 20:43"
+  },
   "CF73098220": {
     "contest_id": 433,
     "language": "GNU C++17",
