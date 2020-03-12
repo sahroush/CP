@@ -11644,6 +11644,26 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF73060870": {
+    "contest_id": 547,
+    "language": "GNU C++17",
+    "path": "codeforces/547/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Mike and Foam",
+    "problem_url": "https://codeforces.com/contest/547/problem/C",
+    "submission_id": "CF73060870",
+    "submission_url": "https://codeforces.com/contest/547/submission/73060870",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory",
+      "*2300"
+    ],
+    "timestamp": "Mar/12/2020 17:45"
+  },
   "CF73091746": {
     "contest_id": 190,
     "language": "GNU C++17",
