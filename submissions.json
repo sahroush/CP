@@ -11644,6 +11644,22 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF73336015": {
+    "contest_id": 475,
+    "language": "GNU C++17",
+    "path": "codeforces/475/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Strongly Connected City 2",
+    "problem_url": "https://codeforces.com/contest/475/problem/E",
+    "submission_id": "CF73336015",
+    "submission_url": "https://codeforces.com/contest/475/submission/73336015",
+    "tags": [
+      "dfs and similar",
+      "*2700"
+    ],
+    "timestamp": "Mar/15/2020 16:29"
+  },
   "CF73337373": {
     "contest_id": 1038,
     "language": "GNU C++17",
