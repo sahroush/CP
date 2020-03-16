@@ -11644,6 +11644,24 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF73407385": {
+    "contest_id": 687,
+    "language": "GNU C++17",
+    "path": "codeforces/687/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Remainders Game",
+    "problem_url": "https://codeforces.com/contest/687/problem/B",
+    "submission_id": "CF73407385",
+    "submission_url": "https://codeforces.com/contest/687/submission/73407385",
+    "tags": [
+      "chinese remainder theorem",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "Mar/16/2020 16:03"
+  },
   "CF73407853": {
     "contest_id": 687,
     "language": "GNU C++14",
