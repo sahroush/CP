@@ -11644,6 +11644,23 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF73426265": {
+    "contest_id": 172,
+    "language": "GNU C++17",
+    "path": "codeforces/172/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Calendar Reform",
+    "problem_url": "https://codeforces.com/contest/172/problem/D",
+    "submission_id": "CF73426265",
+    "submission_url": "https://codeforces.com/contest/172/submission/73426265",
+    "tags": [
+      "*special problem",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Mar/16/2020 20:32"
+  },
   "CF73489188": {
     "contest_id": 623,
     "language": "GNU C++17",
