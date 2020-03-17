@@ -11644,6 +11644,24 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF73489188": {
+    "contest_id": 623,
+    "language": "GNU C++17",
+    "path": "codeforces/623/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Array GCD",
+    "problem_url": "https://codeforces.com/contest/623/problem/B",
+    "submission_id": "CF73489188",
+    "submission_url": "https://codeforces.com/contest/623/submission/73489188",
+    "tags": [
+      "dp",
+      "greedy",
+      "number theory",
+      "*2300"
+    ],
+    "timestamp": "Mar/17/2020 16:53"
+  },
   "CF73555876": {
     "contest_id": 915,
     "language": "GNU C++17",
