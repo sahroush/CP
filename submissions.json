@@ -11644,6 +11644,24 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF73971616": {
+    "contest_id": 1067,
+    "language": "GNU C++17",
+    "path": "codeforces/1067/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Multihedgehog",
+    "problem_url": "https://codeforces.com/contest/1067/problem/B",
+    "submission_id": "CF73971616",
+    "submission_url": "https://codeforces.com/contest/1067/submission/73971616",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "shortest paths",
+      "*1800"
+    ],
+    "timestamp": "Mar/22/2020 19:23"
+  },
   "CF73973923": {
     "contest_id": 990,
     "language": "GNU C++17",
