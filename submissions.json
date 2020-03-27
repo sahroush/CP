@@ -11644,6 +11644,23 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF74584008": {
+    "contest_id": 652,
+    "language": "GNU C++17",
+    "path": "codeforces/652/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Nested Segments",
+    "problem_url": "https://codeforces.com/contest/652/problem/D",
+    "submission_id": "CF74584008",
+    "submission_url": "https://codeforces.com/contest/652/submission/74584008",
+    "tags": [
+      "data structures",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Mar/27/2020 21:51"
+  },
   "CF74586781": {
     "contest_id": 652,
     "language": "GNU C++17",
