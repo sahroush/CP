@@ -9051,6 +9051,25 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF74742527": {
+    "contest_id": 1070,
+    "language": "GNU C++17",
+    "path": "codeforces/1070/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Find a Number",
+    "problem_url": "https://codeforces.com/contest/1070/problem/A",
+    "submission_id": "CF74742527",
+    "submission_url": "https://codeforces.com/contest/1070/submission/74742527",
+    "tags": [
+      "dp",
+      "graphs",
+      "number theory",
+      "shortest paths",
+      "*2200"
+    ],
+    "timestamp": "Mar/29/2020 19:53"
+  },
   "CF74753008": {
     "contest_id": 454,
     "language": "GNU C++17",
