@@ -22,25 +22,25 @@ ll pw(ll a, ll b, ll md = mod) {
     ll res = 1;while(b){if(b&1){res=(a*res)%mod;}a=(a*a)%mod;b>>=1;}return(res);
 }
 
-ll n , t;
-ll a[maxn];
-ll dp[maxn] , cnt[maxn];
+int n , t;
+int a[maxn];
+int dp[maxn] , cnt[maxn];
 
 int main(){
     migmig
     cin >> n >> t;
-    for (ll i =0 ;  i < n  ; i ++){
+    for (int i =0 ;  i < n  ; i ++){
         cin >> a[i];
     }
-    ll mn = min(n*n , n * t);
+    int mn = min(n*n , n * t);
     t-= min(t , n);
-    ll mx = 0;
-    for (ll i =0 ;  i < mn ; i ++){
+    int mx = 0;
+    for (int i =0 ;  i < mn ; i ++){
         if(i < n){
             mx= max(mx , ++cnt[a[i]]);
         }
         dp[i] = 1;
-        for (ll j = max((ll)0 , i - 300) ; j < i  ; j ++){
+        for (int j = max(0 , i - 300) ; j < i  ; j ++){
             if(a[j%n]<=a[i%n]){
                 dp[i] = max(dp[i] , dp[j] + 1);
             }
