@@ -27,7 +27,7 @@ ll mx= 0;
 
 int main(){
     cin >> c >> jr >> jb >> wr >> wb;
-    for (int i = 0 ; i <= 1e7 ; i ++){
+    for (int i = 0 ; i <= 4e4 ; i ++){
         if(wr*i <= c){
             mx = max(mx , (c - i*wr)/wb *jb + i*jr);
         }
