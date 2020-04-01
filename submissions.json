@@ -9051,6 +9051,28 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF75056155": {
+    "contest_id": 1202,
+    "language": "GNU C++17",
+    "path": "codeforces/1202/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "You Are Given a WASD-string...",
+    "problem_url": "https://codeforces.com/contest/1202/problem/C",
+    "submission_id": "CF75056155",
+    "submission_url": "https://codeforces.com/contest/1202/submission/75056155",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "math",
+      "strings",
+      "*2100"
+    ],
+    "timestamp": "Apr/01/2020 12:52"
+  },
   "CF75075737": {
     "contest_id": 936,
     "language": "GNU C++17",
