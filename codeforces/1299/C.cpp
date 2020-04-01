@@ -51,7 +51,8 @@ int main(){
     cout << fixed << setprecision(10);
     ll cur = rpc[1];
     ld val = a[1];
-    for(int i = 1 ; i <= n ; i ++){
+    cout << a[1] << endl;
+    for(int i = 2 ; i <= n ; i ++){
         if(cur < rpc[i]){
             val = a[i];
             cur = rpc[i];
