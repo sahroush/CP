@@ -11644,6 +11644,23 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF75222037": {
+    "contest_id": 549,
+    "language": "GNU C++17",
+    "path": "codeforces/549/H.cpp",
+    "platform": "Codeforces",
+    "problem_index": "H",
+    "problem_name": "Degenerate Matrix",
+    "problem_url": "https://codeforces.com/contest/549/problem/H",
+    "submission_id": "CF75222037",
+    "submission_url": "https://codeforces.com/contest/549/submission/75222037",
+    "tags": [
+      "binary search",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Apr/02/2020 14:06"
+  },
   "CF75236560": {
     "contest_id": 837,
     "language": "GNU C++17",
