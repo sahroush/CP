@@ -11644,6 +11644,24 @@
     ],
     "timestamp": "Feb/08/2020 16:11"
   },
+  "CF75263010": {
+    "contest_id": 579,
+    "language": "GNU C++17",
+    "path": "codeforces/579/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Finding Team Member",
+    "problem_url": "https://codeforces.com/contest/579/problem/B",
+    "submission_id": "CF75263010",
+    "submission_url": "https://codeforces.com/contest/579/submission/75263010",
+    "tags": [
+      "brute force",
+      "implementation",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Apr/02/2020 20:35"
+  },
   "CF78642003": {
     "contest_id": 954,
     "language": "GNU C++17",
