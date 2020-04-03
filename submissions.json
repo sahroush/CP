@@ -9051,6 +9051,25 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF75323692": {
+    "contest_id": 515,
+    "language": "GNU C++17",
+    "path": "codeforces/515/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Drazil and His Happy Friends",
+    "problem_url": "https://codeforces.com/contest/515/problem/B",
+    "submission_id": "CF75323692",
+    "submission_url": "https://codeforces.com/contest/515/submission/75323692",
+    "tags": [
+      "brute force",
+      "dsu",
+      "meet-in-the-middle",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Apr/03/2020 13:09"
+  },
   "CF75323794": {
     "contest_id": 515,
     "language": "GNU C++17",
