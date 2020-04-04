@@ -9051,6 +9051,22 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF75494073": {
+    "contest_id": 366,
+    "language": "GNU C++17",
+    "path": "codeforces/366/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Dima and Salad",
+    "problem_url": "https://codeforces.com/contest/366/problem/C",
+    "submission_id": "CF75494073",
+    "submission_url": "https://codeforces.com/contest/366/submission/75494073",
+    "tags": [
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Apr/04/2020 18:58"
+  },
   "CF75496760": {
     "contest_id": 366,
     "language": "GNU C++17",
