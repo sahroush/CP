@@ -9051,6 +9051,26 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF75757301": {
+    "contest_id": 401,
+    "language": "GNU C++17",
+    "path": "codeforces/401/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Roman and Numbers",
+    "problem_url": "https://codeforces.com/contest/401/problem/D",
+    "submission_id": "CF75757301",
+    "submission_url": "https://codeforces.com/contest/401/submission/75757301",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "number theory",
+      "*2000"
+    ],
+    "timestamp": "Apr/07/2020 19:27"
+  },
   "CF75771989": {
     "contest_id": 16,
     "language": "GNU C++17",
