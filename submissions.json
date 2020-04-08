@@ -9051,6 +9051,25 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF75835019": {
+    "contest_id": 417,
+    "language": "GNU C++17",
+    "path": "codeforces/417/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Cunning Gena",
+    "problem_url": "https://codeforces.com/contest/417/problem/D",
+    "submission_id": "CF75835019",
+    "submission_url": "https://codeforces.com/contest/417/submission/75835019",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "greedy",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Apr/08/2020 17:18"
+  },
   "CF75847028": {
     "contest_id": 1333,
     "language": "GNU C++17",
