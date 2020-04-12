@@ -9051,6 +9051,26 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF76296784": {
+    "contest_id": 63,
+    "language": "GNU C++17",
+    "path": "codeforces/63/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Sweets Game",
+    "problem_url": "https://codeforces.com/contest/63/problem/E",
+    "submission_id": "CF76296784",
+    "submission_url": "https://codeforces.com/contest/63/submission/76296784",
+    "tags": [
+      "bitmasks",
+      "dfs and similar",
+      "dp",
+      "games",
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "Apr/12/2020 11:31"
+  },
   "CF76307582": {
     "contest_id": 766,
     "language": "GNU C++17",
