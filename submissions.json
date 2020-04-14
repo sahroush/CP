@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF76702196": {
+    "contest_id": 741,
+    "language": "GNU C++17",
+    "path": "codeforces/741/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Arpa's weak amphitheater and Mehrdad's valuable Hoses",
+    "problem_url": "https://codeforces.com/contest/741/problem/B",
+    "submission_id": "CF76702196",
+    "submission_url": "https://codeforces.com/contest/741/submission/76702196",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "*1600"
+    ],
+    "timestamp": "Apr/14/2020 18:42"
+  },
   "CF76722796": {
     "contest_id": 279,
     "language": "GNU C++17",
