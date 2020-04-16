@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF77007429": {
+    "contest_id": 95,
+    "language": "GNU C++17",
+    "path": "codeforces/95/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Lucky Country",
+    "problem_url": "https://codeforces.com/contest/95/problem/E",
+    "submission_id": "CF77007429",
+    "submission_url": "https://codeforces.com/contest/95/submission/77007429",
+    "tags": [
+      "dp",
+      "dsu",
+      "graphs",
+      "*2500"
+    ],
+    "timestamp": "Apr/16/2020 23:03"
+  },
   "CF77041993": {
     "contest_id": 337,
     "language": "GNU C++17",
