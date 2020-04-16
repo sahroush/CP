@@ -9051,6 +9051,25 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF76973524": {
+    "contest_id": 382,
+    "language": "GNU C++14",
+    "path": "codeforces/382/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Ksenia and Pawns",
+    "problem_url": "https://codeforces.com/contest/382/problem/D",
+    "submission_id": "CF76973524",
+    "submission_url": "https://codeforces.com/contest/382/submission/76973524",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "implementation",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "Apr/16/2020 17:36"
+  },
   "CF76974126": {
     "contest_id": 888,
     "language": "GNU C++17",
