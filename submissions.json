@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF77092210": {
+    "contest_id": 955,
+    "language": "GNU C++17",
+    "path": "codeforces/955/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Sad powers",
+    "problem_url": "https://codeforces.com/contest/955/problem/C",
+    "submission_id": "CF77092210",
+    "submission_url": "https://codeforces.com/contest/955/submission/77092210",
+    "tags": [
+      "binary search",
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "Apr/17/2020 19:47"
+  },
   "CF77093525": {
     "contest_id": 920,
     "language": "GNU C++17",
