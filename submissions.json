@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF77063285": {
+    "contest_id": 101,
+    "language": "GNU C++17",
+    "path": "codeforces/101/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Vectors",
+    "problem_url": "https://codeforces.com/contest/101/problem/C",
+    "submission_id": "CF77063285",
+    "submission_url": "https://codeforces.com/contest/101/submission/77063285",
+    "tags": [
+      "implementation",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Apr/17/2020 15:21"
+  },
   "CF77092210": {
     "contest_id": 955,
     "language": "GNU C++17",
