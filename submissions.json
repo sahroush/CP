@@ -9051,6 +9051,22 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF77104469": {
+    "contest_id": 1323,
+    "language": "GNU C++17",
+    "path": "codeforces/1323/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Unusual Competitions",
+    "problem_url": "https://codeforces.com/contest/1323/problem/C",
+    "submission_id": "CF77104469",
+    "submission_url": "https://codeforces.com/contest/1323/submission/77104469",
+    "tags": [
+      "constructive algorithms",
+      "*1300"
+    ],
+    "timestamp": "Apr/17/2020 21:36"
+  },
   "CF77111993": {
     "contest_id": 1323,
     "language": "GNU C++17",
