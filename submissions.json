@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF77334731": {
+    "contest_id": 786,
+    "language": "GNU C++17",
+    "path": "codeforces/786/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Berzerk",
+    "problem_url": "https://codeforces.com/contest/786/problem/A",
+    "submission_id": "CF77334731",
+    "submission_url": "https://codeforces.com/contest/786/submission/77334731",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "games",
+      "*2000"
+    ],
+    "timestamp": "Apr/20/2020 11:38"
+  },
   "CF77360056": {
     "contest_id": 1059,
     "language": "GNU C++17",
