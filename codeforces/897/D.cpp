@@ -47,7 +47,7 @@ int main(){
 					break;
 				}
 		}
-		else{
+		else
 			for(int i = n;  i > 0 ; i --)
 				if(a[i] == -1 or k > a[i])
 				{
@@ -55,7 +55,6 @@ int main(){
 					cout << i << endl;
 					break;
 				}
-		}
 		if(chk())
 			return(0);
 		
