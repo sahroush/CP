@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF78122560": {
+    "contest_id": 1197,
+    "language": "GNU C++17",
+    "path": "codeforces/1197/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Yet Another Subarray Problem",
+    "problem_url": "https://codeforces.com/contest/1197/problem/D",
+    "submission_id": "CF78122560",
+    "submission_url": "https://codeforces.com/contest/1197/submission/78122560",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Apr/26/2020 18:19"
+  },
   "CF78126772": {
     "contest_id": 1342,
     "language": "GNU C++17",
