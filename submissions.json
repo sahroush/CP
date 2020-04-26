@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF78117717": {
+    "contest_id": 1197,
+    "language": "GNU C++17",
+    "path": "codeforces/1197/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Pillars",
+    "problem_url": "https://codeforces.com/contest/1197/problem/B",
+    "submission_id": "CF78117717",
+    "submission_url": "https://codeforces.com/contest/1197/submission/78117717",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Apr/26/2020 17:15"
+  },
   "CF78118584": {
     "contest_id": 1197,
     "language": "GNU C++17",
