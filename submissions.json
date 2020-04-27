@@ -9051,6 +9051,25 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF78291328": {
+    "contest_id": 1047,
+    "language": "GNU C++17",
+    "path": "codeforces/1047/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Little C Loves 3 II",
+    "problem_url": "https://codeforces.com/contest/1047/problem/D",
+    "submission_id": "CF78291328",
+    "submission_url": "https://codeforces.com/contest/1047/submission/78291328",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "flows",
+      "graph matchings",
+      "*2200"
+    ],
+    "timestamp": "Apr/27/2020 17:17"
+  },
   "CF78293036": {
     "contest_id": 577,
     "language": "GNU C++17",
