@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF78412305": {
+    "contest_id": 607,
+    "language": "GNU C++17",
+    "path": "codeforces/607/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Marbles",
+    "problem_url": "https://codeforces.com/contest/607/problem/C",
+    "submission_id": "CF78412305",
+    "submission_url": "https://codeforces.com/contest/607/submission/78412305",
+    "tags": [
+      "hashing",
+      "strings",
+      "*2500"
+    ],
+    "timestamp": "Apr/28/2020 22:28"
+  },
   "CF78867540": {
     "contest_id": 839,
     "language": "GNU C++17",
