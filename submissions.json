@@ -3094,6 +3094,26 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF78741194": {
+    "contest_id": 1348,
+    "language": "GNU C++17",
+    "path": "codeforces/1348/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Phoenix and Science",
+    "problem_url": "https://codeforces.com/contest/1348/problem/D",
+    "submission_id": "CF78741194",
+    "submission_url": "https://codeforces.com/contest/1348/submission/78741194",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "May/01/2020 21:26"
+  },
   "CF78790334": {
     "contest_id": 592,
     "language": "GNU C++17",
