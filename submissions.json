@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF78865345": {
+    "contest_id": 839,
+    "language": "GNU C++17",
+    "path": "codeforces/839/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Arya and Bran",
+    "problem_url": "https://codeforces.com/contest/839/problem/A",
+    "submission_id": "CF78865345",
+    "submission_url": "https://codeforces.com/contest/839/submission/78865345",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "May/03/2020 09:32"
+  },
   "CF78865923": {
     "contest_id": 839,
     "language": "GNU C++17",
