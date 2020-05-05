@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF79033545": {
+    "contest_id": 204,
+    "language": "GNU C++17",
+    "path": "codeforces/204/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Little Elephant and Furik and Rubik",
+    "problem_url": "https://codeforces.com/contest/204/problem/C",
+    "submission_id": "CF79033545",
+    "submission_url": "https://codeforces.com/contest/204/submission/79033545",
+    "tags": [
+      "math",
+      "probabilities",
+      "*2000"
+    ],
+    "timestamp": "May/05/2020 12:07"
+  },
   "CF79064244": {
     "contest_id": 1143,
     "language": "GNU C++17",
