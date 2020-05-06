@@ -3094,6 +3094,24 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF79117675": {
+    "contest_id": 671,
+    "language": "GNU C++17",
+    "path": "codeforces/671/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Roads in Yusland",
+    "problem_url": "https://codeforces.com/contest/671/problem/D",
+    "submission_id": "CF79117675",
+    "submission_url": "https://codeforces.com/contest/671/submission/79117675",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2900"
+    ],
+    "timestamp": "May/06/2020 12:13"
+  },
   "CF79138536": {
     "contest_id": 7,
     "language": "GNU C++17",
