@@ -3094,6 +3094,27 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF79392705": {
+    "contest_id": 1333,
+    "language": "GNU C++17",
+    "path": "codeforces/1333/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Kate and imperfection",
+    "problem_url": "https://codeforces.com/contest/1333/problem/F",
+    "submission_id": "CF79392705",
+    "submission_url": "https://codeforces.com/contest/1333/submission/79392705",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "number theory",
+      "sortings",
+      "two pointers",
+      "*2200"
+    ],
+    "timestamp": "May/08/2020 20:00"
+  },
   "CF79474961": {
     "contest_id": 1352,
     "language": "GNU C++17",
