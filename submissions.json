@@ -3094,6 +3094,24 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF79674880": {
+    "contest_id": 645,
+    "language": "GNU C++17",
+    "path": "codeforces/645/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Robot Rapping Results Report",
+    "problem_url": "https://codeforces.com/contest/645/problem/D",
+    "submission_id": "CF79674880",
+    "submission_url": "https://codeforces.com/contest/645/submission/79674880",
+    "tags": [
+      "binary search",
+      "dp",
+      "graphs",
+      "*1800"
+    ],
+    "timestamp": "May/10/2020 21:28"
+  },
   "CF79679691": {
     "contest_id": 1333,
     "language": "GNU C++17",
