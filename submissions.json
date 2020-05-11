@@ -3094,6 +3094,24 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF79747499": {
+    "contest_id": 1062,
+    "language": "GNU C++17",
+    "path": "codeforces/1062/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Math",
+    "problem_url": "https://codeforces.com/contest/1062/problem/B",
+    "submission_id": "CF79747499",
+    "submission_url": "https://codeforces.com/contest/1062/submission/79747499",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "May/11/2020 17:32"
+  },
   "CF79749257": {
     "contest_id": 1062,
     "language": "GNU C++17",
