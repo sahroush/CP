@@ -3094,6 +3094,25 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF79964964": {
+    "contest_id": 535,
+    "language": "GNU C++17",
+    "path": "codeforces/535/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Tavas and Malekas",
+    "problem_url": "https://codeforces.com/contest/535/problem/D",
+    "submission_id": "CF79964964",
+    "submission_url": "https://codeforces.com/contest/535/submission/79964964",
+    "tags": [
+      "greedy",
+      "hashing",
+      "string suffix structures",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "May/13/2020 14:16"
+  },
   "CF79984122": {
     "contest_id": 494,
     "language": "GNU C++17",
