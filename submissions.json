@@ -3094,6 +3094,24 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF80169377": {
+    "contest_id": 1216,
+    "language": "GNU C++17",
+    "path": "codeforces/1216/E1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E1",
+    "problem_name": "Numerical Sequence (easy version)",
+    "problem_url": "https://codeforces.com/contest/1216/problem/E1",
+    "submission_id": "CF80169377",
+    "submission_url": "https://codeforces.com/contest/1216/submission/80169377",
+    "tags": [
+      "binary search",
+      "brute force",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "May/14/2020 23:47"
+  },
   "CF80209906": {
     "contest_id": 526,
     "language": "GNU C++17",
