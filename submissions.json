@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF80244252": {
+    "contest_id": 772,
+    "language": "GNU C++17",
+    "path": "codeforces/772/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Voltage Keepsake",
+    "problem_url": "https://codeforces.com/contest/772/problem/A",
+    "submission_id": "CF80244252",
+    "submission_url": "https://codeforces.com/contest/772/submission/80244252",
+    "tags": [
+      "binary search",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "May/15/2020 20:50"
+  },
   "CF80252025": {
     "contest_id": 137,
     "language": "GNU C++17",
