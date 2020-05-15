@@ -3094,6 +3094,24 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF80209906": {
+    "contest_id": 526,
+    "language": "GNU C++17",
+    "path": "codeforces/526/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Om Nom and Necklace",
+    "problem_url": "https://codeforces.com/contest/526/problem/D",
+    "submission_id": "CF80209906",
+    "submission_url": "https://codeforces.com/contest/526/submission/80209906",
+    "tags": [
+      "hashing",
+      "string suffix structures",
+      "strings",
+      "*2200"
+    ],
+    "timestamp": "May/15/2020 14:01"
+  },
   "CF80213511": {
     "contest_id": 1155,
     "language": "GNU C++17",
