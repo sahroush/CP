@@ -3094,6 +3094,23 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF80252025": {
+    "contest_id": 137,
+    "language": "GNU C++17",
+    "path": "codeforces/137/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Palindromes",
+    "problem_url": "https://codeforces.com/contest/137/problem/D",
+    "submission_id": "CF80252025",
+    "submission_url": "https://codeforces.com/contest/137/submission/80252025",
+    "tags": [
+      "dp",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "May/15/2020 22:31"
+  },
   "CF80310840": {
     "contest_id": 1355,
     "language": "GNU C++17",
