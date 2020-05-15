@@ -1,0 +1,56 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+typedef long long ll;
+typedef long double ld;
+typedef pair<int  ,int > pii;
+
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+
+const ll maxn  = 3e6;
+const ll mod =1e9+7;
+const ld PI = acos((ld)-1);
+
+#define pb(x) push_back(x);
+#define endl '\n'
+#define dokme(x) return(cout << x , 0);
+#define migmig ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#define ms(x , y) memset(x , y , sizeof x);
+#define file_init freopen("input.txt", "r+", stdin); freopen("output.txt", "w+", stdout);
+ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*a)%md;b>>=1;}return(res);}
+
+ll la ,ra , ta;
+ll lb , rb , tb;
+ll gc ;
+
+ll solve(ll x){
+	ll a = ra;
+	ll b = lb + x * gc;
+	ll c = rb + x*gc;
+	if(0 > b)
+		swap(a , c);
+	b = max(b , 0LL);
+	if(a < b)
+		return(0);
+	if(a < c)
+		return(a - b + 1);
+	return(c - b + 1);
+}
+
+int main(){
+    migmig
+    cin >> la >> ra >> ta;
+    cin >> lb >> rb >> tb;
+    gc = __gcd(ta , tb);
+	rb-=la;
+	lb-=la;
+	ra-=la;
+	rb -= (lb - lb%gc);
+	lb%=gc;
+    ll ans =0;
+    for(int i = -2 ; i <= 2 ; i ++)
+		ans = max(ans , solve(i));
+    cout << ans;
+    return(0);
+}
