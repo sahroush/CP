@@ -3094,6 +3094,26 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF80605834": {
+    "contest_id": 1355,
+    "language": "GNU C++17",
+    "path": "codeforces/1355/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Restorer Distance",
+    "problem_url": "https://codeforces.com/contest/1355/problem/E",
+    "submission_id": "CF80605834",
+    "submission_url": "https://codeforces.com/contest/1355/submission/80605834",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "sortings",
+      "ternary search",
+      "*2100"
+    ],
+    "timestamp": "May/18/2020 17:52"
+  },
   "CF80612447": {
     "contest_id": 1227,
     "language": "GNU C++17",
