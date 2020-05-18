@@ -3094,6 +3094,24 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF80630703": {
+    "contest_id": 45,
+    "language": "GNU C++17",
+    "path": "codeforces/45/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Event Dates",
+    "problem_url": "https://codeforces.com/contest/45/problem/D",
+    "submission_id": "CF80630703",
+    "submission_url": "https://codeforces.com/contest/45/submission/80630703",
+    "tags": [
+      "greedy",
+      "meet-in-the-middle",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "May/18/2020 22:47"
+  },
   "CF80699508": {
     "contest_id": 346,
     "language": "GNU C++17",
