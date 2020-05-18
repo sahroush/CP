@@ -1,10 +1,14 @@
 #include <bits/stdc++.h>
 
+#include <ext/pb_ds/assoc_container.hpp>
+using namespace __gnu_pbds;
+
 using namespace std;
 
 typedef long long ll;
 typedef long double ld;
 typedef pair<int  ,int > pii;
+typedef tree<pii,null_type,less<pii>,rb_tree_tag,tree_order_statistics_node_update> sett;
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
@@ -23,21 +27,8 @@ ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*
 int n , m , cur;
 pii a[maxn];
 pair < pii , int > q[maxn];
+sett st;
 int ans[maxn];
-int fen[maxn];
-int num[maxn];
-
-void update(int pos){
-	for(;pos<=n;pos+=pos&-pos)
-		fen[pos]++;
-}
-
-int sum(int pos){
-	int ans = 0;
-	for(;pos;pos-=pos&-pos)
-		ans+=fen[pos];
-	return(ans);
-}
 
 bool cmp (pii i , pii j){
 	if(i.first == j.first){
@@ -46,31 +37,29 @@ bool cmp (pii i , pii j){
 	return(i.first > j.first);
 }
 
+void add(pii a){
+	swap(a.first , a.second);
+	st.insert(a);
+}
+
+int solve(int pos){
+	return((*st.find_by_order(pos-1)).second);
+}
+
 int main(){
     migmig
     cin >> n;
-    for(int i = 1 ; i <= n ; i ++)
-		cin >> a[i].first , a[i].second = i , num[i] = a[i].first;
+    for(int i = 0 ; i < n ; i ++)
+		cin >> a[i].first , a[i].second = i;
     cin >> m;
-    sort(a+1 , a + n+1 , cmp);
+    sort(a , a + n , cmp);
     for(int i = 0 ; i < m ;i ++)
 		cin >> q[i].first.first >> q[i].first.second,q[i].second = i;
 	sort(q , q + m);
-	for(int i = 1 ; i <= n ; i ++){
-		update(a[i].second);
-		while(cur < m and q[cur].first.first == i){
-			int pos = q[cur].first.second;
-			int l = 0 , r = n+1;
-			while(r - l > 1){
-				int mid = (l+r)/2;
-				if(sum(mid)>=pos){
-					r = mid;
-				}
-				else{
-					l=mid;
-				}
-			}
-			ans[q[cur].second]=num[r];
+	for(int i = 0 ; i < n ; i ++){
+		add(a[i]);
+		while(cur < m and q[cur].first.first == i+1){
+			ans[q[cur].second]=solve(q[cur].first.second);
 			cur++;
 		}
 	}
