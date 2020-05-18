@@ -32,14 +32,11 @@ void update(int pos){
 		fen[pos]++;
 }
 
-int find(int val){
-	int pos = 0;
+int sum(int pos){
 	int ans = 0;
-	for(int i = 20 ; i>=0 ; i --){
-		if(pos+(1 << i) <= n and ans+fen[pos+(1 << i)]<val)
-			pos += (1 << i), ans += fen[pos];
-	}
-	return(pos);
+	for(;pos;pos-=pos&-pos)
+		ans+=fen[pos];
+	return(ans);
 }
 
 bool cmp (pii i , pii j){
@@ -63,7 +60,17 @@ int main(){
 		update(a[i].second);
 		while(cur < m and q[cur].first.first == i){
 			int pos = q[cur].first.second;
-			ans[q[cur].second]=num[find(pos)+1];
+			int l = 0 , r = n+1;
+			while(r - l > 1){
+				int mid = (l+r)/2;
+				if(sum(mid)>=pos){
+					r = mid;
+				}
+				else{
+					l=mid;
+				}
+			}
+			ans[q[cur].second]=num[r];
 			cur++;
 		}
 	}
