@@ -3094,6 +3094,25 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF80747719": {
+    "contest_id": 615,
+    "language": "GNU C++17",
+    "path": "codeforces/615/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Running Track",
+    "problem_url": "https://codeforces.com/contest/615/problem/C",
+    "submission_id": "CF80747719",
+    "submission_url": "https://codeforces.com/contest/615/submission/80747719",
+    "tags": [
+      "dp",
+      "greedy",
+      "strings",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "May/20/2020 11:20"
+  },
   "CF80753055": {
     "contest_id": 543,
     "language": "GNU C++17",
