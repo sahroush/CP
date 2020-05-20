@@ -3094,6 +3094,25 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF80789268": {
+    "contest_id": 356,
+    "language": "GNU C++17",
+    "path": "codeforces/356/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Compartments",
+    "problem_url": "https://codeforces.com/contest/356/problem/C",
+    "submission_id": "CF80789268",
+    "submission_url": "https://codeforces.com/contest/356/submission/80789268",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*2100"
+    ],
+    "timestamp": "May/20/2020 20:38"
+  },
   "CF80864882": {
     "contest_id": 494,
     "language": "GNU C++17",
