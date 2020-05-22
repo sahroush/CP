@@ -3094,6 +3094,26 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF80919595": {
+    "contest_id": 1214,
+    "language": "GNU C++17",
+    "path": "codeforces/1214/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Petya and Construction Set",
+    "problem_url": "https://codeforces.com/contest/1214/problem/E",
+    "submission_id": "CF80919595",
+    "submission_url": "https://codeforces.com/contest/1214/submission/80919595",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "math",
+      "sortings",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "May/22/2020 13:53"
+  },
   "CF80919632": {
     "contest_id": 746,
     "language": "GNU C++17",
