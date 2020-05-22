@@ -3094,6 +3094,24 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF80945909": {
+    "contest_id": 954,
+    "language": "GNU C++17",
+    "path": "codeforces/954/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Water Taps",
+    "problem_url": "https://codeforces.com/contest/954/problem/E",
+    "submission_id": "CF80945909",
+    "submission_url": "https://codeforces.com/contest/954/submission/80945909",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*2000"
+    ],
+    "timestamp": "May/22/2020 19:38"
+  },
   "CF80945960": {
     "contest_id": 1234,
     "language": "GNU C++17",
