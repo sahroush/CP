@@ -3094,6 +3094,26 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF81319453": {
+    "contest_id": 963,
+    "language": "GNU C++17",
+    "path": "codeforces/963/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Destruction of a Tree",
+    "problem_url": "https://codeforces.com/contest/963/problem/B",
+    "submission_id": "CF81319453",
+    "submission_url": "https://codeforces.com/contest/963/submission/81319453",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "May/24/2020 21:46"
+  },
   "CF81411460": {
     "contest_id": 125,
     "language": "GNU C++17",
