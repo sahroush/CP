@@ -1,4 +1,20 @@
 {
+  "AC13596997": {
+    "contest_id": "agc008",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/agc008/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Contiguous Repainting",
+    "problem_url": "https://atcoder.jp/contests/agc008/tasks/agc008_b",
+    "submission_id": "AC13596997",
+    "submission_url": "https://atcoder.jp/contests/agc008/submissions/13596997",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "May/25/2020 16:36"
+  },
   "AC13597633": {
     "contest_id": "agc003",
     "language": "C++14 (GCC 5.4.1)",
