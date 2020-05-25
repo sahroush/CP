@@ -1,4 +1,20 @@
 {
+  "AC13597947": {
+    "contest_id": "agc003",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/agc003/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Simplified mahjong",
+    "problem_url": "https://atcoder.jp/contests/agc003/tasks/agc003_b",
+    "submission_id": "AC13597947",
+    "submission_url": "https://atcoder.jp/contests/agc003/submissions/13597947",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "May/25/2020 17:04"
+  },
   "AC13598706": {
     "contest_id": "agc003",
     "language": "C++14 (GCC 5.4.1)",
