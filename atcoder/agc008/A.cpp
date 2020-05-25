@@ -22,39 +22,14 @@ ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*
 
 ll a , b;
 
-ll s1(){
-	if(a<=b)
-		return(b - a);
-	return(1e18);
-}
-
-ll s2(){
-	if(-a <= b)
-		return(b + a + 1);
-	return(1e18);
-}
-
-ll s3(){
-	if(-a <= -b)
-		return(a-b + 2);
-	return(1e18);
-}
-
-ll s4(){
-	if(a <= -b){
-		return(-b-a+1);
-	}
-	return(1e18);
-}
-
 int main(){
     migmig
-    cin >> a >> b;
     ll ans = 1e18;
-    ans = min(ans , s1());
-    ans = min(ans , s2());
-    ans = min(ans , s3());
-    ans = min(ans , s4());
+    cin >> a >> b;
+    if(a <= b)ans = min(ans , b-a);
+    if(-a <= b)ans = min(ans ,b+a+1);
+    if(-a <= -b)ans = min(ans ,a-b+2);
+    if(a <= -b)ans = min(ans , -b-a+1);
     cout << ans;
     return(0);
 }
