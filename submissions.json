@@ -3094,6 +3094,22 @@
     ],
     "timestamp": "Mar/03/2021 23:29"
   },
+  "CF81476495": {
+    "contest_id": 1011,
+    "language": "GNU C++17",
+    "path": "codeforces/1011/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Border",
+    "problem_url": "https://codeforces.com/contest/1011/problem/E",
+    "submission_id": "CF81476495",
+    "submission_url": "https://codeforces.com/contest/1011/submission/81476495",
+    "tags": [
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "May/26/2020 18:17"
+  },
   "CF81492523": {
     "contest_id": 1358,
     "language": "GNU C++17",
