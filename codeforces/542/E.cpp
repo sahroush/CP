@@ -24,108 +24,11 @@ const ld PI = 4 * atan((ld) 1);
 ll pw(ll a, ll b) {
     return (!b ? 1 : (b & 1 ? a * pw(a * a % mod, b / 2) % mod : pw(a * a % mod, b / 2) % mod));
 }
-template<typename T>
-class Queue
-{
-private:
-    int m_capacity;
-    int m_size;
-    int m_startIndex;
-    int m_endIndex;
-    T* m_buffer;
 
-    void expand_queue() {
-        int newCapacity = m_capacity * 2;
-        T* newBuffer = new T[newCapacity];
-        if (m_endIndex <= m_startIndex) {
-            int cnt = 0;
-            for (int i = m_startIndex; i < m_capacity; i++) {
-                newBuffer[cnt++] = m_buffer[i];
-            }
-
-            for (int i = 0; i < m_endIndex; i++) {
-                newBuffer[cnt++] = m_buffer[i];
-            }
-        } else {
-            int cnt = 0;
-            for (int i = m_startIndex; i < m_endIndex; i++) {
-                newBuffer[cnt++] = m_buffer[i];
-            }            
-        }
-
-        delete[] m_buffer;
-        m_buffer = newBuffer;
-        m_startIndex = 0;
-        m_endIndex = m_size;
-        m_capacity = newCapacity;
-    }
-
-    void init_queue(int capacity) {
-        m_capacity = capacity;
-        m_size = 0;
-        m_startIndex = 0;
-        m_endIndex = 0;
-
-        m_buffer = new T[capacity];
-    }
-
-public:
-    Queue() {
-        init_queue(32);
-    }
-
-    Queue(int capacity) {
-        init_queue(capacity);
-    }
-
-    void push(T element) {
-        if (m_endIndex == m_startIndex && m_size > 0) {
-            // expand queue
-            expand_queue();
-        }
-
-        m_buffer[m_endIndex] = element;
-        m_endIndex = (m_endIndex + 1) % m_capacity;
-        m_size++;
-    }
-
-    void pop() {
-        if (m_size == 0) {
-            return;
-        }
-
-        m_startIndex = (m_startIndex + 1) % m_capacity;
-        m_size--;
-    }
-
-    T front() {
-        if (m_size == 0) {
-            throw;
-        }
-
-        return m_buffer[m_startIndex];
-    }
-
-    T back() {
-        if (m_size == 0) {
-            throw;
-        }
-
-        if (m_endIndex == 0) {
-            return m_buffer[m_capacity - 1];
-        } else {
-            return m_buffer[m_endIndex - 1];
-        }
-    }
-
-    int size() {
-        return m_size;
-    }
-};
 int n , m ;
 bool mark[maxn] , col[maxn];
 vector < int > adj[maxn];
-Queue <int> q;
+queue <int> q;
 vector <int> comp[maxn];
 int cnt = 1;
 int dist[maxn];
@@ -139,7 +42,7 @@ int bfs(int cmp){
 		dist[v] =0;
 		q.push(v);
 		mark[v] = 1;
-		while(q.size()){
+		while(!q.empty()){
 			v = q.front();
 			q.pop();
 			for (auto u : adj[v]){
@@ -169,7 +72,7 @@ int main(){
 			q.push(i);
 			col[i] = 1;
 			mark[i] = 1;
-			while(q.size()){
+			while(!q.empty()){
 				int u = q.front();
 				q.pop();
 				for (auto v : adj[u]){
@@ -195,7 +98,7 @@ int main(){
 			q.push(i);
 			comp[cnt].pb(i);
 			mark[i] = 1;
-			while(q.size()){
+			while(!q.empty()){
 				int u = q.front();
 				q.pop();
 				for (auto v : adj[u]){
@@ -219,9 +122,3 @@ int main(){
 	
     return(0);
 }
-
-
-//When we hit our lowest point, we are open to the greatest change.
-//If I try, I fail. If I don't try, I'm NEVER GOING TO GET IT.
-//Sometimes, life is like this dark tunnel. You can't always see the light at the end of the tunnel. But if you just keep moving... you will come to a better place.
-//It is important to draw wisdom from diffrent places. If you take it from only one place it becomes rigid and stale.
