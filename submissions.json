@@ -1,4 +1,20 @@
 {
+  "AC13728282": {
+    "contest_id": "nomura2020",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/nomura2020/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Folia",
+    "problem_url": "https://atcoder.jp/contests/nomura2020/tasks/nomura2020_c",
+    "submission_id": "AC13728282",
+    "submission_url": "https://atcoder.jp/contests/nomura2020/submissions/13728282",
+    "tags": [
+      "AtCoder",
+      "*600"
+    ],
+    "timestamp": "May/30/2020 16:58"
+  },
   "AC13977540": {
     "contest_id": "arc072",
     "language": "C++14 (GCC 5.4.1)",
