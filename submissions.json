@@ -3093,5 +3093,23 @@
       "*2400"
     ],
     "timestamp": "Mar/03/2021 23:29"
+  },
+  "CF82217691": {
+    "contest_id": 566,
+    "language": "GNU C++17",
+    "path": "codeforces/566/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Matching Names",
+    "problem_url": "https://codeforces.com/contest/566/problem/A",
+    "submission_id": "CF82217691",
+    "submission_url": "https://codeforces.com/contest/566/submission/82217691",
+    "tags": [
+      "dfs and similar",
+      "strings",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Jun/01/2020 17:18"
   }
 }
