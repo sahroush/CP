@@ -9051,6 +9051,25 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF82335318": {
+    "contest_id": 487,
+    "language": "GNU C++17",
+    "path": "codeforces/487/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Strip",
+    "problem_url": "https://codeforces.com/contest/487/problem/B",
+    "submission_id": "CF82335318",
+    "submission_url": "https://codeforces.com/contest/487/submission/82335318",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Jun/02/2020 22:24"
+  },
   "CF82455951": {
     "contest_id": 1189,
     "language": "GNU C++17",
