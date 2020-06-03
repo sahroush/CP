@@ -1,4 +1,20 @@
 {
+  "AC13977540": {
+    "contest_id": "arc072",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/arc072/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Alice in linear land",
+    "problem_url": "https://atcoder.jp/contests/arc072/tasks/arc072_c",
+    "submission_id": "AC13977540",
+    "submission_url": "https://atcoder.jp/contests/arc072/submissions/13977540",
+    "tags": [
+      "AtCoder",
+      "*900"
+    ],
+    "timestamp": "Jun/03/2020 15:14"
+  },
   "AC13982095": {
     "contest_id": "arc102",
     "language": "C++14 (GCC 5.4.1)",
