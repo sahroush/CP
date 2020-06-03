@@ -1,4 +1,20 @@
 {
+  "AC13988329": {
+    "contest_id": "arc079",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/arc079/F.cpp",
+    "platform": "AtCoder",
+    "problem_index": "F",
+    "problem_name": "Namori Grundy",
+    "problem_url": "https://atcoder.jp/contests/arc079/tasks/arc079_d",
+    "submission_id": "AC13988329",
+    "submission_url": "https://atcoder.jp/contests/arc079/submissions/13988329",
+    "tags": [
+      "AtCoder",
+      "*800"
+    ],
+    "timestamp": "Jun/03/2020 23:28"
+  },
   "AC14218165": {
     "contest_id": "tokiomarine2020",
     "language": "C++ (GCC 9.2.1)",
