@@ -1,4 +1,20 @@
 {
+  "AC13982095": {
+    "contest_id": "arc102",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/arc102/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Stop. Otherwise...",
+    "problem_url": "https://atcoder.jp/contests/arc102/tasks/arc102_c",
+    "submission_id": "AC13982095",
+    "submission_url": "https://atcoder.jp/contests/arc102/submissions/13982095",
+    "tags": [
+      "AtCoder",
+      "*700"
+    ],
+    "timestamp": "Jun/03/2020 17:55"
+  },
   "AC13984026": {
     "contest_id": "agc003",
     "language": "C++14 (GCC 5.4.1)",
