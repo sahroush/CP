@@ -30,8 +30,8 @@ struct Mat{
     Mat operator* (const Mat &b) const{
         Mat c = Mat();
         for(int i = 0 ; i < K ; i ++)
-            for(int j = 0 ; j < K ; j ++)
-                for(int k = 0 ; k < K ; k ++)
+            for(int k = 0 ; k < K ; k ++)
+                for(int j = 0 ; j < K ; j ++)
                     c.m[i][j] = (ll(c.m[i][j]) + ll(m[i][k]) * b.m[k][j])%mod;
         return(c);
     }
