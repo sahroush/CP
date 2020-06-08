@@ -9051,6 +9051,25 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF83135134": {
+    "contest_id": 959,
+    "language": "GNU C++17",
+    "path": "codeforces/959/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Mahmoud and Ehab and yet another xor task",
+    "problem_url": "https://codeforces.com/contest/959/problem/F",
+    "submission_id": "CF83135134",
+    "submission_url": "https://codeforces.com/contest/959/submission/83135134",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "math",
+      "matrices",
+      "*2400"
+    ],
+    "timestamp": "Jun/08/2020 17:07"
+  },
   "CF83145526": {
     "contest_id": 1117,
     "language": "GNU C++17",
