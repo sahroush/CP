@@ -47,6 +47,7 @@ int main(){
     cin >> n >> k;
     for(int i = 0 ; i < n ; i ++)
         cin >> a[i];
+    if(k == 1)dokme(n);
     Mat m(-1);
     for(int i = 0 ; i < n ; i ++)
         for(int j = 0 ; j < n ; j ++)
