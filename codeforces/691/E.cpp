@@ -1,6 +1,3 @@
-#pragma GCC optimize("O2")
-#pragma GCC optimize("unroll-loops")
-#pragma GCC target("avx,avx2,sse,sse2,fma,tune=native")
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -25,7 +22,7 @@ const ll K = 100;
 ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*a)%md;b>>=1;}return(res);}
 
 struct Mat{
-    int m[K][K];
+    ll m[K][K];
     Mat(int diag = -1){
         ms(m , 0);
         if(diag==0)for(int i = 0 ; i < K ; i ++)m[i][i] = 1;
