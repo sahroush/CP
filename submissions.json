@@ -1,4 +1,20 @@
 {
+  "AC14232368": {
+    "contest_id": "tokiomarine2020",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/tokiomarine2020/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Lamps",
+    "problem_url": "https://atcoder.jp/contests/tokiomarine2020/tasks/tokiomarine2020_c",
+    "submission_id": "AC14232368",
+    "submission_url": "https://atcoder.jp/contests/tokiomarine2020/submissions/14232368",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jun/13/2020 16:50"
+  },
   "AC14244194": {
     "contest_id": "tokiomarine2020",
     "language": "C++ (GCC 9.2.1)",
