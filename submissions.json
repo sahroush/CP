@@ -1,4 +1,20 @@
 {
+  "AC15241541": {
+    "contest_id": "m-solutions2019",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/m-solutions2019/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Best-of-(2n-1)",
+    "problem_url": "https://atcoder.jp/contests/m-solutions2019/tasks/m_solutions2019_c",
+    "submission_id": "AC15241541",
+    "submission_url": "https://atcoder.jp/contests/m-solutions2019/submissions/15241541",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/14/2020 16:43"
+  },
   "AC15273960": {
     "contest_id": "agc004",
     "language": "C++ (GCC 9.2.1)",
