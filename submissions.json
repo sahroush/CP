@@ -1,4 +1,20 @@
 {
+  "AC15284190": {
+    "contest_id": "agc010",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc010/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Cleaning",
+    "problem_url": "https://atcoder.jp/contests/agc010/tasks/agc010_c",
+    "submission_id": "AC15284190",
+    "submission_url": "https://atcoder.jp/contests/agc010/submissions/15284190",
+    "tags": [
+      "AtCoder",
+      "*700"
+    ],
+    "timestamp": "Jul/17/2020 11:58"
+  },
   "AC15289030": {
     "contest_id": "agc014",
     "language": "C++ (GCC 9.2.1)",
