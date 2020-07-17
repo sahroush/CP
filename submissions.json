@@ -1,4 +1,20 @@
 {
+  "AC15289030": {
+    "contest_id": "agc014",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc014/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Black and White Tree",
+    "problem_url": "https://atcoder.jp/contests/agc014/tasks/agc014_d",
+    "submission_id": "AC15289030",
+    "submission_url": "https://atcoder.jp/contests/agc014/submissions/15289030",
+    "tags": [
+      "AtCoder",
+      "*900"
+    ],
+    "timestamp": "Jul/17/2020 17:45"
+  },
   "AC15742079": {
     "contest_id": "abc163",
     "language": "C++ (GCC 9.2.1)",
