@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF88593064": {
+    "contest_id": 629,
+    "language": "GNU C++17",
+    "path": "codeforces/629/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Babaei and Birthday Cake",
+    "problem_url": "https://codeforces.com/contest/629/problem/D",
+    "submission_id": "CF88593064",
+    "submission_url": "https://codeforces.com/contest/629/submission/88593064",
+    "tags": [
+      "data structures",
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Jul/31/2020 17:23"
+  },
   "CF88668150": {
     "contest_id": 61,
     "language": "GNU C++17",
