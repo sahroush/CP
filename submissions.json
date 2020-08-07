@@ -9051,6 +9051,22 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF89209866": {
+    "contest_id": 641,
+    "language": "GNU C++17",
+    "path": "codeforces/641/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Little Artem and Time Machine",
+    "problem_url": "https://codeforces.com/contest/641/problem/E",
+    "submission_id": "CF89209866",
+    "submission_url": "https://codeforces.com/contest/641/submission/89209866",
+    "tags": [
+      "data structures",
+      "*2000"
+    ],
+    "timestamp": "Aug/07/2020 18:32"
+  },
   "CF89324866": {
     "contest_id": 444,
     "language": "GNU C++17",
