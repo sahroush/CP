@@ -31,7 +31,7 @@ struct com{
     int delta = 0;
     bool retarded = 0;
     unordered_map < int , int > mp;
-}comp[520];
+}comp[800];
 
 int n , q;
 int a[maxn];
@@ -89,7 +89,6 @@ int solve(int x){
 int main(){
     migmig
     cin >> n >> q;
-    for(int i = 0 ;i  <= n/sq ; i ++)comp[i].mp.reserve(256);
     for(int i = 1 ; i <= n ; i ++){
         cin >> a[i];
         comp[i/sq].l = min(comp[i/sq].l , i);
