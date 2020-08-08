@@ -1,6 +1,5 @@
 /*
 #pragma GCC optimize("O2")
-#pragma GCC optimize("Ofast")
 #pragma GCC optimize("unroll-loops")
 #pragma GCC target("avx,avx2,sse,sse2,fma,tune=native")
 //*/
@@ -14,81 +13,128 @@ typedef pair<int  ,int > pii;
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
-const ll maxn  = 1e5 + 100;
+const ll maxn  = 1e5+10;
 const ll mod =1e9+7;
 const ld PI = acos((ld)-1);
 
 #define pb push_back
 #define endl '\n'
-#define dokme(x) cout << x , exit(0)
-#define migmig ios::sync_with_stdio(false),cin.tie(0),cout.tie(0)
-#define ms(x , y) memset(x , y , sizeof x)
+#define dokme(x) return(cout << x , 0);
+#define migmig ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#define ms(x , y) memset(x , y , sizeof x);
+#define file_init freopen("input.txt", "r+", stdin); freopen("output.txt", "w+", stdout);
 ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*a)%md;b>>=1;}return(res);}
 
 int n , q;
-vector < int > seg;
-vector < ll > ans , lazy;
+int sq = 400;
+struct com{
+    bool isfucked = 1;
+    ll val = 0;
+    int color = 0;
+    ll size  = 0;
+    ll sum = 0;
+    int l = 1e9 , r = 0;
+}comp[1000];
+ll val[maxn];
+ll col[maxn];
 
-void build(int v = 1 , int l = 1 , int r = n + 1){
-	if(r - l == 1){
-		seg[v] = l;
-		return;
-	}
-	int mid = (l + r)/2;
-	build(2*v , l , mid);
-	build(2*v + 1 , mid , r);
+inline void unfuck(int i, ll x){
+    if(comp[i].isfucked){
+        comp[i].isfucked = 0;
+        comp[i].color = x;
+        for(int j = comp[i].l ; j <= comp[i].r ; j ++){
+            val[j] += abs(col[j] - x);
+            comp[i].sum += abs(col[j] - x);
+            col[j] = x;
+        }
+    }
+    else{
+        comp[i].sum += abs(x - comp[i].color) * comp[i].size;
+        comp[i].val += abs(x - comp[i].color);
+        comp[i].color = x;
+    }
 }
 
-void shift(int v , int l , int r){
-	if(!lazy[v])return;
-	ans[v] += lazy[v] * 1LL * (r - l);
-	if(r - l > 1)
-		lazy[2*v]+=lazy[v] , seg[2*v] = seg[v] , seg[2*v + 1] = seg[v], lazy[2*v + 1] += lazy[v];
-	lazy[v] = 0;
+inline void fuck(int i, int l , int r , ll x){
+    l = max(l , comp[i].l) , r = min(r ,comp[i].r);
+    if(comp[i].isfucked){
+        for(int j = l ; j <= r ; j ++){
+            val[j] += abs(col[j] - x);
+            comp[i].sum += abs(col[j] - x);
+            col[j] = x;
+        }
+    }
+    else{
+        comp[i].isfucked = 1;
+        for(int j = comp[i].l ; j <= comp[i].r ; j ++){
+            val[j] += comp[i].val;
+            col[j] = comp[i].color;
+            if(j>=l and j <= r){
+                val[j] += abs(col[j] - x);
+                comp[i].sum += abs(col[j] - x);
+                col[j] = x;
+            }
+        }
+        comp[i].val = 0;
+        comp[i].color = -1;
+    }
 }
 
-void update(int  L , int R , int x , int v = 1 , int l = 1, int r = n + 1){
-	shift(v , l , r);
-	if(R <= l or r <= L)
-		return;
-	if(L <= l and r <= R and seg[v]){
-		lazy[v] += abs(x - seg[v]);
-		seg[v] = x;
-		shift(v , l, r);
-		return;
-	}
-
-	int mid = (l + r)/2;
-	update(L , R , x , 2*v , l , mid);
-	update(L , R , x , 2*v + 1 , mid , r);
-	seg[v] = ((seg[2*v] == seg[2*v + 1]) ? seg[2*v] : 0);
-	ans[v] = ans[2*v] + ans[2*v + 1];
+inline void udp(){
+    int l , r;
+    ll x;
+    cin >> l >> r >> x;
+    for(int i = 0 ; i <= n/sq ; i ++){
+        if(l > comp[i].r or r < comp[i].l) continue;
+        if(l <= comp[i].l and r >= comp[i].r) unfuck(i , x);
+        else fuck(i , l , r , x);
+    }
 }
 
-ll query(int L , int R , int v = 1 , int l = 1 , int  r = n + 1){
-	shift(v , l , r);
-	if(R <= l or r <= L)
-		return(0);
-	if(L <= l and r <= R)
-		return(ans[v]);
-	int mid = (l + r)/2;
-	return(query(L , R , 2*v , l , mid) + query(L , R , 2*v + 1 ,mid , r));
-}	
+inline ll get(int i){
+    return(comp[i].sum);
+}
 
-int32_t main(){
-    migmig;
-	cin >> n >> q;
-	seg.resize(n*4);
-	lazy.resize(n*4);
-	ans.resize(n*4);
-	build();
-	while(q -- ){
-		int t , l , r , x;
-		cin >> t >> l >> r;
-		if(t == 1)
-			cin >> x ,update(l , ++r , x);
-		else
-			cout << query(l , ++r) << endl;
-	}
+inline ll getval(int i , int l , int r){
+    ll ans = 0;
+    l = max(l , comp[i].l) , r = min(r ,comp[i].r);
+    for(int j = l ; j <= r ; j ++){
+        ans += val[j];
+        ans += comp[i].val;
+    }
+    return(ans);
+}
+
+inline ll get(int l , int r){
+    ll ans = 0;
+    for(int i = 0 ; i <= n/sq ; i ++){
+        if(l > comp[i].r or r < comp[i].l) continue;
+        if(l <= comp[i].l and r >= comp[i].r) ans += get(i);
+        else ans += getval(i , l , r);
+    }
+    return(ans);
+}
+
+int main(){
+    migmig
+    cin >> n >> q;
+    for(int i = 1 ; i <= n ; i ++){
+        comp[i/sq].size++;
+        comp[i/sq].l = min(comp[i/sq].l , i);
+        comp[i/sq].r = i;
+        col[i] = i;
+    }
+    while(q -- ){
+        int t;
+        cin >> t;
+        if(t%2){
+            udp();
+        }
+        else{
+            int l, r;
+            cin >> l >> r;
+            cout << get(l , r) << endl;
+        }
+    }
     return(0);
 }
