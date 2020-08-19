@@ -1,4 +1,20 @@
 {
+  "AC16038958": {
+    "contest_id": "agc027",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc027/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Garbage Collector",
+    "problem_url": "https://atcoder.jp/contests/agc027/tasks/agc027_b",
+    "submission_id": "AC16038958",
+    "submission_url": "https://atcoder.jp/contests/agc027/submissions/16038958",
+    "tags": [
+      "AtCoder",
+      "*700"
+    ],
+    "timestamp": "Aug/19/2020 13:02"
+  },
   "AC16440726": {
     "contest_id": "tokiomarine2020",
     "language": "C++ (GCC 9.2.1)",
