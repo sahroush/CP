@@ -9051,6 +9051,22 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF90665460": {
+    "contest_id": 420,
+    "language": "GNU C++17",
+    "path": "codeforces/420/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Cup Trick",
+    "problem_url": "https://codeforces.com/contest/420/problem/D",
+    "submission_id": "CF90665460",
+    "submission_url": "https://codeforces.com/contest/420/submission/90665460",
+    "tags": [
+      "data structures",
+      "*2200"
+    ],
+    "timestamp": "Aug/22/2020 12:01"
+  },
   "CF90772460": {
     "contest_id": 438,
     "language": "GNU C++17",
