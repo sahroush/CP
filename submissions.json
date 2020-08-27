@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF91112960": {
+    "contest_id": 605,
+    "language": "GNU C++17",
+    "path": "codeforces/605/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Board Game",
+    "problem_url": "https://codeforces.com/contest/605/problem/D",
+    "submission_id": "CF91112960",
+    "submission_url": "https://codeforces.com/contest/605/submission/91112960",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "*2500"
+    ],
+    "timestamp": "Aug/27/2020 12:08"
+  },
   "CF91480177": {
     "contest_id": 809,
     "language": "GNU C++17",
