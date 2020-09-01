@@ -22,7 +22,7 @@ ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*
 
 string s;
 
-int main(){
+int32_t main(){
     migmig
     cin >> s;
     cout << s[0] << s[1] << s[2];
