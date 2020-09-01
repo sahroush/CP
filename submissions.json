@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF91547032": {
+    "contest_id": 1103,
+    "language": "GNU C++17",
+    "path": "codeforces/1103/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Game with modulo",
+    "problem_url": "https://codeforces.com/contest/1103/problem/B",
+    "submission_id": "CF91547032",
+    "submission_url": "https://codeforces.com/contest/1103/submission/91547032",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "interactive",
+      "*2000"
+    ],
+    "timestamp": "Sep/01/2020 12:32"
+  },
   "CF91666530": {
     "contest_id": 846,
     "language": "GNU C++17",
