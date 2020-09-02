@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF91666530": {
+    "contest_id": 846,
+    "language": "GNU C++17",
+    "path": "codeforces/846/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Chemistry in Berland",
+    "problem_url": "https://codeforces.com/contest/846/problem/E",
+    "submission_id": "CF91666530",
+    "submission_url": "https://codeforces.com/contest/846/submission/91666530",
+    "tags": [
+      "dfs and similar",
+      "greedy",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Sep/02/2020 22:44"
+  },
   "CF91701296": {
     "contest_id": 141,
     "language": "GNU C++17",
