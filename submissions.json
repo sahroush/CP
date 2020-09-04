@@ -1,4 +1,20 @@
 {
+  "AC16507411": {
+    "contest_id": "agc027",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc027/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "ABland Yard",
+    "problem_url": "https://atcoder.jp/contests/agc027/tasks/agc027_c",
+    "submission_id": "AC16507411",
+    "submission_url": "https://atcoder.jp/contests/agc027/submissions/16507411",
+    "tags": [
+      "AtCoder",
+      "*900"
+    ],
+    "timestamp": "Sep/04/2020 21:43"
+  },
   "AC16507419": {
     "contest_id": "arc081",
     "language": "C++ (GCC 9.2.1)",
