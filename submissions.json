@@ -14494,6 +14494,23 @@
     ],
     "timestamp": "Jun/01/2020 17:18"
   },
+  "CF91938825": {
+    "contest_id": 732,
+    "language": "GNU C++17",
+    "path": "codeforces/732/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Tourist Reform",
+    "problem_url": "https://codeforces.com/contest/732/problem/F",
+    "submission_id": "CF91938825",
+    "submission_url": "https://codeforces.com/contest/732/submission/91938825",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*2300"
+    ],
+    "timestamp": "Sep/05/2020 16:54"
+  },
   "CF92035702": {
     "contest_id": 1404,
     "language": "GNU C++17",
