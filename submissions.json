@@ -1,4 +1,20 @@
 {
+  "AC16527628": {
+    "contest_id": "agc004",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc004/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Colorful Slimes",
+    "problem_url": "https://atcoder.jp/contests/agc004/tasks/agc004_b",
+    "submission_id": "AC16527628",
+    "submission_url": "https://atcoder.jp/contests/agc004/submissions/16527628",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Sep/05/2020 22:01"
+  },
   "AC16542428": {
     "contest_id": "agc005",
     "language": "C++ (GCC 9.2.1)",
