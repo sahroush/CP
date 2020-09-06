@@ -1,4 +1,20 @@
 {
+  "AC16542428": {
+    "contest_id": "agc005",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc005/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Tree Restoring",
+    "problem_url": "https://atcoder.jp/contests/agc005/tasks/agc005_c",
+    "submission_id": "AC16542428",
+    "submission_url": "https://atcoder.jp/contests/agc005/submissions/16542428",
+    "tags": [
+      "AtCoder",
+      "*700"
+    ],
+    "timestamp": "Sep/06/2020 16:40"
+  },
   "AC16555929": {
     "contest_id": "agc006",
     "language": "C++ (GCC 9.2.1)",
