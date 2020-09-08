@@ -1,4 +1,20 @@
 {
+  "AC16578624": {
+    "contest_id": "agc014",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc014/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Closed Rooms",
+    "problem_url": "https://atcoder.jp/contests/agc014/tasks/agc014_c",
+    "submission_id": "AC16578624",
+    "submission_url": "https://atcoder.jp/contests/agc014/submissions/16578624",
+    "tags": [
+      "AtCoder",
+      "*700"
+    ],
+    "timestamp": "Sep/08/2020 15:40"
+  },
   "AC16579845": {
     "contest_id": "agc013",
     "language": "C++ (GCC 9.2.1)",
