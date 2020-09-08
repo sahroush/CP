@@ -1,4 +1,20 @@
 {
+  "AC16582137": {
+    "contest_id": "agc016",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc016/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Colorful Hats",
+    "problem_url": "https://atcoder.jp/contests/agc016/tasks/agc016_b",
+    "submission_id": "AC16582137",
+    "submission_url": "https://atcoder.jp/contests/agc016/submissions/16582137",
+    "tags": [
+      "AtCoder",
+      "*700"
+    ],
+    "timestamp": "Sep/08/2020 18:22"
+  },
   "AC16593669": {
     "contest_id": "agc037",
     "language": "C++ (GCC 9.2.1)",
