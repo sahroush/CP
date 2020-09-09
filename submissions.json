@@ -9051,6 +9051,26 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF92371457": {
+    "contest_id": 1025,
+    "language": "GNU C++17",
+    "path": "codeforces/1025/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Recovering BST",
+    "problem_url": "https://codeforces.com/contest/1025/problem/D",
+    "submission_id": "CF92371457",
+    "submission_url": "https://codeforces.com/contest/1025/submission/92371457",
+    "tags": [
+      "brute force",
+      "dp",
+      "math",
+      "number theory",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Sep/09/2020 21:01"
+  },
   "CF92371481": {
     "contest_id": 387,
     "language": "GNU C++17",
