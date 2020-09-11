@@ -9051,6 +9051,25 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF92480083": {
+    "contest_id": 1404,
+    "language": "GNU C++17",
+    "path": "codeforces/1404/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Tree Tag",
+    "problem_url": "https://codeforces.com/contest/1404/problem/B",
+    "submission_id": "CF92480083",
+    "submission_url": "https://codeforces.com/contest/1404/submission/92480083",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "games",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Sep/11/2020 12:46"
+  },
   "CF92481606": {
     "contest_id": 269,
     "language": "GNU C++17",
