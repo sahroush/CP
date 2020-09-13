@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF92693854": {
+    "contest_id": 584,
+    "language": "GNU C++17",
+    "path": "codeforces/584/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Marina and Vasya",
+    "problem_url": "https://codeforces.com/contest/584/problem/C",
+    "submission_id": "CF92693854",
+    "submission_url": "https://codeforces.com/contest/584/submission/92693854",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Sep/13/2020 12:30"
+  },
   "CF92717794": {
     "contest_id": 1406,
     "language": "GNU C++17",
