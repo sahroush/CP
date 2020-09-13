@@ -9051,6 +9051,24 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF92735119": {
+    "contest_id": 1407,
+    "language": "GNU C++17",
+    "path": "codeforces/1407/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Discrete Centrifugal Jumps",
+    "problem_url": "https://codeforces.com/contest/1407/problem/D",
+    "submission_id": "CF92735119",
+    "submission_url": "https://codeforces.com/contest/1407/submission/92735119",
+    "tags": [
+      "data structures",
+      "dp",
+      "graphs",
+      "*2200"
+    ],
+    "timestamp": "Sep/13/2020 21:41"
+  },
   "CF92737714": {
     "contest_id": 669,
     "language": "GNU C++17",
