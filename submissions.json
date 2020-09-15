@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF92885246": {
+    "contest_id": 12,
+    "language": "GNU C++17",
+    "path": "codeforces/12/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Ball",
+    "problem_url": "https://codeforces.com/contest/12/problem/D",
+    "submission_id": "CF92885246",
+    "submission_url": "https://codeforces.com/contest/12/submission/92885246",
+    "tags": [
+      "data structures",
+      "sortings",
+      "*2400"
+    ],
+    "timestamp": "Sep/15/2020 13:06"
+  },
   "CF92885327": {
     "contest_id": 12,
     "language": "GNU C++17",
