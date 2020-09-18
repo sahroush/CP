@@ -9051,6 +9051,22 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF93094609": {
+    "contest_id": 584,
+    "language": "GNU C++17",
+    "path": "codeforces/584/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Kolya and Tanya ",
+    "problem_url": "https://codeforces.com/contest/584/problem/B",
+    "submission_id": "CF93094609",
+    "submission_url": "https://codeforces.com/contest/584/submission/93094609",
+    "tags": [
+      "combinatorics",
+      "*1500"
+    ],
+    "timestamp": "Sep/18/2020 11:12"
+  },
   "CF93094736": {
     "contest_id": 584,
     "language": "GNU C++17",
