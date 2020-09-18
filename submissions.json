@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF93104680": {
+    "contest_id": 1132,
+    "language": "GNU C++17",
+    "path": "codeforces/1132/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Stressful Training",
+    "problem_url": "https://codeforces.com/contest/1132/problem/D",
+    "submission_id": "CF93104680",
+    "submission_url": "https://codeforces.com/contest/1132/submission/93104680",
+    "tags": [
+      "binary search",
+      "greedy",
+      "*2300"
+    ],
+    "timestamp": "Sep/18/2020 14:03"
+  },
   "CF93175690": {
     "contest_id": 553,
     "language": "GNU C++17",
