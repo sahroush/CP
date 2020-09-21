@@ -25,130 +25,92 @@ const ld PI = acos((ld)-1);
 #define file_init freopen("input.txt", "r+", stdin); freopen("output.txt", "w+", stdout);
 ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*a)%md;b>>=1;}return(res);}
 
-struct dinode{
-    vector < int > adj , radj;
-    int indeg = 0 , outdeg = 0;
-    int color = 0 , mark = 0;
-    int name;
-};
+int n , m , cur = 1;
+vector < int > adj[maxn], radj[maxn] , order;
+int mark[maxn] , c[maxn];
 
-struct digraph{
-    int n , m;
-    dinode V[maxn];
-    vector < pii > edge;
-    vector < int > order;
-    queue < int > q;
-    vector < int > ans;
-    int scc_cnt = 1;
-    void init(){
-        for(int i = 1 ; i <= n ; i ++)
-            V[i].name = i, V[i].adj.clear(), V[i].radj.clear();
-    }
-    void add_edge(int v , int u){
-        V[v].adj.pb(u);
-        V[u].radj.pb(v);
-        V[u].indeg++;
-        V[v].outdeg++;
-        edge.pb({u , v});
-    }
-    void dfs(int v){
-        V[v].mark = 1;
-        for (auto u : V[v].adj)
-            if(!V[u].mark)
-                dfs(u);
-        order.pb(v);
-    }
-    void sfd(int v){
-        V[v].color = scc_cnt;
-        for (auto u : V[v].radj)
-            if(!V[u].color)
-                sfd(u);
-    }
-    void scc(int n){
-        for (int i = 1 ; i <= n ; i ++)
-            if(!V[i].mark)
-                dfs(i);
-        reverse(order.begin() , order.end());
-        for (int i = 0 ; i < n ; i ++)
-            if(V[order[i]].color == 0)
-                sfd(order[i]),
-                scc_cnt++;
-        scc_cnt--;
-    }
-    
-    void topo(int n){
-        order = vector < int > (n+10, 0);
-        for(int i = 1 ; i <= n ; i ++) if(V[i].indeg == 0) q.push(i);
-        int cur = 1;
-        while(!q.empty()){
-            auto v = q.front();
-            q.pop();
-            order[v] = cur ++;
-            for(auto u : V[v].adj){
-                V[u].indeg--;
-                if(V[u].indeg == 0)
-                    q.push(u);
-            }
-        }
-    }
-    
-    void make_scc_dag(int n){
-        for(int i = 1 ; i <= scc_cnt ; i ++ )V[i].radj.clear();
-        for(int i = 1 ; i <= n ; i ++ )
-            for(auto u : V[i].adj)
-                if(V[i].color!=V[u].color)
-                    V[V[u].color].radj.pb(V[i].color);
-        for(int i = 1 ; i <= scc_cnt ; i ++)
-            sort(V[i].radj.begin() , V[i].radj.end()),
-            V[i].radj.resize(unique(V[i].radj.begin() , V[i].radj.end())-V[i].radj.end()),
-            V[i].indeg = (int)V[i].radj.size();
-        for(int i = 1 ; i <= scc_cnt ; i ++) V[i].adj.clear(), V[i].outdeg = 0;
-        for(int i = 1 ; i <= scc_cnt ; i ++) for(auto u : V[i].radj) V[u].adj.pb(i);
-        for(int i = 1 ; i <= scc_cnt ; i ++) V[i].outdeg = (int)V[i].adj.size();
-    }
-    
-    bool sat(){
-        // -v = v , v = v + n
-        scc(n + n);
-        for(int i = 1 ; i <= n ; i ++)
-            if(V[i].color == V[i + n].color)
-                return(0);
-        ans.clear();
-        make_scc_dag(n + n);
-        topo(scc_cnt);
-        for(int i = 1 ; i <= n ; i ++)
-            if(order[V[i].color] < order[V[i+n].color])
-                ans.pb(i);
-        return(1);
-    }
-};
+void sfd(int v){
+    c[v] = cur;
+    for (auto u : adj[v])
+        if(!c[u])
+            sfd(u);
+}
 
-digraph d;
+void dfs(int v){
+    mark[v] = 1;
+    for (auto u : adj[v])
+        if(!mark[u])
+            dfs(u);
+    order.pb(v);
+}
+
+vector < int > ans;
+int indeg[maxn];
+queue < int > q;
 
 int32_t main(){
     migmig
-    cin >> d.n >> d.m;
-    for(int i = 0 ; i < d.m ; i ++){
+    cin >> n >> m;
+    for(int i = 0 ; i < m ; i ++){
         // -i = i , i = i + n
         int u , v , c;
         cin >> u >> v >> c;
         if(c){
-            d.add_edge(u , v);
-            d.add_edge(v , u);
-            d.add_edge(v+d.n , u+d.n);
-            d.add_edge(u + d.n , v + d.n);
+            adj[u].pb(v);
+            adj[v].pb(u);
+            adj[v + n].pb(u+n);
+            adj[u+n].pb(v + n);
         }
         else{
-            d.add_edge(u , v + d.n );
-            d.add_edge(u + d.n , v );
-            d.add_edge(v + d.n , u );
-            d.add_edge(v , u + d.n );
+            adj[v].pb(u + n);
+            adj[u].pb(v + n);
+            adj[v+n].pb(u);
+            adj[u+n].pb(v);
         }
     }
-    if(!d.sat())
-        dokme("Impossible")
-    cout << d.ans.size() << endl;
-    for(int i : d.ans)
-        cout << i << ' ';
+    ms(mark , 0);
+    for (int i = 1 ; i <= n+n ; i ++)
+        if(!mark[i])
+            dfs(i);
+    reverse(order.begin() , order.end());
+    for (int i = 0 ; i < n+n ; i ++)
+        if(c[order[i]] == 0)
+            sfd(order[i]),
+            cur++;
+    cur--;
+    for(int i = 1 ; i <= n+n ; i ++)
+        if(c[i] == c[i + n])
+            dokme("Impossible")
+    order = vector < int > (maxn, 0);
+    
+    for(int i = 1 ; i <= cur ; i ++ )radj[i].clear();
+    for(int i = 1 ; i <= n+n ; i ++ )
+        for(auto u : adj[i])
+            if(c[i]!=c[u])
+                radj[c[u]].pb(c[i]);
+    for(int i = 1 ; i <= cur ; i ++)
+        sort(radj[i].begin() , radj[i].end()),
+        radj[i].resize(unique(radj[i].begin() , radj[i].end())-radj[i].end()),
+        indeg[i] = (int)radj[i].size();
+    for(int i = 1 ; i <= cur ; i ++) adj[i].clear();
+    for(int i = 1 ; i <= cur ; i ++) for(auto u : radj[i]) adj[u].pb(i);
+    for(int i = 1 ; i <= cur ; i ++) if(indeg[i] == 0) q.push(i);
+    cur = 1;
+    while(!q.empty()){
+        auto v = q.front();
+        q.pop();
+        order[v] = cur ++;
+        for(auto u : adj[v]){
+            indeg[u]--;
+            if(indeg[u] == 0)
+                q.push(u);
+        }
+    }
+    for(int i = 1 ; i <= n ; i ++)
+        if(order[c[i]] < order[c[i+n]])
+            ans.pb(i);
+    cout << ans.size() << endl;
+    for(auto u : ans)
+        cout << u << ' ';
     return(0);
 }
