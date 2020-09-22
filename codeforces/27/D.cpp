@@ -25,49 +25,112 @@ const ld PI = acos((ld)-1);
 #define file_init freopen("input.txt", "r+", stdin); freopen("output.txt", "w+", stdout);
 ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*a)%md;b>>=1;}return(res);}
 
-struct twosat{ //~x = 2*x+1 , x = 2*x --> ~x = x^1
-	int n;
-	vector < vector < int > > in , out;
-	vector < int >  mark , col , topo , ans;
-	int c = 0;
-	twosat(int N):
-		n(N) , in(n*2+5) , out(n*2+5) , mark(n*2+5 , 0) , col(n*2+5, 0) , ans(n + 5){}
-	void add_edge(int v , int u){
-		in[u].pb(v) , out[v].pb(u);
-	}
-	void sfd(int v){
-		mark[v] = 1;
-		col[v] = c;
-		for(int u : in[v]) if(!mark[u])
-			sfd(u);
-	}
-	void dfs(int v){
-		mark[v] = 1;
-		for(int u : out[v]) if(!mark[u])
-			dfs(u);
-		topo.pb(v);
-	}
-	bool validate(){
-		for(int i = 1 ; i <= 2*n + 1 ; i ++)if(!mark[i])dfs(i);
-		reverse(topo.begin() , topo.end());
-		memset(&mark[0] , 0 , sizeof(mark[0]) * mark.size());
-		for(auto v : topo)
-			if(!mark[v])
-				c++ , sfd(v);
-		for(int i = 1 ; i <= n ; i ++)if(col[2*i] == col[2*i+1])return(0);
-		for(int i = 1 ; i <= n ; i ++)ans[i] = (col[2*i] > col[2*i + 1]);
-		return(1);
-	}
-	
+struct dinode{
+    vector < int > adj , radj;
+    int indeg = 0 , outdeg = 0;
+    int color = 0 , mark = 0;
+    int name;
 };
 
+struct digraph{
+    int n , m;
+    dinode V[maxn];
+    vector < pii > edge;
+    vector < int > order;
+    queue < int > q;
+    vector < int > ans;
+    int scc_cnt = 1;
+    void init(){
+        for(int i = 1 ; i <= n ; i ++)
+            V[i].name = i, V[i].adj.clear(), V[i].radj.clear();
+    }
+    void add_edge(int v , int u){
+        V[v].adj.pb(u);
+        V[u].radj.pb(v);
+        V[u].indeg++;
+        V[v].outdeg++;
+        edge.pb({u , v});
+    }
+    void dfs(int v){
+        V[v].mark = 1;
+        for (auto u : V[v].adj)
+            if(!V[u].mark)
+                dfs(u);
+        order.pb(v);
+    }
+    void sfd(int v){
+        V[v].color = scc_cnt;
+        for (auto u : V[v].radj)
+            if(!V[u].color)
+                sfd(u);
+    }
+    void scc(int n){
+        for (int i = 1 ; i <= n ; i ++)
+            if(!V[i].mark)
+                dfs(i);
+        reverse(order.begin() , order.end());
+        for (int i = 0 ; i < n ; i ++)
+            if(V[order[i]].color == 0)
+                sfd(order[i]),
+                scc_cnt++;
+        scc_cnt--;
+    }
+    
+    void topo(int n){
+        order = vector < int > (n+10, 0);
+        for(int i = 1 ; i <= n ; i ++) if(V[i].indeg == 0) q.push(i);
+        int cur = 1;
+        while(!q.empty()){
+            auto v = q.front();
+            q.pop();
+            order[v] = cur ++;
+            for(auto u : V[v].adj){
+                V[u].indeg--;
+                if(V[u].indeg == 0)
+                    q.push(u);
+            }
+        }
+    }
+    
+    void make_scc_dag(int n){
+        for(int i = 1 ; i <= scc_cnt ; i ++ )V[i].radj.clear();
+        for(int i = 1 ; i <= n ; i ++ )
+            for(auto u : V[i].adj)
+                if(V[i].color!=V[u].color)
+                    V[V[u].color].radj.pb(V[i].color);
+        for(int i = 1 ; i <= scc_cnt ; i ++)
+            sort(V[i].radj.begin() , V[i].radj.end()),
+            V[i].radj.resize(unique(V[i].radj.begin() , V[i].radj.end())-V[i].radj.end()),
+            V[i].indeg = (int)V[i].radj.size();
+        for(int i = 1 ; i <= scc_cnt ; i ++) V[i].adj.clear(), V[i].outdeg = 0;
+        for(int i = 1 ; i <= scc_cnt ; i ++) for(auto u : V[i].radj) V[u].adj.pb(i);
+        for(int i = 1 ; i <= scc_cnt ; i ++) V[i].outdeg = (int)V[i].adj.size();
+    }
+    
+    bool sat(){
+        // -v = v , v = v + n
+        scc(n + n);
+        for(int i = 1 ; i <= n ; i ++)
+            if(V[i].color == V[i + n].color)
+                return(0);
+        ans.clear();
+        make_scc_dag(n + n);
+        topo(scc_cnt);
+        for(int i = 1 ; i <= n ; i ++)
+            if(order[V[i].color] < order[V[i+n].color])
+                ans.pb(i);
+        return(1);
+    }
+};
+
+digraph d;
 int n , m;
 int a[maxn] , b[maxn];
 
 int32_t main(){
     migmig
     cin >> n >> m;
-    twosat d(m);
+    d.n = m;
     for(int i = 1 ; i <= m ; i ++)
         cin >> a[i] >> b[i];
     for(int i = 1 ; i <= m ; i ++)
@@ -78,14 +141,16 @@ int32_t main(){
             if(a[j] >= a[i] and b[j]<= b[i])continue;
             if(a[j] >= b[i]) continue;
             if(a[i] >= b[j]) continue;
-            d.add_edge(i*2 + 1 , j*2);
-            d.add_edge(i*2 , j*2 + 1);
+            d.add_edge(i+m , j);
+            d.add_edge(i, j+m);
         }
-    if(!d.validate())
+    if(!d.sat())
         dokme("Impossible");
     string s = "";
     for(int i = 1 ; i <= m ; i ++)
-		s += ((d.ans[i]) ? "o" : "i");
+        s += "o";
+    for(int i : d.ans)
+        s[i-1] = 'i';
     cout << s;
     return(0);
 }
