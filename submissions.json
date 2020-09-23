@@ -9051,6 +9051,22 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF93595408": {
+    "contest_id": 1215,
+    "language": "GNU C++17",
+    "path": "codeforces/1215/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Radio Stations",
+    "problem_url": "https://codeforces.com/contest/1215/problem/F",
+    "submission_id": "CF93595408",
+    "submission_url": "https://codeforces.com/contest/1215/submission/93595408",
+    "tags": [
+      "2-sat",
+      "*2700"
+    ],
+    "timestamp": "Sep/24/2020 00:13"
+  },
   "CF93920437": {
     "contest_id": 1425,
     "language": "GNU C++17",
