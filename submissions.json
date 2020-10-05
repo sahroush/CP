@@ -9051,6 +9051,25 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF94786025": {
+    "contest_id": 1423,
+    "language": "GNU C++17",
+    "path": "codeforces/1423/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Valuable Paper",
+    "problem_url": "https://codeforces.com/contest/1423/problem/B",
+    "submission_id": "CF94786025",
+    "submission_url": "https://codeforces.com/contest/1423/submission/94786025",
+    "tags": [
+      "binary search",
+      "flows",
+      "graph matchings",
+      "graphs",
+      "*1900"
+    ],
+    "timestamp": "Oct/05/2020 18:56"
+  },
   "CF94826664": {
     "contest_id": 173,
     "language": "GNU C++17",
