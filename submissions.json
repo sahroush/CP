@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF94826664": {
+    "contest_id": 173,
+    "language": "GNU C++17",
+    "path": "codeforces/173/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Camping Groups",
+    "problem_url": "https://codeforces.com/contest/173/problem/E",
+    "submission_id": "CF94826664",
+    "submission_url": "https://codeforces.com/contest/173/submission/94826664",
+    "tags": [
+      "data structures",
+      "sortings",
+      "*2600"
+    ],
+    "timestamp": "Oct/06/2020 10:31"
+  },
   "CF94828069": {
     "contest_id": 739,
     "language": "GNU C++17",
