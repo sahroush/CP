@@ -9051,6 +9051,26 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF95297059": {
+    "contest_id": 618,
+    "language": "GNU C++17",
+    "path": "codeforces/618/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Hamiltonian Spanning Tree",
+    "problem_url": "https://codeforces.com/contest/618/problem/D",
+    "submission_id": "CF95297059",
+    "submission_url": "https://codeforces.com/contest/618/submission/95297059",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graph matchings",
+      "greedy",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "Oct/11/2020 23:21"
+  },
   "CF95342188": {
     "contest_id": 724,
     "language": "GNU C++17",
