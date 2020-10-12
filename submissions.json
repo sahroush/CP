@@ -9051,6 +9051,27 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF95348206": {
+    "contest_id": 724,
+    "language": "GNU C++17",
+    "path": "codeforces/724/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Ray Tracing",
+    "problem_url": "https://codeforces.com/contest/724/problem/C",
+    "submission_id": "CF95348206",
+    "submission_url": "https://codeforces.com/contest/724/submission/95348206",
+    "tags": [
+      "greedy",
+      "hashing",
+      "implementation",
+      "math",
+      "number theory",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Oct/12/2020 17:13"
+  },
   "CF95449537": {
     "contest_id": 380,
     "language": "GNU C++17",
