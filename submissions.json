@@ -9051,6 +9051,25 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF95343537": {
+    "contest_id": 724,
+    "language": "GNU C++17",
+    "path": "codeforces/724/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Batch Sort",
+    "problem_url": "https://codeforces.com/contest/724/problem/B",
+    "submission_id": "CF95343537",
+    "submission_url": "https://codeforces.com/contest/724/submission/95343537",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Oct/12/2020 16:17"
+  },
   "CF95348206": {
     "contest_id": 724,
     "language": "GNU C++17",
