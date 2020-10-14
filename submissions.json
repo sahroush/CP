@@ -9051,6 +9051,26 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF95508311": {
+    "contest_id": 486,
+    "language": "GNU C++17",
+    "path": "codeforces/486/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "LIS of Sequence",
+    "problem_url": "https://codeforces.com/contest/486/problem/E",
+    "submission_id": "CF95508311",
+    "submission_url": "https://codeforces.com/contest/486/submission/95508311",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "hashing",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Oct/14/2020 16:49"
+  },
   "CF95519530": {
     "contest_id": 396,
     "language": "GNU C++17",
