@@ -30,25 +30,19 @@ int ord[maxn];
 int a[maxn];
 int b[maxn];
 int c[maxn];
+int A[maxn] , B[maxn];
 
-struct BIT{
-    int maxn;
-    vector < int > fen;
-    BIT(int n):
-        maxn(n + 100),
-        fen(maxn){};
-    void add(int x , int pos){
-        for(pos += 5 ; pos < maxn ; pos += pos & -pos)
-            fen[pos] += x;
-    }
+void add(int x , int pos , int (&fen)[maxn]){
+    for(pos += 5 ; pos < maxn ; pos += pos & -pos)
+        fen[pos] += x;
+}
 
-    int get(int pos){
-        int ans = 0;
-        for(pos += 5; pos ; pos -= pos & -pos)
-            ans += fen[pos];
-        return(ans);
-    }
-};
+int get(int pos , int (&fen)[maxn]){
+    int ans = 0;
+    for(pos += 5; pos ; pos -= pos & -pos)
+        ans += fen[pos];
+    return(ans);
+}
 
 struct oset{
     int maxn;
@@ -88,20 +82,19 @@ struct oset{
     }
 };
 
+oset st(maxn);
 
 int32_t main(){
     migmig
     cin >> n;
-    oset st(n);
-    BIT A(n) , B(n);
     for(int i = 0 ; i < n ; i  ++)  
         cin >> a[i];
     for(int i = 0 ; i < n ; i ++)
         cin >> b[i];
     for(int i = 0 ; i < n ; i ++)
-        ord[n - i - 1] = a[i] - A.get(a[i]) + b[i] - B.get(b[i]),
-        A.add(1 , a[i]),
-        B.add(1 , b[i]),
+        ord[n - i - 1] = a[i] - get(a[i] , A) + b[i] - get(b[i] , B),
+        add(1 , a[i] , A),
+        add(1 , b[i] , B),
         st.insert(i+1);
     for(int i = 0 ; i < n ; i ++ )
         ord[i+1] += ord[i]/(i+1) , ord[i] %= (i + 1);
