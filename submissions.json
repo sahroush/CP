@@ -18584,6 +18584,23 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF96178110": {
+    "contest_id": 1393,
+    "language": "GNU C++17",
+    "path": "codeforces/1393/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rainbow Dash, Fluttershy and Chess Coloring",
+    "problem_url": "https://codeforces.com/contest/1393/problem/A",
+    "submission_id": "CF96178110",
+    "submission_url": "https://codeforces.com/contest/1393/submission/96178110",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/20/2020 21:54"
+  },
   "CF96178129": {
     "contest_id": 1391,
     "language": "GNU C++17",
