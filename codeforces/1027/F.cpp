@@ -1,4 +1,4 @@
-/*
+//*
 #pragma GCC optimize("O2")
 #pragma GCC optimize("Ofast")
 #pragma GCC optimize("unroll-loops")
