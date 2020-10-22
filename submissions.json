@@ -18584,6 +18584,23 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF96397515": {
+    "contest_id": 935,
+    "language": "GNU C++17",
+    "path": "codeforces/935/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Fafa and Array",
+    "problem_url": "https://codeforces.com/contest/935/problem/F",
+    "submission_id": "CF96397515",
+    "submission_url": "https://codeforces.com/contest/935/submission/96397515",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*2600"
+    ],
+    "timestamp": "Oct/23/2020 00:02"
+  },
   "CF96455399": {
     "contest_id": 794,
     "language": "GNU C++17",
