@@ -130,7 +130,7 @@ int32_t main(){
     if(!solve(r))
         dokme(-1);
     while(r - l > 1){
-        int mid = l + (rng()%(r - l - 1)) + 1;
+        int mid = (l + r) / 2;
         if(solve(mid))
             r = mid;
         else
