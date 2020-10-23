@@ -18584,6 +18584,22 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF96455399": {
+    "contest_id": 794,
+    "language": "GNU C++17",
+    "path": "codeforces/794/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Leha and security system",
+    "problem_url": "https://codeforces.com/contest/794/problem/F",
+    "submission_id": "CF96455399",
+    "submission_url": "https://codeforces.com/contest/794/submission/96455399",
+    "tags": [
+      "data structures",
+      "*2800"
+    ],
+    "timestamp": "Oct/23/2020 18:02"
+  },
   "CF96536354": {
     "contest_id": 1436,
     "language": "GNU C++17",
