@@ -18584,6 +18584,23 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF96964603": {
+    "contest_id": 1023,
+    "language": "GNU C++17",
+    "path": "codeforces/1023/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Array Restoration",
+    "problem_url": "https://codeforces.com/contest/1023/problem/D",
+    "submission_id": "CF96964603",
+    "submission_url": "https://codeforces.com/contest/1023/submission/96964603",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "*1700"
+    ],
+    "timestamp": "Oct/28/2020 10:38"
+  },
   "CF97009935": {
     "contest_id": 115,
     "language": "GNU C++17",
