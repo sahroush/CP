@@ -1,4 +1,20 @@
 {
+  "AC17752999": {
+    "contest_id": "arc091",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc091/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Remainder Reminder",
+    "problem_url": "https://atcoder.jp/contests/arc091/tasks/arc091_b",
+    "submission_id": "AC17752999",
+    "submission_url": "https://atcoder.jp/contests/arc091/submissions/17752999",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Oct/31/2020 15:44"
+  },
   "AC17759496": {
     "contest_id": "arc091",
     "language": "C++ (GCC 9.2.1)",
