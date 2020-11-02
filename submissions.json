@@ -18584,6 +18584,24 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF97474388": {
+    "contest_id": 1443,
+    "language": "GNU C++17",
+    "path": "codeforces/1443/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Extreme Subtraction",
+    "problem_url": "https://codeforces.com/contest/1443/problem/D",
+    "submission_id": "CF97474388",
+    "submission_url": "https://codeforces.com/contest/1443/submission/97474388",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Nov/02/2020 19:22"
+  },
   "CF97681671": {
     "contest_id": 103,
     "language": "GNU C++17",
