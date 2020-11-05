@@ -18584,6 +18584,21 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF97711489": {
+    "contest_id": 398,
+    "language": "GNU C++17",
+    "path": "codeforces/398/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Instant Messanger",
+    "problem_url": "https://codeforces.com/contest/398/problem/D",
+    "submission_id": "CF97711489",
+    "submission_url": "https://codeforces.com/contest/398/submission/97711489",
+    "tags": [
+      "data structures"
+    ],
+    "timestamp": "Nov/05/2020 17:32"
+  },
   "CF97799265": {
     "contest_id": 771,
     "language": "GNU C++17",
