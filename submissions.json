@@ -18584,6 +18584,22 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF97799352": {
+    "contest_id": 771,
+    "language": "GNU C++17",
+    "path": "codeforces/771/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Bear and Company",
+    "problem_url": "https://codeforces.com/contest/771/problem/D",
+    "submission_id": "CF97799352",
+    "submission_url": "https://codeforces.com/contest/771/submission/97799352",
+    "tags": [
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "Nov/06/2020 21:53"
+  },
   "CF97901219": {
     "contest_id": 264,
     "language": "GNU C++17",
