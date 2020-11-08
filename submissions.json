@@ -18584,6 +18584,24 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF97943203": {
+    "contest_id": 653,
+    "language": "GNU C++17",
+    "path": "codeforces/653/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Paper task",
+    "problem_url": "https://codeforces.com/contest/653/problem/F",
+    "submission_id": "CF97943203",
+    "submission_url": "https://codeforces.com/contest/653/submission/97943203",
+    "tags": [
+      "data structures",
+      "string suffix structures",
+      "strings",
+      "*2600"
+    ],
+    "timestamp": "Nov/08/2020 22:04"
+  },
   "CF97970808": {
     "contest_id": 452,
     "language": "GNU C++17",
