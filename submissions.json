@@ -18584,6 +18584,22 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF97994425": {
+    "contest_id": 729,
+    "language": "GNU C++17",
+    "path": "codeforces/729/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Financiers Game",
+    "problem_url": "https://codeforces.com/contest/729/problem/F",
+    "submission_id": "CF97994425",
+    "submission_url": "https://codeforces.com/contest/729/submission/97994425",
+    "tags": [
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "Nov/09/2020 16:55"
+  },
   "CF98009867": {
     "contest_id": 873,
     "language": "GNU C++17",
