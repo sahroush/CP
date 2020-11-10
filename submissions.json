@@ -1,4 +1,20 @@
 {
+  "AC18037190": {
+    "contest_id": "abc182",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc182/F.cpp",
+    "platform": "AtCoder",
+    "problem_index": "F",
+    "problem_name": "Valid payments",
+    "problem_url": "https://atcoder.jp/contests/abc182/tasks/abc182_f",
+    "submission_id": "AC18037190",
+    "submission_url": "https://atcoder.jp/contests/abc182/submissions/18037190",
+    "tags": [
+      "AtCoder",
+      "*600"
+    ],
+    "timestamp": "Nov/10/2020 19:52"
+  },
   "AC18376629": {
     "contest_id": "arc108",
     "language": "C++ (GCC 9.2.1)",
