@@ -18584,6 +18584,25 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF98150787": {
+    "contest_id": 1150,
+    "language": "GNU C++17",
+    "path": "codeforces/1150/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Prefix Sum Primes",
+    "problem_url": "https://codeforces.com/contest/1150/problem/C",
+    "submission_id": "CF98150787",
+    "submission_url": "https://codeforces.com/contest/1150/submission/98150787",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Nov/11/2020 22:16"
+  },
   "CF98154654": {
     "contest_id": 1150,
     "language": "GNU C++17",
