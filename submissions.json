@@ -18584,6 +18584,23 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF98108771": {
+    "contest_id": 618,
+    "language": "GNU C++17",
+    "path": "codeforces/618/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Double Knapsack",
+    "problem_url": "https://codeforces.com/contest/618/problem/F",
+    "submission_id": "CF98108771",
+    "submission_url": "https://codeforces.com/contest/618/submission/98108771",
+    "tags": [
+      "constructive algorithms",
+      "two pointers",
+      "*3000"
+    ],
+    "timestamp": "Nov/11/2020 11:25"
+  },
   "CF98126787": {
     "contest_id": 653,
     "language": "GNU C++17",
