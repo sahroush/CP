@@ -36,7 +36,7 @@ int getpar(int v){
 void merge(int u , int v){
 	u = getpar(u), v = getpar(v);
 	if(u == v)return;
-	if(rng()%2)swap(u ,v);
+	if(sz[u] < sz[v])swap(u ,v);
 	comp --;
 	par[u] = v , sz[v] += sz[u];
 }
