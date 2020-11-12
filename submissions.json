@@ -18584,6 +18584,25 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF98225994": {
+    "contest_id": 1192,
+    "language": "GNU C++17",
+    "path": "codeforces/1192/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Dynamic Diameter",
+    "problem_url": "https://codeforces.com/contest/1192/problem/B",
+    "submission_id": "CF98225994",
+    "submission_url": "https://codeforces.com/contest/1192/submission/98225994",
+    "tags": [
+      "*special problem",
+      "data structures",
+      "dfs and similar",
+      "divide and conquer",
+      "trees"
+    ],
+    "timestamp": "Nov/12/2020 21:41"
+  },
   "CF98228821": {
     "contest_id": 38,
     "language": "GNU C++17",
