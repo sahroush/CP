@@ -1,4 +1,4 @@
-//*
+/*
 #pragma GCC optimize("O2")
 #pragma GCC optimize("Ofast")
 #pragma GCC optimize("unroll-loops")
@@ -23,21 +23,21 @@ const ld PI = acos((ld)-1);
 #define dokme(x) cout << x , exit(0)
 #define migmig ios::sync_with_stdio(false),cin.tie(0),cout.tie(0)
 #define ms(x , y) memset(x , y , sizeof x)
-//ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*a)%md;b>>=1;}return(res);}
+ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*a)%md;b>>=1;}return(res);}
 
 int n , q;
-int lazy[maxn*4][2], pw[maxn];
+int lazy[maxn*4][2];
 int ans[maxn*4];
 set < pii > st[maxn];
 
 void fufu(int v , int u){
 	lazy[u][0] += lazy[v][0];
-	lazy[u][1] = (lazy[u][1] *1LL* pw[lazy[v][0]])%mod;
+	lazy[u][1] = (lazy[u][1] *1LL* pw(2 , lazy[v][0]))%mod;
 	lazy[u][1] = (lazy[u][1] + lazy[v][1])%mod;
 }	
 
 void shift(int v , int l , int r){
-	ans[v] = (ans[v] *1LL* pw[lazy[v][0]])%mod;
+	ans[v] = (ans[v] *1LL* pw(2 , lazy[v][0]))%mod;
 	ans[v] = (ans[v] + (lazy[v][1] * 1LL * (r - l))%mod)%mod;
 	if(r - l > 1)
 		fufu(v , 2*v),
@@ -73,8 +73,6 @@ ll query(int L , int R , int v = 1 , int l = 1 , int r = n + 1){
 
 int32_t main(){
     migmig;
-    pw[0] = 1;
-    for (int i = 1; i < maxn; i++) pw[i] = 1LL * pw[i - 1] * 2 % mod;
 	cin >> n >> q;
 	while(q -- ){
 		int t , l , r , x;
@@ -86,7 +84,7 @@ int32_t main(){
 				L--;
 				if((*L).second < l) L++;
 			}
-			vector < pii > q;
+			deque < pii > q;
 			for(auto it = L ; it != R ; it = st[x].erase(it))q.pb(*it);
 			if(q.empty()){
 				update(l , r + 1 , 1);
