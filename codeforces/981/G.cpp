@@ -1,8 +1,9 @@
 //*
 #pragma GCC optimize("O2")
-#pragma GCC optimize("Ofast")
+#pragma GCC optimize("O3")
+//#pragma GCC optimize("Ofast")
 #pragma GCC optimize("unroll-loops")
-//#pragma GCC target("avx,avx2,sse,sse2,fma,tune=native")
+#pragma GCC target("avx,avx2,sse,sse2,fma,tune=native")
 //*/
 #include <bits/stdc++.h>
 
@@ -29,66 +30,6 @@ int n , q;
 int lazy[maxn*4][2], pw[maxn];
 int ans[maxn*4];
 set < pii > st[maxn];
-
-vector < pii > vec;
-
-struct range{
-	set < pii > st;
-	void add(int l , int r , vector < pii > &vec = vec){
-		vec.clear();
-		auto L = st.lower_bound({l , 0});
-		auto R = st.upper_bound({r , 1e9+3});
-		if(L != st.begin()){
-			L --;
-			if((*L).second < l)L++;
-		}
-		vector < pii > v;
-		for(auto it = L ; it != R ; it = st.erase(it))v.pb(*it);
-		if(v.empty()){
-			vec.pb({l , r});
-			st.insert({l , r});
-			return;
-		}
-		int cur = l;
-		int LL = l , RR = r;
-		for(auto ab : v){
-			auto a = ab.first;
-			auto b = ab.second;
-			if(a > cur)
-				vec.pb({cur , a-1}), cur = a;
-			LL = min(LL , a) , RR = max(RR , b);
-			cur = min(r , b) + 1;
-			st.erase({a , b});
-		}
-		if(v.back().second < r)vec.pb({cur , r});
-		st.insert({LL , RR});
-	}
-	void remove(int l , int r , vector < pii > &vec = vec){
-		vec.clear();
-		auto L = st.lower_bound({l , 0});
-		auto R = st.upper_bound({r , 1e9+3});
-		if(L != st.begin()){
-			L --;
-			if((*L).second < l)L++;
-		}
-		vector < pii > v;
-		for(auto it = L ; it != R ; it = st.erase(it))v.pb(*it);
-		if(v.empty()){
-			return;
-		}
-		for(auto ab : v){
-			auto a = ab.first;
-			auto b = ab.second;
-			st.erase({a , b});
-			vec.pb({max(l , a), min(b , r)});
-			if(a < l)
-				st.insert({a , l-1});
-			if(b > r)
-				st.insert({r+1 , b});
-		}
-	}
-};
-
 
 void fufu(int v , int u){
 	lazy[u][0] += lazy[v][0];
@@ -130,7 +71,6 @@ ll query(int L , int R , int v = 1 , int l = 1 , int r = n + 1){
 	return((query(L , R , 2*v , l , mid) + query(L , R , 2*v + 1 , mid , r))%mod);
 }	
 
-range R[maxn];
 
 int32_t main(){
     migmig;
@@ -142,14 +82,30 @@ int32_t main(){
 		cin >> t >> l >> r;
 		if(t == 1){
 			cin >> x;
-			R[x].add(l , r);
-			for(auto [L , R] : vec){
-				update(L , R + 1 , 1);
-				if(l < L)
-					update(l , L , 0);
-				l = R + 1;
+			auto L = st[x].lower_bound({ l , 0}) , R = st[x].upper_bound({r , n});
+			if(L != st[x].begin()){
+				L--;
+				if((*L).second < l) L++;
 			}
-			update(l , r+1 , 0);
+			vector < pii > q;
+			for(auto it = L ; it != R ; it = st[x].erase(it))q.pb(*it);
+			if(q.empty()){
+				update(l , r + 1 , 1);
+				st[x].insert({ l  , r });
+				continue;
+			}
+			int cur = l;
+			int LL = l , RR = r;
+			for(auto [a , b] : q){
+				if(a > cur)
+					update(cur , a , 1) , cur = a;
+				LL = min(LL , a) , RR = max(RR , b);
+				update(cur , min(r , b)+1 , 0);
+				cur = min(r , b) + 1;
+				st[x].erase({a , b});
+			}
+			if(q.back().second < r)update(cur , r+1 , 1);
+			st[x].insert({LL , RR});
 		}
 		else{
 			cout << query(l , ++r) << endl;
