@@ -71,8 +71,7 @@ int32_t main(){
 		res = cur * dp[i][pos];
 		if(res[1].count()){
 			ans += (1LL << ll(i));
-			//cur = res;
-			swap(cur , res);
+			cur = res;
 			pos = 1 - pos;
 		}
 		if(ans > 1e18)
