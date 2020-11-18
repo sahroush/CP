@@ -1,7 +1,7 @@
 //*
 //#pragma GCC optimize("O2")
-#pragma GCC optimize("Ofast")
-//#pragma GCC optimize("unroll-loops")
+//#pragma GCC optimize("Ofast")
+#pragma GCC optimize("unroll-loops")
 #pragma GCC target("avx,avx2,sse,sse2,fma")
 //*/
 #include <bits/stdc++.h>
@@ -40,8 +40,8 @@ struct mat{
 	friend mat operator * (mat &a  , mat &b){
 		mat c;
 		c.build(a.n , b.m);
-		for(int j = 1 ; j <= a.m ; j ++)
-			for(int i = 1 ; i <= a.n ; i ++)if(a[i][j])
+		for(int i = 1 ; i <= a.n ; i ++)
+			for(int j = 1 ; j <= a.m ; j ++)if(a[i][j])
 				c[i] |= b[j];
 		return(c);
 	}	
