@@ -37,7 +37,7 @@ struct mat{
 		n = N , m = M;
 		for(int i = 1 ; i <= n ; i ++)a[i] = 0;
 	}
-	friend mat operator * (mat a  , mat b){
+	friend mat operator * (mat &a  , mat &b){
 		mat c;
 		c.build(a.n , b.m);
 		for(int j = 1 ; j <= a.m ; j ++)
