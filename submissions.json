@@ -18584,6 +18584,25 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF98822607": {
+    "contest_id": 780,
+    "language": "GNU C++17",
+    "path": "codeforces/780/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Axel and Marston in Bitland",
+    "problem_url": "https://codeforces.com/contest/780/problem/F",
+    "submission_id": "CF98822607",
+    "submission_url": "https://codeforces.com/contest/780/submission/98822607",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "graphs",
+      "matrices",
+      "*2400"
+    ],
+    "timestamp": "Nov/18/2020 18:25"
+  },
   "CF98822643": {
     "contest_id": 780,
     "language": "GNU C++17",
