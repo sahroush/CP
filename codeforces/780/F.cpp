@@ -37,7 +37,7 @@ struct mat{
 		n = N , m = M;
 		for(int i = 1 ; i <= n ; i ++)a[i] = 0;
 	}
-	friend mat operator * (mat &a  , mat &b){
+	friend mat operator * (mat &a  , mat b){
 		mat c;
 		c.build(a.n , b.m);
 		for(int j = 1 ; j <= a.m ; j ++)
@@ -71,7 +71,7 @@ int32_t main(){
 		res = cur * dp[i][pos];
 		if(res[1].count()){
 			ans += (1LL << ll(i));
-			cur = res;
+			swap(cur , res);
 			pos = 1 - pos;
 		}
 		if(ans > 1e18)
