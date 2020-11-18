@@ -2,7 +2,7 @@
 //#pragma GCC optimize("O2")
 //#pragma GCC optimize("Ofast")
 #pragma GCC optimize("unroll-loops")
-#pragma GCC target("avx,avx2,sse,sse2,fma")
+//#pragma GCC target("avx,avx2,sse,sse2,fma")
 //*/
 #include <bits/stdc++.h>
 
