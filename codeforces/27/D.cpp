@@ -32,7 +32,6 @@ struct twosat{ //~x = 2*x+1 , x = 2*x --> ~x = x^1
 	int c = 0;
 	twosat(int N):
 		n(N) , in(n*2+5) , out(n*2+5) , mark(n*2+5 , 0) , col(n*2+5, 0) , ans(n + 5){}
-	bool operator [] (int x){ return(ans[x]);};
 	void add_edge(int v , int u){
 		in[u].pb(v) , out[v].pb(u);
 	}
@@ -86,7 +85,7 @@ int32_t main(){
         dokme("Impossible");
     string s = "";
     for(int i = 1 ; i <= m ; i ++)
-		s += ((d[i]) ? "o" : "i");
+		s += ((d.ans[i]) ? "o" : "i");
     cout << s;
     return(0);
 }
