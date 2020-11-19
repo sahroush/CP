@@ -18584,6 +18584,25 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF98980016": {
+    "contest_id": 27,
+    "language": "GNU C++17",
+    "path": "codeforces/27/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Ring Road 2",
+    "problem_url": "https://codeforces.com/contest/27/problem/D",
+    "submission_id": "CF98980016",
+    "submission_url": "https://codeforces.com/contest/27/submission/98980016",
+    "tags": [
+      "2-sat",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2200"
+    ],
+    "timestamp": "Nov/19/2020 22:03"
+  },
   "CF98980025": {
     "contest_id": 27,
     "language": "GNU C++11",
