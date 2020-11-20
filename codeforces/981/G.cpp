@@ -1,7 +1,7 @@
 //*
-//#pragma GCC optimize("O2")
-//#pragma GCC optimize("Ofast")
-//#pragma GCC optimize("unroll-loops")
+#pragma GCC optimize("O2")
+#pragma GCC optimize("Ofast")
+#pragma GCC optimize("unroll-loops")
 //#pragma GCC target("avx,avx2,sse,sse2,fma,tune=native")
 //*/
 #include <bits/stdc++.h>
@@ -30,19 +30,19 @@ int lazy[maxn*4][2], pw[maxn];
 int ans[maxn*4];
 set < pii > st[maxn];
 
-vector < pii > vec , v;
+vector < pii > vec;
 
 struct range{
 	set < pii > st;
 	void add(int l , int r , vector < pii > &vec = vec){
 		vec.clear();
-		v.clear();
 		auto L = st.lower_bound({l , 0});
 		auto R = st.upper_bound({r , 1e9+3});
 		if(L != st.begin()){
 			L --;
 			if((*L).second < l)L++;
 		}
+		vector < pii > v;
 		for(auto it = L ; it != R ; it = st.erase(it))v.pb(*it);
 		if(v.empty()){
 			vec.pb({l , r});
@@ -65,13 +65,13 @@ struct range{
 	}
 	void remove(int l , int r , vector < pii > &vec = vec){
 		vec.clear();
-		v.clear();
 		auto L = st.lower_bound({l , 0});
 		auto R = st.upper_bound({r , 1e9+3});
 		if(L != st.begin()){
 			L --;
 			if((*L).second < l)L++;
 		}
+		vector < pii > v;
 		for(auto it = L ; it != R ; it = st.erase(it))v.pb(*it);
 		if(v.empty()){
 			return;
