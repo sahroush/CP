@@ -165,8 +165,7 @@ ll solve(int l , int r){
 	sort(srt + 1 , srt + cur + 1);
 	ll ans = 0;
 	for(int i = 1 ; i <= cur ; i ++){
-		int y = srt[i].first;
-		int x = srt[i].second;
+		auto [y , x] = srt[i];
 		if(x == cur)continue;
 		if(a[x]+1 == a[x + 1])
 			merge(x , x + 1) , ans = max(ans ,sz[getpar(x)]*1LL*-y);
