@@ -29,7 +29,7 @@ ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*
 #define lc (v<<1)
 #define rc (lc|1)
 
-const int sq = 50;
+const int sq = 70;
 
 int n , q;
 string s[maxn];
