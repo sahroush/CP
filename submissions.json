@@ -18584,6 +18584,25 @@
     ],
     "timestamp": "Sep/18/2020 11:14"
   },
+  "CF99279390": {
+    "contest_id": 995,
+    "language": "GNU C++17",
+    "path": "codeforces/995/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Cowmpany Cowmpensation",
+    "problem_url": "https://codeforces.com/contest/995/problem/F",
+    "submission_id": "CF99279390",
+    "submission_url": "https://codeforces.com/contest/995/submission/99279390",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "trees",
+      "*2700"
+    ],
+    "timestamp": "Nov/23/2020 00:11"
+  },
   "CF99349464": {
     "contest_id": 587,
     "language": "GNU C++17",
