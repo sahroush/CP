@@ -1,4 +1,20 @@
 {
+  "AC18376958": {
+    "contest_id": "agc040",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc040/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Neither AB nor BA",
+    "problem_url": "https://atcoder.jp/contests/agc040/tasks/agc040_c",
+    "submission_id": "AC18376958",
+    "submission_url": "https://atcoder.jp/contests/agc040/submissions/18376958",
+    "tags": [
+      "AtCoder",
+      "*800"
+    ],
+    "timestamp": "Nov/23/2020 20:18"
+  },
   "AC18507771": {
     "contest_id": "agc039",
     "language": "C++ (GCC 9.2.1)",
