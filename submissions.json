@@ -14494,6 +14494,23 @@
     ],
     "timestamp": "Jun/01/2020 17:18"
   },
+  "CF99506142": {
+    "contest_id": 587,
+    "language": "GNU C++17",
+    "path": "codeforces/587/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Duff in Mafia",
+    "problem_url": "https://codeforces.com/contest/587/problem/D",
+    "submission_id": "CF99506142",
+    "submission_url": "https://codeforces.com/contest/587/submission/99506142",
+    "tags": [
+      "2-sat",
+      "binary search",
+      "*3100"
+    ],
+    "timestamp": "Nov/24/2020 23:27"
+  },
   "CF99592791": {
     "contest_id": 808,
     "language": "GNU C++17",
