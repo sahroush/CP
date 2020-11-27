@@ -14494,6 +14494,23 @@
     ],
     "timestamp": "Jun/01/2020 17:18"
   },
+  "CF99747124": {
+    "contest_id": 450,
+    "language": "GNU C++17",
+    "path": "codeforces/450/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Jzzhu and Chocolate",
+    "problem_url": "https://codeforces.com/contest/450/problem/C",
+    "submission_id": "CF99747124",
+    "submission_url": "https://codeforces.com/contest/450/submission/99747124",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Nov/27/2020 23:34"
+  },
   "CF99747130": {
     "contest_id": 558,
     "language": "GNU C++17",
