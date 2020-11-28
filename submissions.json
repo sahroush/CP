@@ -14494,6 +14494,25 @@
     ],
     "timestamp": "Jun/01/2020 17:18"
   },
+  "CF99811946": {
+    "contest_id": 492,
+    "language": "GNU C++17",
+    "path": "codeforces/492/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Vanya and Computer Game",
+    "problem_url": "https://codeforces.com/contest/492/problem/D",
+    "submission_id": "CF99811946",
+    "submission_url": "https://codeforces.com/contest/492/submission/99811946",
+    "tags": [
+      "binary search",
+      "implementation",
+      "math",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Nov/28/2020 21:25"
+  },
   "CF99922477": {
     "contest_id": 898,
     "language": "GNU C++17",
