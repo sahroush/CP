@@ -51,7 +51,7 @@ struct hsh{
 	}
 };
 
-const int cnt = 10;
+const int cnt = 1;
 int n;
 hsh h[cnt];
 
