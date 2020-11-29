@@ -14493,5 +14493,25 @@
       "*2300"
     ],
     "timestamp": "Jun/01/2020 17:18"
+  },
+  "CF99930966": {
+    "contest_id": 778,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/778/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Bitwise Formula",
+    "problem_url": "https://codeforces.com/contest/778/problem/B",
+    "submission_id": "CF99930966",
+    "submission_url": "https://codeforces.com/contest/778/submission/99930966",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dfs and similar",
+      "expression parsing",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Nov/29/2020 21:42"
   }
 }
