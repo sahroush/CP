@@ -1,7 +1,6 @@
-//*
+/*
 #pragma GCC optimize("O2")
-#pragma GCC optimize("fast-math")
-//#pragma GCC optimize("Ofast")
+#pragma GCC optimize("Ofast")
 #pragma GCC optimize("unroll-loops")
 #pragma GCC target("avx,avx2,sse,sse2,fma")
 //*/
