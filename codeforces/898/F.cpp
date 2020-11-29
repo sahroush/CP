@@ -31,14 +31,14 @@ struct hsh{
 	int base;
 	ll mod;
 	vector < int > h , pw;
-	inline void calc(){
+	void calc(){
 		pw[0] = 1;
 		for(int i = 1 ; i <= n ; i ++)
 			pw[i] = (pw[i-1] * 1LL * base)%mod;
 		for(int i = 1 ; i <= n ; i ++)
 			h[i] = (h[i-1] * 1LL * base + s[i-1] - '0')%mod;
 	}
-	inline void init(string &s){
+	void init(string &s){
 		n = s.size();
 		base = 10;
 		h.reserve(n + 1);
@@ -55,7 +55,7 @@ const int cnt = 1;
 int n;
 hsh h[cnt];
 
-inline void chk(int a , int b){
+void chk(int a , int b){
 	if(a < 1 or b >= n or b <= a) return;
 	for(int i = 0 ; i < cnt ; i ++)
 		if((h[i].get(1 , a) + h[i].get(a+1 , b))%h[i].mod != h[i].get(b+1 , n))
