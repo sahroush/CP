@@ -1,4 +1,22 @@
 {
+  "CF100206023": {
+    "contest_id": 793,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/793/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Julia the snail",
+    "problem_url": "https://codeforces.com/contest/793/problem/F",
+    "submission_id": "CF100206023",
+    "submission_url": "https://codeforces.com/contest/793/submission/100206023",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "*3000"
+    ],
+    "timestamp": "Dec/02/2020 19:14"
+  },
   "CF100339240": {
     "contest_id": 1451,
     "language": "GNU C++17",
