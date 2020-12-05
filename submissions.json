@@ -1,4 +1,20 @@
 {
+  "CF100480058": {
+    "contest_id": 45,
+    "language": "GNU C++17",
+    "path": "codeforces/45/H.cpp",
+    "platform": "Codeforces",
+    "problem_index": "H",
+    "problem_name": "Road Problem",
+    "problem_url": "https://codeforces.com/contest/45/problem/H",
+    "submission_id": "CF100480058",
+    "submission_url": "https://codeforces.com/contest/45/submission/100480058",
+    "tags": [
+      "graphs",
+      "*2100"
+    ],
+    "timestamp": "Dec/06/2020 00:33"
+  },
   "CF100524786": {
     "contest_id": 1450,
     "language": "GNU C++17",
