@@ -38,8 +38,7 @@ void dfs(int v = 1 , int par = 0){
 
 void merge(int u , int v){
 	if(mp[u].size() > mp[v].size())swap(mp[u] , mp[v]) , ans[v] = ans[u];
-	for(auto fs : mp[u]){
-	    int f = fs.first , s = fs.second;
+	for(auto [f , s] : mp[u]){
 		mp[v][f] += s;
 		if(mp[v][f] > mp[v][ans[v]])ans[v] = f;
 		if(mp[v][f] == mp[v][ans[v]])ans[v] = min(ans[v] , f);
