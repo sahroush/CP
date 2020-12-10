@@ -3247,6 +3247,24 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF100863399": {
+    "contest_id": 573,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/573/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Bear and Cavalry",
+    "problem_url": "https://codeforces.com/contest/573/problem/D",
+    "submission_id": "CF100863399",
+    "submission_url": "https://codeforces.com/contest/573/submission/100863399",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "*3000"
+    ],
+    "timestamp": "Dec/10/2020 23:50"
+  },
   "CF100962063": {
     "contest_id": 1360,
     "language": "GNU C++17 (64)",
