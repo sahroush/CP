@@ -3247,6 +3247,23 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF100963219": {
+    "contest_id": 869,
+    "language": "JavaScript",
+    "path": "codeforces/869/A.js",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "The Artful Expedient",
+    "problem_url": "https://codeforces.com/contest/869/problem/A",
+    "submission_id": "CF100963219",
+    "submission_url": "https://codeforces.com/contest/869/submission/100963219",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/11/2020 21:07"
+  },
   "CF100963257": {
     "contest_id": 550,
     "language": "GNU C++17",
