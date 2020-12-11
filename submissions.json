@@ -3247,6 +3247,25 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF100963136": {
+    "contest_id": 696,
+    "language": "GNU C++17",
+    "path": "codeforces/696/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Puzzles",
+    "problem_url": "https://codeforces.com/contest/696/problem/B",
+    "submission_id": "CF100963136",
+    "submission_url": "https://codeforces.com/contest/696/submission/100963136",
+    "tags": [
+      "dfs and similar",
+      "math",
+      "probabilities",
+      "trees",
+      "*1700"
+    ],
+    "timestamp": "Dec/11/2020 21:06"
+  },
   "CF100963168": {
     "contest_id": 696,
     "language": "GNU C++17",
