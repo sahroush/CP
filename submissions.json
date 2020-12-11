@@ -3247,6 +3247,23 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF100962319": {
+    "contest_id": 1382,
+    "language": "GNU C++17",
+    "path": "codeforces/1382/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sequential Nim",
+    "problem_url": "https://codeforces.com/contest/1382/problem/B",
+    "submission_id": "CF100962319",
+    "submission_url": "https://codeforces.com/contest/1382/submission/100962319",
+    "tags": [
+      "dp",
+      "games",
+      "*1100"
+    ],
+    "timestamp": "Dec/11/2020 20:58"
+  },
   "CF100962350": {
     "contest_id": 1382,
     "language": "GNU C++17",
