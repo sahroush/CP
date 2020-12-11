@@ -3247,6 +3247,24 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF100962452": {
+    "contest_id": 1384,
+    "language": "GNU C++17",
+    "path": "codeforces/1384/B1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B1",
+    "problem_name": "Koa and the Beach (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1384/problem/B1",
+    "submission_id": "CF100962452",
+    "submission_url": "https://codeforces.com/contest/1384/submission/100962452",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Dec/11/2020 20:59"
+  },
   "CF100962535": {
     "contest_id": 1393,
     "language": "GNU C++17",
