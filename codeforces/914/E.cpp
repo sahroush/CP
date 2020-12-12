@@ -1,6 +1,6 @@
-/*
+//*
 #pragma GCC optimize("O2")
-#pragma GCC optimize("Ofast")
+//#pragma GCC optimize("Ofast")
 #pragma GCC optimize("unroll-loops")
 #pragma GCC target("avx,avx2,sse,sse2,fma")
 //*/
@@ -14,7 +14,7 @@ typedef pair<int  ,int > pii;
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
-const ll maxn  = 3e6 + 100;
+const ll maxn  = 2e6 + 1e5;
 const ll mod =1e9+7;
 const ld PI = acos((ld)-1);
 
