@@ -3247,6 +3247,24 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF101931950": {
+    "contest_id": 962,
+    "language": "GNU C++17",
+    "path": "codeforces/962/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Simple Cycles Edges",
+    "problem_url": "https://codeforces.com/contest/962/problem/F",
+    "submission_id": "CF101931950",
+    "submission_url": "https://codeforces.com/contest/962/submission/101931950",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Dec/21/2020 09:04"
+  },
   "CF101990738": {
     "contest_id": 555,
     "language": "GNU C++17",
