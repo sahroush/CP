@@ -3247,6 +3247,23 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF102100405": {
+    "contest_id": 294,
+    "language": "GNU C++17",
+    "path": "codeforces/294/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Shaass the Great",
+    "problem_url": "https://codeforces.com/contest/294/problem/E",
+    "submission_id": "CF102100405",
+    "submission_url": "https://codeforces.com/contest/294/submission/102100405",
+    "tags": [
+      "dp",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Dec/23/2020 11:56"
+  },
   "CF102115353": {
     "contest_id": 1118,
     "language": "GNU C++17",
