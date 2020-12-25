@@ -3247,6 +3247,25 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF102342917": {
+    "contest_id": 748,
+    "language": "GNU C++17",
+    "path": "codeforces/748/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Santa Clauses and a Soccer Championship",
+    "problem_url": "https://codeforces.com/contest/748/problem/F",
+    "submission_id": "CF102342917",
+    "submission_url": "https://codeforces.com/contest/748/submission/102342917",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Dec/25/2020 21:35"
+  },
   "CF102422515": {
     "contest_id": 1065,
     "language": "GNU C++17",
