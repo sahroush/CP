@@ -1,4 +1,21 @@
 {
+  "CF102338843": {
+    "contest_id": 748,
+    "language": "GNU C++17",
+    "path": "codeforces/748/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Santa Claus and Robot",
+    "problem_url": "https://codeforces.com/contest/748/problem/C",
+    "submission_id": "CF102338843",
+    "submission_url": "https://codeforces.com/contest/748/submission/102338843",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Dec/25/2020 20:29"
+  },
   "CF102342917": {
     "contest_id": 748,
     "language": "GNU C++17",
