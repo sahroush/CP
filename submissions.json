@@ -1,4 +1,21 @@
 {
+  "CF102337278": {
+    "contest_id": 748,
+    "language": "GNU C++17",
+    "path": "codeforces/748/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Santa Claus and a Place in a Class",
+    "problem_url": "https://codeforces.com/contest/748/problem/A",
+    "submission_id": "CF102337278",
+    "submission_url": "https://codeforces.com/contest/748/submission/102337278",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/25/2020 19:59"
+  },
   "CF102337962": {
     "contest_id": 748,
     "language": "GNU C++17",
