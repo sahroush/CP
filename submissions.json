@@ -1,4 +1,20 @@
 {
+  "AC19088433": {
+    "contest_id": "abc185",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc185/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Stamp",
+    "problem_url": "https://atcoder.jp/contests/abc185/tasks/abc185_d",
+    "submission_id": "AC19088433",
+    "submission_url": "https://atcoder.jp/contests/abc185/submissions/19088433",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Dec/31/2020 22:31"
+  },
   "AC19088436": {
     "contest_id": "abc185",
     "language": "C++ (GCC 9.2.1)",
