@@ -1,4 +1,20 @@
 {
+  "AC19088379": {
+    "contest_id": "abc169",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc169/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Count Median",
+    "problem_url": "https://atcoder.jp/contests/abc169/tasks/abc169_e",
+    "submission_id": "AC19088379",
+    "submission_url": "https://atcoder.jp/contests/abc169/submissions/19088379",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/31/2020 22:23"
+  },
   "AC19088396": {
     "contest_id": "abc172",
     "language": "C++ (GCC 9.2.1)",
