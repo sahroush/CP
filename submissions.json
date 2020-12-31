@@ -1,4 +1,20 @@
 {
+  "AC19088407": {
+    "contest_id": "abc181",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc181/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Hachi",
+    "problem_url": "https://atcoder.jp/contests/abc181/tasks/abc181_d",
+    "submission_id": "AC19088407",
+    "submission_url": "https://atcoder.jp/contests/abc181/submissions/19088407",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Dec/31/2020 22:28"
+  },
   "AC19088409": {
     "contest_id": "abc181",
     "language": "C++ (GCC 9.2.1)",
