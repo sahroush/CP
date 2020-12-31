@@ -1,4 +1,20 @@
 {
+  "AC19088398": {
+    "contest_id": "abc172",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc172/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Minor Change",
+    "problem_url": "https://atcoder.jp/contests/abc172/tasks/abc172_b",
+    "submission_id": "AC19088398",
+    "submission_url": "https://atcoder.jp/contests/abc172/submissions/19088398",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Dec/31/2020 22:26"
+  },
   "AC19088399": {
     "contest_id": "abc172",
     "language": "C++ (GCC 9.2.1)",
