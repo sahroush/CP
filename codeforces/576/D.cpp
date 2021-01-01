@@ -46,7 +46,7 @@ struct matrix{
 	friend matrix operator * (matrix a , matrix b){
 		matrix c;
 		for(int i = 1 ; i <= n ; i ++)
-			for(int j = 1 ; j <= n ; j ++)
+			for(int j = a.m[i]._Find_first() ; j < maxn ; j = a.m[i]._Find_next(j))
 				if(a.m[i][j])
 					c.m[i] |= b.m[j];
 		return(c);
