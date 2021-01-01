@@ -1,4 +1,21 @@
 {
+  "CF102968248": {
+    "contest_id": 576,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/576/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Flights for Regular Customers",
+    "problem_url": "https://codeforces.com/contest/576/problem/D",
+    "submission_id": "CF102968248",
+    "submission_url": "https://codeforces.com/contest/576/submission/102968248",
+    "tags": [
+      "dp",
+      "matrices",
+      "*2700"
+    ],
+    "timestamp": "Jan/01/2021 18:42"
+  },
   "CF102979918": {
     "contest_id": 918,
     "language": "GNU C++17",
