@@ -3247,6 +3247,25 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF103076589": {
+    "contest_id": 761,
+    "language": "GNU C++17",
+    "path": "codeforces/761/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Dasha and Photos",
+    "problem_url": "https://codeforces.com/contest/761/problem/F",
+    "submission_id": "CF103076589",
+    "submission_url": "https://codeforces.com/contest/761/submission/103076589",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "implementation",
+      "*2600"
+    ],
+    "timestamp": "Jan/03/2021 11:00"
+  },
   "CF103079825": {
     "contest_id": 965,
     "language": "GNU C++17",
