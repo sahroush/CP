@@ -1,4 +1,21 @@
 {
+  "CF103076510": {
+    "contest_id": 940,
+    "language": "GNU C++17",
+    "path": "codeforces/940/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Machine Learning",
+    "problem_url": "https://codeforces.com/contest/940/problem/F",
+    "submission_id": "CF103076510",
+    "submission_url": "https://codeforces.com/contest/940/submission/103076510",
+    "tags": [
+      "brute force",
+      "data structures",
+      "*2600"
+    ],
+    "timestamp": "Jan/03/2021 10:58"
+  },
   "CF103076589": {
     "contest_id": 761,
     "language": "GNU C++17",
