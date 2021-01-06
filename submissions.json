@@ -1,4 +1,21 @@
 {
+  "CF103578325": {
+    "contest_id": 807,
+    "language": "GNU C++17",
+    "path": "codeforces/807/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "T-Shirt Hunt",
+    "problem_url": "https://codeforces.com/contest/807/problem/B",
+    "submission_id": "CF103578325",
+    "submission_url": "https://codeforces.com/contest/807/submission/103578325",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jan/06/2021 22:31"
+  },
   "CF103578351": {
     "contest_id": 807,
     "language": "GNU C++17",
