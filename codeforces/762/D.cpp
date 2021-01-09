@@ -32,17 +32,9 @@ ll dp[5][maxn];
 int32_t main(){
     migmig;
 	cin >> n;
-	for(int j = 1 ; j <= 3 ; j ++)
-		for(int i = 1 ; i <= n ; i ++)
-			cin >> a[j][i];
+	for(int j = 1 ; j <= 3 ; j ++)for(int i = 1 ; i <= n ; i ++)cin >> a[j][i];
 	dp[1][1] = a[1][1] , dp[2][1] = dp[1][1] + a[2][1] , dp[3][1] = dp[2][1] + a[3][1];
-	for(int j = 2 ; j <= n ; j ++){
-		dp[1][j] = a[1][j] + max({dp[1][j-1] , dp[2][j-1] + a[2][j] , dp[3][j - 1] + a[2][j] + a[3][j],
-			dp[3][j-2]+a[3][j-1]+a[2][j-1]+a[1][j-1]+a[2][j]+a[3][j]});
-		dp[2][j] = a[2][j] + max({dp[1][j-1] + a[1][j] , dp[2][j-1] , dp[3][j-1]+a[3][j]});
-		dp[3][j] = a[3][j] + max({dp[3][j-1] , dp[2][j-1] + a[2][j] , dp[1][j-1]+a[2][j] + a[1][j],
-			dp[1][j-2]+a[3][j-1]+a[2][j-1]+a[1][j-1]+a[2][j]+a[1][j]});
-	}
+	for(int j = 2 ; j <= n ; j ++)dp[1][j] = a[1][j] + max({dp[1][j-1] , dp[2][j-1] + a[2][j] , dp[3][j - 1] + a[2][j] + a[3][j],dp[3][j-2]+a[3][j-1]+a[2][j-1]+a[1][j-1]+a[2][j]+a[3][j]}),dp[2][j] = a[2][j] + max({dp[1][j-1] + a[1][j] , dp[2][j-1] , dp[3][j-1]+a[3][j]}),dp[3][j] = a[3][j] + max({dp[3][j-1] , dp[2][j-1] + a[2][j] , dp[1][j-1]+a[2][j] + a[1][j],dp[1][j-2]+a[3][j-1]+a[2][j-1]+a[1][j-1]+a[2][j]+a[1][j]});
 	cout << dp[3][n];
     return(0);
 }
