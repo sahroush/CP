@@ -1,4 +1,22 @@
 {
+  "CF103876826": {
+    "contest_id": 1187,
+    "language": "GNU C++17",
+    "path": "codeforces/1187/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Expected Square Beauty",
+    "problem_url": "https://codeforces.com/contest/1187/problem/F",
+    "submission_id": "CF103876826",
+    "submission_url": "https://codeforces.com/contest/1187/submission/103876826",
+    "tags": [
+      "dp",
+      "math",
+      "probabilities",
+      "*2500"
+    ],
+    "timestamp": "Jan/09/2021 15:37"
+  },
   "CF103894913": {
     "contest_id": 1452,
     "language": "GNU C++17",
