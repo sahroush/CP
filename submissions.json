@@ -1,4 +1,21 @@
 {
+  "CF103910108": {
+    "contest_id": 762,
+    "language": "GNU C++17",
+    "path": "codeforces/762/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Radio stations",
+    "problem_url": "https://codeforces.com/contest/762/problem/E",
+    "submission_id": "CF103910108",
+    "submission_url": "https://codeforces.com/contest/762/submission/103910108",
+    "tags": [
+      "binary search",
+      "data structures",
+      "*2200"
+    ],
+    "timestamp": "Jan/09/2021 22:28"
+  },
   "CF103914924": {
     "contest_id": 762,
     "language": "GNU C++17",
