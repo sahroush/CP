@@ -3247,6 +3247,24 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF103914924": {
+    "contest_id": 762,
+    "language": "GNU C++17",
+    "path": "codeforces/762/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Maximum path",
+    "problem_url": "https://codeforces.com/contest/762/problem/D",
+    "submission_id": "CF103914924",
+    "submission_url": "https://codeforces.com/contest/762/submission/103914924",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "*2300"
+    ],
+    "timestamp": "Jan/09/2021 23:39"
+  },
   "CF103914973": {
     "contest_id": 762,
     "language": "GNU C++17",
