@@ -1,4 +1,20 @@
 {
+  "AC19471782": {
+    "contest_id": "keyence2021",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/keyence2021/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Choosing Up Sides",
+    "problem_url": "https://atcoder.jp/contests/keyence2021/tasks/keyence2021_d",
+    "submission_id": "AC19471782",
+    "submission_url": "https://atcoder.jp/contests/keyence2021/submissions/19471782",
+    "tags": [
+      "AtCoder",
+      "*700"
+    ],
+    "timestamp": "Jan/16/2021 16:35"
+  },
   "AC19515421": {
     "contest_id": "joisc2018",
     "language": "C++ (GCC 9.2.1)",
