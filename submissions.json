@@ -1,4 +1,24 @@
 {
+  "CF104614226": {
+    "contest_id": 516,
+    "language": "GNU C++17",
+    "path": "codeforces/516/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Drazil and Morning Exercise",
+    "problem_url": "https://codeforces.com/contest/516/problem/D",
+    "submission_id": "CF104614226",
+    "submission_url": "https://codeforces.com/contest/516/submission/104614226",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "trees",
+      "two pointers",
+      "*2800"
+    ],
+    "timestamp": "Jan/17/2021 22:50"
+  },
   "CF105082609": {
     "contest_id": 1468,
     "language": "GNU C++17",
