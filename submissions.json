@@ -1,4 +1,20 @@
 {
+  "AC19515479": {
+    "contest_id": "joisc2018",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/joisc2018/H.cpp",
+    "platform": "AtCoder",
+    "problem_index": "H",
+    "problem_name": "\u30d3\u592a\u90ce\u306e\u30d1\u30fc\u30c6\u30a3\u30fc (Bitaro's Party)",
+    "problem_url": "https://atcoder.jp/contests/joisc2018/tasks/joisc2018_h",
+    "submission_id": "AC19515479",
+    "submission_url": "https://atcoder.jp/contests/joisc2018/submissions/19515479",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jan/18/2021 22:40"
+  },
   "AC19515492": {
     "contest_id": "joisc2018",
     "language": "C++ (GCC 9.2.1)",
