@@ -31,7 +31,7 @@ int calc(int u){
 	}
 	int ret=-1;
 	for(int i=1;i<=u;++i){
-		if(!no[i])
+		if(no[i])continue;
 		ret=max(ret,dist[i]);
 	}
 	return ret;
