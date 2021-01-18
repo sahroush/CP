@@ -9,15 +9,11 @@ vector<pair<int,int> >bestSQRT[MAXN];
 bool no[MAXN];
 int dist[MAXN],n,m,q;
 bool c[MAXN];
-
-#define pb push_back
-#define endl '\n'
-#define dokme(x) cout << x , exit(0)
-#define migmig ios::sync_with_stdio(false),cin.tie(0),cout.tie(0)
-#define ms(x , y) memset(x , y , sizeof x)
-
-typedef pair<int , int> pii;
-
+/*bool cmp(pair<int,int> p1,pair<int,int> p2)
+{
+	if(p1.second!=p2.second)return p1.second>p2.second;
+	return p1.first<p2.first;
+}*/
 int calc(int u)
 {
 	for(int i=1;i<u;++i)
@@ -41,28 +37,37 @@ int calc(int u)
 	}
 	return ret;
 }
-
-
-vector < pii > vc;
-void precompute(){
-	for(int i = 1 ; i <= n ; i ++){
-		vc.clear();
-		vc.pb({0 , i});
-		for(auto u : rg[i])
-			for(auto x : bestSQRT[u])
-				vc.pb({-x.first - 1 , x.second});
-		sort(vc.begin() , vc.end());
-		for(auto x : vc){
-			if(c[x.second])continue;
-			bestSQRT[i].pb({-x.first , x.second});
-			if(bestSQRT[i].size() == SQRT)break;
-			c[x.second] = 1;			
+vector<pair<int,int> >ivan;
+void precompute()
+{
+	for(int i=1;i<=n;++i)
+	{
+		ivan.clear();
+		ivan.push_back({0,i});
+		for(auto v:rg[i])
+		{
+			for(auto xd:bestSQRT[v])
+			{
+				ivan.push_back({-xd.first-1,xd.second});
+			}
 		}
-		for(auto x : bestSQRT[i])
-			c[x.second] = 0;
+		sort(ivan.begin(),ivan.end());
+		for(auto xd:ivan)
+		{
+			if(c[xd.second])continue;
+			bestSQRT[i].push_back({-xd.first,xd.second});
+			if(bestSQRT[i].size()==SQRT)
+			{
+				break;
+			}
+			c[xd.second]=1;
+		}
+		for(auto xd:bestSQRT[i])
+		{
+			c[xd.second]=0;
+		}
 	}
 }
-
 int main()
 {
 	ios_base::sync_with_stdio(false);
@@ -77,7 +82,14 @@ int main()
 		rg[y].push_back(x);
 	}
 	precompute();
-
+	/*for(int i=1;i<=n;i++)
+	{
+		cout<<i<<":\n";
+		for(auto xd:bestSQRT[i])
+		{
+			cout<<xd.first<<" "<<xd.second<<endl;
+		}
+	}*/
 	for(int i=1;i<=q;++i)
 	{
 		int x,y;
