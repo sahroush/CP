@@ -18,20 +18,25 @@ bool c[MAXN];
 
 typedef pair<int , int> pii;
 
-int calc(int v){
-	for(int i = 1 ; i < v ; i ++)
-		dist[i] = -INF;
-	dist[v] = 0;
-	for(int i = v - 1;  i >= 1 ; i --)
-		for(auto u : g[i])
-			if(u <= v)
-				dist[i] = max(dist[i] , dist[u] + 1);
-	int ans = -1;
-	for(int i = 1 ; i <= v ; i ++)
+int calc(int u){
+	for(int i=1;i<u;++i){
+		dist[i]=-INF;
+	}
+	dist[u]=0;
+	for(int i=u-1;i>=1;--i){
+		for(auto v:g[i]){
+			if(v <= u)
+			dist[i]=max(dist[i],dist[v]+1);
+		}
+	}
+	int ret=-1;
+	for(int i=1;i<=u;++i){
 		if(!no[i])
-			ans = max(ans , dist[i]);
-	return(ans);
+		ret=max(ret,dist[i]);
+	}
+	return ret;
 }
+
 
 vector < pii > vc;
 void precompute(){
