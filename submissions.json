@@ -1,4 +1,20 @@
 {
+  "AC19562003": {
+    "contest_id": "keyence2021",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/keyence2021/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Greedy Ant",
+    "problem_url": "https://atcoder.jp/contests/keyence2021/tasks/keyence2021_e",
+    "submission_id": "AC19562003",
+    "submission_url": "https://atcoder.jp/contests/keyence2021/submissions/19562003",
+    "tags": [
+      "AtCoder",
+      "*700"
+    ],
+    "timestamp": "Jan/22/2021 11:08"
+  },
   "AC19952020": {
     "contest_id": "agc021",
     "language": "C++ (GCC 9.2.1)",
