@@ -2815,6 +2815,24 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF105082609": {
+    "contest_id": 1468,
+    "language": "GNU C++17",
+    "path": "codeforces/1468/H.cpp",
+    "platform": "Codeforces",
+    "problem_index": "H",
+    "problem_name": "K and Medians",
+    "problem_url": "https://codeforces.com/contest/1468/problem/H",
+    "submission_id": "CF105082609",
+    "submission_url": "https://codeforces.com/contest/1468/submission/105082609",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Jan/22/2021 20:08"
+  },
   "CF105128445": {
     "contest_id": 1239,
     "language": "GNU C++17",
