@@ -2815,6 +2815,23 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF105128445": {
+    "contest_id": 1239,
+    "language": "GNU C++17",
+    "path": "codeforces/1239/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Turtle",
+    "problem_url": "https://codeforces.com/contest/1239/problem/E",
+    "submission_id": "CF105128445",
+    "submission_url": "https://codeforces.com/contest/1239/submission/105128445",
+    "tags": [
+      "dp",
+      "implementation",
+      "*3100"
+    ],
+    "timestamp": "Jan/23/2021 11:00"
+  },
   "CF105141046": {
     "contest_id": 997,
     "language": "GNU C++17",
