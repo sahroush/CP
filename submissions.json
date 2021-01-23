@@ -1,4 +1,20 @@
 {
+  "CF105141046": {
+    "contest_id": 997,
+    "language": "GNU C++17",
+    "path": "codeforces/997/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Good Subsegments",
+    "problem_url": "https://codeforces.com/contest/997/problem/E",
+    "submission_id": "CF105141046",
+    "submission_url": "https://codeforces.com/contest/997/submission/105141046",
+    "tags": [
+      "data structures",
+      "*3000"
+    ],
+    "timestamp": "Jan/23/2021 13:48"
+  },
   "CF105688952": {
     "contest_id": 1477,
     "language": "GNU C++17",
