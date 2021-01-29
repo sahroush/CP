@@ -3247,6 +3247,26 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF105821958": {
+    "contest_id": 1477,
+    "language": "GNU C++17",
+    "path": "codeforces/1477/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Nezzar and Nice Beatmap",
+    "problem_url": "https://codeforces.com/contest/1477/problem/C",
+    "submission_id": "CF105821958",
+    "submission_url": "https://codeforces.com/contest/1477/submission/105821958",
+    "tags": [
+      "constructive algorithms",
+      "geometry",
+      "greedy",
+      "math",
+      "sortings",
+      "*2200"
+    ],
+    "timestamp": "Jan/29/2021 12:16"
+  },
   "CF105835951": {
     "contest_id": 815,
     "language": "GNU C++17",
