@@ -1,4 +1,22 @@
 {
+  "CF106533578": {
+    "contest_id": 625,
+    "language": "GNU C++17",
+    "path": "codeforces/625/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Finals in arithmetic",
+    "problem_url": "https://codeforces.com/contest/625/problem/D",
+    "submission_id": "CF106533578",
+    "submission_url": "https://codeforces.com/contest/625/submission/106533578",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*2400"
+    ],
+    "timestamp": "Feb/05/2021 16:47"
+  },
   "CF106541215": {
     "contest_id": 1481,
     "language": "GNU C++17",
