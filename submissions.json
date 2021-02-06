@@ -1,4 +1,20 @@
 {
+  "AC19952020": {
+    "contest_id": "agc021",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc021/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Reversed LCS",
+    "problem_url": "https://atcoder.jp/contests/agc021/tasks/agc021_d",
+    "submission_id": "AC19952020",
+    "submission_url": "https://atcoder.jp/contests/agc021/submissions/19952020",
+    "tags": [
+      "AtCoder",
+      "*900"
+    ],
+    "timestamp": "Feb/06/2021 15:16"
+  },
   "AC21693237": {
     "contest_id": "agc001",
     "language": "C++ (GCC 9.2.1)",
