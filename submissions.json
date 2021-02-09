@@ -1,4 +1,22 @@
 {
+  "CF107015332": {
+    "contest_id": 1349,
+    "language": "GNU C++17",
+    "path": "codeforces/1349/F1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F1",
+    "problem_name": "Slime and Sequences (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1349/problem/F1",
+    "submission_id": "CF107015332",
+    "submission_url": "https://codeforces.com/contest/1349/submission/107015332",
+    "tags": [
+      "dp",
+      "fft",
+      "math",
+      "*3100"
+    ],
+    "timestamp": "Feb/09/2021 23:50"
+  },
   "CF107114693": {
     "contest_id": 1467,
     "language": "GNU C++17",
