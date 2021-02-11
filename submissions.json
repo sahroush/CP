@@ -1,4 +1,21 @@
 {
+  "CF107114708": {
+    "contest_id": 1467,
+    "language": "GNU C++17",
+    "path": "codeforces/1467/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Hills And Valleys",
+    "problem_url": "https://codeforces.com/contest/1467/problem/B",
+    "submission_id": "CF107114708",
+    "submission_url": "https://codeforces.com/contest/1467/submission/107114708",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Feb/11/2021 13:20"
+  },
   "CF107114734": {
     "contest_id": 1474,
     "language": "GNU C++17",
