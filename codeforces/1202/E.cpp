@@ -24,7 +24,7 @@ string t , s[maxn];
 struct aho{
 	int ch[sigma][maxn];
 	int trie = 0;
-	int link[maxn] , cnt[maxn] , par[maxn] , chr[maxn] , ans[maxn] , sum[maxn];
+	int link[sigma * maxn] , cnt[sigma * maxn] , par[sigma * maxn] , chr[sigma * maxn] , ans[maxn] , sum[maxn];
 	int cache[sigma][maxn];
 	void add(string s){
 		int pos = 0;
