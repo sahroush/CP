@@ -3247,6 +3247,24 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF107720769": {
+    "contest_id": 1202,
+    "language": "GNU C++17",
+    "path": "codeforces/1202/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "You Are Given Some Strings...",
+    "problem_url": "https://codeforces.com/contest/1202/problem/E",
+    "submission_id": "CF107720769",
+    "submission_url": "https://codeforces.com/contest/1202/submission/107720769",
+    "tags": [
+      "brute force",
+      "string suffix structures",
+      "strings",
+      "*2400"
+    ],
+    "timestamp": "Feb/17/2021 22:00"
+  },
   "CF107720785": {
     "contest_id": 1202,
     "language": "GNU C++17",
