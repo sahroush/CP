@@ -10,88 +10,49 @@
 
 using namespace std;
 
-const int maxn = 2e5 + 1;
 
-#define endl '\n'
+const int maxn = 2e5 + 100;
+
 #define dokme(x) cout << x , exit(0)
 #define migmig ios::sync_with_stdio(false),cin.tie(0),cout.tie(0)
 
 const int sigma = 26;
 
-int n;
-string t , s[maxn];
-
 struct aho{
-	int ch[sigma][maxn];
-	int trie = 0;
-	int link[sigma * maxn] , cnt[sigma * maxn] , par[sigma * maxn] , chr[sigma * maxn] , ans[maxn] , sum[maxn];
-	int cache[sigma][maxn];
-	void add(string s){
+	int nxt[sigma][maxn] , trie = 0 , cnt[maxn] , f[maxn] , q[maxn];
+	void add(string &s){
 		int pos = 0;
-		int n = s.size();
-		for(int i = 0 ; i < n ; i ++){
-			if(!ch[s[i] - 'a'][pos])ch[s[i] - 'a'][pos] = ++trie , par[trie] = pos , chr[trie] = s[i] - 'a';
-			pos = ch[s[i] - 'a'][pos];
+		for(char c : s){
+			if(!nxt[c-'a'][pos])nxt[c-'a'][pos] = ++trie;
+			pos = nxt[c-'a'][pos];
 		}
-		cnt[pos] ++;
+		cnt[pos]++;
 	}
-	int findlink(int pos);
-	int getlink(int pos , int chr){
-		if(cache[chr][pos] != -1)return(cache[chr][pos]);
-		if(ch[chr][pos])return(ch[chr][pos]);
-		if(pos == 0)return(0);
-		return((cache[chr][pos] = getlink(findlink(pos) , chr)));
-	}
-	void suffixlink(){
-		memset(link , -1 , sizeof link);
-		memset(cache , -1 , sizeof cache);
-		link[0] = 0;
-		for(int i = 1 ; i <= trie ; i ++){
-			findlink(i);
+	void build(){
+		int l = 0 , r = 0;
+		for(int i = 0 ; i < sigma ; i ++)if(nxt[i][0])q[r++] = nxt[i][0];
+		while(l < r){
+			int v = q[l++];
+			cnt[v] += cnt[f[v]];
+			for(int i = 0 ; i < sigma ; i ++)
+				if(!nxt[i][v]) nxt[i][v] = nxt[i][f[v]];
+				else f[nxt[i][v]] = nxt[i][f[v]] , q[r++] = nxt[i][v];
 		}
-	}
-	int findexit(int pos){
-		if(sum[pos] != -1)return(sum[pos]);
-		sum[pos] = cnt[pos];
-		return((sum[pos] = sum[pos] + findexit(link[pos])));
-	}
-	void exitlink(){
-		memset(sum , -1 , sizeof sum);
-		for(int i = 1 ; i <= trie ; i ++)
-			sum[i] = findexit(i);
-	}
-	void debug(int pos){
-		while(pos){
-			cout << char(chr[pos] + 'a');
-			pos = par[pos];
-		}
-		exit(0);
-	}
-	void solve(){
-		int n = t.size();
-		int pos = 0;
-		for(int i = 0 ; i < n ; i ++){
-			if(ch[t[i] - 'a'][pos])pos = ch[t[i] - 'a'][pos];
-			else pos = getlink(pos , t[i] - 'a');
-			ans[i+1] = sum[pos];
-		}
-	}
-	void init(){
-		suffixlink();
-		exitlink();
-		solve();
 	}
 };
 
-int aho::findlink(int pos){
-	if(link[pos] != -1)
-		return(link[pos]);
-	int res = getlink(findlink(par[pos]) , chr[pos]);
-	if(res == pos)res = 0;
-	return((link[pos] = res));
-}
-
 aho norm , rev;
+int n;
+string t , s[maxn];
+int ans[maxn] , ansr[maxn];
+
+void solve(int *ans , string &t , aho &ah){
+	int pos = 0 , cnt = 0;
+	for(char c : t){
+		ans[cnt++] = ah.cnt[pos];
+		pos = ah.nxt[c - 'a'][pos];
+	}
+}
 
 int32_t main(){
 	migmig;
@@ -100,10 +61,13 @@ int32_t main(){
 	for(int i = 1 ; i <= n ; i ++)
 		cin >> s[i],
 		norm.add(s[i]) , reverse(s[i].begin() , s[i].end()) , rev.add(s[i]);
-	norm.init(), reverse(t.begin() , t.end()) , rev.init() , n = t.size();
-	int64_t ans = 0;
+	norm.build(), rev.build() , n = t.size();
+	string tr = t;
+	reverse(tr.begin() , tr.end());
+	solve(ans , t , norm), solve(ansr , tr , rev);
+	int64_t sum = 0;
 	for(int i = 1 ; i < n ; i ++)
-		ans += norm.ans[i] * 1ll * rev.ans[n - i];
-	cout << ans;
+		sum += ans[i] * 1ll * ansr[n - i];
+	cout << sum;
 	return(0);
 }
