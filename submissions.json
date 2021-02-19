@@ -1,4 +1,22 @@
 {
+  "CF107970141": {
+    "contest_id": 1185,
+    "language": "GNU C++17",
+    "path": "codeforces/1185/G1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G1",
+    "problem_name": "Playlist for Polycarp (easy version)",
+    "problem_url": "https://codeforces.com/contest/1185/problem/G1",
+    "submission_id": "CF107970141",
+    "submission_url": "https://codeforces.com/contest/1185/submission/107970141",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "*2100"
+    ],
+    "timestamp": "Feb/19/2021 21:19"
+  },
   "CF108007119": {
     "contest_id": 1062,
     "language": "GNU C++17",
