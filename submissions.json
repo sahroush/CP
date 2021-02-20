@@ -2815,6 +2815,23 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF108007119": {
+    "contest_id": 1062,
+    "language": "GNU C++17",
+    "path": "codeforces/1062/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Upgrading Cities",
+    "problem_url": "https://codeforces.com/contest/1062/problem/F",
+    "submission_id": "CF108007119",
+    "submission_url": "https://codeforces.com/contest/1062/submission/108007119",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*2900"
+    ],
+    "timestamp": "Feb/20/2021 11:24"
+  },
   "CF108054984": {
     "contest_id": 1487,
     "language": "GNU C++17",
