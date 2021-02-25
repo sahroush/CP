@@ -2815,6 +2815,25 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF108483356": {
+    "contest_id": 547,
+    "language": "GNU C++17",
+    "path": "codeforces/547/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Mike and Friends",
+    "problem_url": "https://codeforces.com/contest/547/problem/E",
+    "submission_id": "CF108483356",
+    "submission_url": "https://codeforces.com/contest/547/submission/108483356",
+    "tags": [
+      "data structures",
+      "string suffix structures",
+      "strings",
+      "trees",
+      "*2800"
+    ],
+    "timestamp": "Feb/25/2021 18:28"
+  },
   "CF108518961": {
     "contest_id": 1089,
     "language": "GNU C++17",
