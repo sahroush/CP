@@ -1,144 +1,79 @@
+/*
+#pragma GCC optimize("O2")
+#pragma GCC optimize("Ofast")
+#pragma GCC optimize("unroll-loops")
+#pragma GCC target("avx,avx2,sse,sse2,fma")
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
 
 typedef long long ll;
 typedef long double ld;
+typedef pair<int , int> pii;
 
-const ll maxn = 1e4+10;
-const ll ZERO = 0;
-const ll SADAT = 7.84e-17;
-const ll INF = 1e9;
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+
+const int maxn = 3e6;
 const ll mod = 1e9+7;
+const ld PI = acos((ld)-1);
 
+#define pb push_back
 #define endl '\n'
-#define dokme(x) cout << x ;  return(0);
-#define migmig ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
-#define file_init freopen("input.txt", "r+", stdin); freopen("output.txt", "w+", stdout);
+#define dokme(x) cout << x , exit(0)
+#define migmig ios::sync_with_stdio(false),cin.tie(0),cout.tie(0)
+#define ms(x , y) memset(x , y , sizeof x)
+ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*a)%md;b>>=1;}return(res);}
 
-int q , n ;
-int zero[60] , one[60];
-string bin[60];
+int q;
+int n;
+string s[maxn];
+int cnt[2];
 
-bool chk(int a , int b){
-    if ((a+b)%2){
-        return(1);
-    }
-    else{
-        if (a%2 or b%2){
-            return(0);
-        }
-    }
-    return(1);
+vector < int > vec;
+
+int32_t main(){
+	migmig;
+	cin >> q;
+	while(q -- ){
+		cin >> n;
+		ms(cnt , 0);
+		for(int i = 0 ; i < n ; i ++){
+			cin >> s[i];
+			for(int j = 0 ; j < (int)s[i].size() ; j ++)
+				cnt[s[i][j] == '1'] ++;
+		}
+		int ans = 0;
+		vec.clear();
+		for(int i = 0 ; i < n ; i ++)if((int)s[i].size() % 2)ans++;	
+		else vec.pb((int)s[i].size());
+		sort(vec.begin() , vec.end());
+		reverse(vec.begin() , vec.end());
+		while(vec.size()){
+			int x = vec.back();
+			vec.pop_back();
+			sort(cnt , cnt + 2);
+			if(cnt[1] >= x){
+				cnt[1] -= x;
+				ans++;
+				continue;
+			}
+			if(cnt[0] % 2 == 0 and x - cnt[0] <= cnt[1]){
+				ans ++;
+				x -= cnt[0];
+				cnt[0] = 0;
+				cnt[1] -= x;
+				continue;
+			}
+			if(cnt[0] % 2 and x - cnt[0] + 1 <= cnt[1]){
+				ans ++;
+				x -= cnt[0]-1;
+				cnt[0] = 1;
+				cnt[1] -= x;
+				continue;
+			}
+		}
+		cout << ans << endl;
+	}
+	return(0);
 }
-
-bool  val(int a , int b , int c , int d){
-    if (a < 0 or b < 0 or c < 0 or d < 0){
-        return(0);
-    }
-    //cout << a << '\t' << c << '\t' << b  << '\t' << d << endl;
-    if (chk(a , c) and chk(b , d)){
-        //cout << 2;
-        return(1);
-    }
-    return(0);
-
-}
-
-
-
-bool ans(int i){
-
-    if (bin[i].size()%2){
-        return(1);
-    }
-    else{
-        //cout << one[i] <<'\t' << zero[i] << endl;
-        if (one[i]%2 and zero[i]%2){
-            return(0);
-        }
-    }
-
-    return(1);
-}
-
-
-bool cmp(int i , int j){
-    if(bin[i].size() > bin[j].size() ){
-        swap(bin[i] , bin[j]);
-        swap(one[i] , one[j]);
-        swap(zero[i] , zero[j]);
-        return(1);
-    }
-    return(0);
-}
-
-int main(){
-    migmig;
-    //dokme(chk(4 , 0));
-    cin >> q;
-    while (q--){
-        cin >> n;
-
-        int srtlist[n+10];
-        for (int i = 0 ; i < n ; i  ++){
-            cin >> bin[i];
-            srtlist[i] = i;
-        }
-        int cnt1 = 0 , cnt0 = 0;
-        fill(zero , zero+n+5 , 0);
-        fill(one , one+n+5 , 0);
-        for (int i = 0; i < n ; i ++){
-            for (int j = 0 ; j < bin[i].size() ; j ++){
-                if (bin[i][j] == '1'){
-                    one[i]++;
-                    cnt1++;
-                }
-                else{
-                    zero[i]++;
-                    cnt0++;
-                }
-            }
-        }
-        sort(srtlist , srtlist + n , cmp);
-        int cnt = 0;
-        for (int i = 0 ; i <  n ; i ++){
-            for (int j = 0 ; j < n ; j ++){
-                if (i!=j){
-                    if (val(one[i]+1 , one[j]-1 , zero[i]-1 , zero[j]+1) ){
-                        one[i]++;
-                        one[j]--;
-                        zero[j]++;
-                        zero[i]--;
-
-                    }
-                    else if(val(one[i]-1 , one[j]+1 , zero[i]+1 , zero[j]-1) ){
-                        zero[i]++;
-                        zero[j]--;
-                        one[j]++;
-                        one[i]--;
-
-                    }
-                }
-
-            }
-        }
-        for (int i = 0 ; i < n ; i ++){
-            if (ans(i)){
-                cnt++;
-            }
-        }
-        cout << cnt << endl;
-
-    }
-
-    return(0);
-}
-
-
-
-
-//When we hit our lowest point, we are open to the greatest change.
-//If I try, I fail. If I don't try, I'm NEVER GOING TO GET IT.
-//Sometimes, life is like this dark tunnel. You can't always see the light at the end of the tunnel. But if you just keep moving... you will come to a better place.
-//It is important to draw wisdom from diffrent places. If you take it from only one place it becomes rigid and stale.
