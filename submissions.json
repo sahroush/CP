@@ -2815,6 +2815,24 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF108667093": {
+    "contest_id": 1251,
+    "language": "GNU C++17",
+    "path": "codeforces/1251/E1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E1",
+    "problem_name": "Voting (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1251/problem/E1",
+    "submission_id": "CF108667093",
+    "submission_url": "https://codeforces.com/contest/1251/submission/108667093",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2300"
+    ],
+    "timestamp": "Feb/28/2021 16:21"
+  },
   "CF108667169": {
     "contest_id": 1251,
     "language": "GNU C++17",
