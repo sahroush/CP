@@ -3247,6 +3247,24 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF110748642": {
+    "contest_id": 1140,
+    "language": "GNU C++17",
+    "path": "codeforces/1140/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Extending Set of Points",
+    "problem_url": "https://codeforces.com/contest/1140/problem/F",
+    "submission_id": "CF110748642",
+    "submission_url": "https://codeforces.com/contest/1140/submission/110748642",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "dsu",
+      "*2600"
+    ],
+    "timestamp": "Mar/22/2021 19:47"
+  },
   "CF110877177": {
     "contest_id": 601,
     "language": "GNU C++17",
