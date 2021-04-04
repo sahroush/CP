@@ -26,7 +26,6 @@ const ld PI = acos((ld)-1);
 ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*a)%md;b>>=1;}return(res);}
 
 int n, m , q , k , cur;
-map < pii , int > mp;
 vector < int > occ[maxn];
 pii ed[maxn];
 int ask[maxn] , col[maxn];
@@ -97,7 +96,7 @@ int32_t main(){
 		for(int j = 1 ; j <= k ; j ++)
 			par[j][i] = i , sz[j][i] = 1;
 	for(int i = 1 ; i <= m ; i ++)
-		cin >> ed[i].first >> ed[i].second , mp[ed[i]] = i , swap(ed[i].first , ed[i].second) , mp[ed[i]] = i;
+		cin >> ed[i].first >> ed[i].second;
 	for(int i = 1 ; i <= q ; i ++)
 		cin >> ask[i] >> col[i] , occ[ask[i]].pb(i);
 	for(int i = 1 ; i <= m ; i ++)occ[i].pb(q + 1);
