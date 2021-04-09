@@ -2853,6 +2853,23 @@
     ],
     "timestamp": "Mar/13/2021 14:04"
   },
+  "CF112394691": {
+    "contest_id": 1071,
+    "language": "GNU C++17",
+    "path": "codeforces/1071/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Familiar Operations",
+    "problem_url": "https://codeforces.com/contest/1071/problem/D",
+    "submission_id": "CF112394691",
+    "submission_url": "https://codeforces.com/contest/1071/submission/112394691",
+    "tags": [
+      "graphs",
+      "math",
+      "*2800"
+    ],
+    "timestamp": "Apr/09/2021 20:34"
+  },
   "CF112779641": {
     "contest_id": 1442,
     "language": "GNU C++17",
