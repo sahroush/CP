@@ -3247,6 +3247,25 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF113034799": {
+    "contest_id": 1201,
+    "language": "GNU C++17",
+    "path": "codeforces/1201/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Treasure Hunting",
+    "problem_url": "https://codeforces.com/contest/1201/problem/D",
+    "submission_id": "CF113034799",
+    "submission_url": "https://codeforces.com/contest/1201/submission/113034799",
+    "tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "implementation",
+      "*2100"
+    ],
+    "timestamp": "Apr/14/2021 22:25"
+  },
   "CF113109444": {
     "contest_id": 1078,
     "language": "GNU C++17",
