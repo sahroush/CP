@@ -3247,6 +3247,24 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF113109444": {
+    "contest_id": 1078,
+    "language": "GNU C++17",
+    "path": "codeforces/1078/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Vasya and Maximum Matching",
+    "problem_url": "https://codeforces.com/contest/1078/problem/C",
+    "submission_id": "CF113109444",
+    "submission_url": "https://codeforces.com/contest/1078/submission/113109444",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Apr/15/2021 20:09"
+  },
   "CF113170142": {
     "contest_id": 979,
     "language": "GNU C++17",
