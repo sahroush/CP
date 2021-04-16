@@ -3247,6 +3247,24 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF113255587": {
+    "contest_id": 1509,
+    "language": "GNU C++17",
+    "path": "codeforces/1509/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Almost Sorted",
+    "problem_url": "https://codeforces.com/contest/1509/problem/E",
+    "submission_id": "CF113255587",
+    "submission_url": "https://codeforces.com/contest/1509/submission/113255587",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Apr/16/2021 21:17"
+  },
   "CF113389249": {
     "contest_id": 979,
     "language": "GNU C++17",
