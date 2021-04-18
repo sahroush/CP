@@ -37,7 +37,8 @@ struct node{
 	int get(int x , int lim , int i = 17){
 		if(mn > lim)return -1;
 		if(i == -1)return mn;
-		return ((((*this)[!curbit]->mn <= lim)) ? (*this)[!curbit]->get(x , lim , i-1) : (*this)[curbit]->get(x , lim , i-1));
+		if((*this)[!curbit]->mn <= lim)return (*this)[!curbit]->get(x , lim , i-1);
+		return (*this)[curbit]->get(x , lim , i-1);
 	}
 };
 node* trie [maxn];
