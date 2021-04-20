@@ -2853,6 +2853,24 @@
     ],
     "timestamp": "Mar/13/2021 14:04"
   },
+  "CF113624972": {
+    "contest_id": 1042,
+    "language": "GNU C++17",
+    "path": "codeforces/1042/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Vasya and Magic Matrix",
+    "problem_url": "https://codeforces.com/contest/1042/problem/E",
+    "submission_id": "CF113624972",
+    "submission_url": "https://codeforces.com/contest/1042/submission/113624972",
+    "tags": [
+      "dp",
+      "math",
+      "probabilities",
+      "*2300"
+    ],
+    "timestamp": "Apr/20/2021 19:14"
+  },
   "CF113712242": {
     "contest_id": 805,
     "language": "GNU C++17",
