@@ -1,4 +1,20 @@
 {
+  "AC21907803": {
+    "contest_id": "agc033",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc033/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Removing Coins",
+    "problem_url": "https://atcoder.jp/contests/agc033/tasks/agc033_c",
+    "submission_id": "AC21907803",
+    "submission_url": "https://atcoder.jp/contests/agc033/submissions/21907803",
+    "tags": [
+      "AtCoder",
+      "*800"
+    ],
+    "timestamp": "Apr/20/2021 15:27"
+  },
   "AC21968151": {
     "contest_id": "agc006",
     "language": "C++ (GCC 9.2.1)",
