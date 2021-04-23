@@ -3247,6 +3247,25 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF114037846": {
+    "contest_id": 1517,
+    "language": "GNU C++17",
+    "path": "codeforces/1517/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Explorer Space",
+    "problem_url": "https://codeforces.com/contest/1517/problem/D",
+    "submission_id": "CF114037846",
+    "submission_url": "https://codeforces.com/contest/1517/submission/114037846",
+    "tags": [
+      "dp",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "*1800"
+    ],
+    "timestamp": "Apr/23/2021 21:29"
+  },
   "CF114083250": {
     "contest_id": 575,
     "language": "GNU C++17",
