@@ -3247,6 +3247,24 @@
     ],
     "timestamp": "Feb/06/2020 18:40"
   },
+  "CF114219873": {
+    "contest_id": 1380,
+    "language": "GNU C++17",
+    "path": "codeforces/1380/G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Circular Dungeon",
+    "problem_url": "https://codeforces.com/contest/1380/problem/G",
+    "submission_id": "CF114219873",
+    "submission_url": "https://codeforces.com/contest/1380/submission/114219873",
+    "tags": [
+      "greedy",
+      "math",
+      "probabilities",
+      "*2600"
+    ],
+    "timestamp": "Apr/25/2021 20:52"
+  },
   "CF114281221": {
     "contest_id": 1063,
     "language": "GNU C++17",
