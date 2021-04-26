@@ -9,7 +9,8 @@ typedef pair<int , int> pii;
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
-const int maxn = 1e5+10;
+const int maxn = 2e5+10;
+const int lg = 17;
 const ll mod = 1e9+7;
 
 #define pb push_back
@@ -18,41 +19,72 @@ const ll mod = 1e9+7;
 #define ms(x , y) memset(x , y , sizeof x)
 ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*a)%md;b>>=1;}return(res);}
 
-int n , m , q , u , v , x , y , z;
-int par[maxn] , sz[maxn] , ti[maxn];
-vector < pii > hist[maxn];
+int n , m , q , z , u , v , x , y;
+int p[maxn] , par[lg+1][maxn] , sz[maxn] , h[maxn] , val[maxn];
 
 int getpar(int v){
-	return ((par[v]) ? getpar(par[v]) : v);
+	return ((p[v]) ? p[v] = getpar(p[v]) : v);
+}
+
+int lca(int u , int v){
+	if(h[u] < h[v])swap(u , v);
+	for(int i = lg ; i >= 0 ; i --)
+		if(h[par[i][u]] >= h[v])u = par[i][u];
+	if(u == v)return u;
+	for(int i = lg ; i >= 0 ; i --)
+		if(par[i][u] ^ par[i][v])u = par[i][u] , v = par[i][v];
+	return par[0][v];
+}
+
+void dfs(int v){
+	if(v == 0)return;
+	if(h[v] != -1)return;
+	dfs(par[0][v]);
+	h[v] = h[par[0][v]] + 1;
 }
 
 int32_t main(){
 	ios::sync_with_stdio(false),cin.tie(0),cout.tie(0);
 	cin >> n >> m;
-	for(int i = 1 ; i <= n ; i ++)sz[i] = 1 , hist[i].pb({0 , 1}) , ti[i] = m+1;
+	for(int i = 1 ; i <= n ; i ++)sz[i] = 1;
 	for(int i = 1 ; i <= m ; i ++){
 		cin >> u >> v;
-		if((u = getpar(u)) == (v = getpar(v)))continue;
-		if(sz[v] < sz[u])swap(u , v);
-		sz[v] += sz[u] , par[u] = v, ti[u] = i;
-		hist[v].pb({i , sz[v]});
+		u = getpar(u) , v = getpar(v);
+		if(u == v)continue;
+		par[0][v] = par[0][u] = ++n;
+		val[n] = i;
+		sz[n] = sz[u] + sz[v];
+		p[u] = p[v] = n;
 	}
+	for(int j = 1 ; j <= lg ; j ++)
+		for(int i = 1 ; i <= n ; i ++)
+			par[j][i] = par[j-1][par[j-1][i]];
+	ms(h , -1);
+	val[0] = sz[0] = 1e9;
+	for(int i = 1 ; i <= n ; i ++)dfs(i);
 	cin >> q;
 	while(q --){
 		cin >> u >> v >> z;
-		int l = 0 , r = m;
-		while(r - l > 1){
-			int mid = (l + r) / 2;
-			x = u , y = v;
-			while(ti[x] <= mid) x = par[x];
-			while(ti[y] <= mid) y = par[y];
-			int val = prev(lower_bound(hist[x].begin() , hist[x].end() , pii(mid , m+1)))->second;
-			if(x ^ y)
-				val+= prev(lower_bound(hist[y].begin() , hist[y].end() , pii(mid , m+1)))->second;
-			if(val >= z)r = mid;
-			else l = mid;
+		int lc = lca(u, v);
+		if(sz[lc] < z){
+			for(int i = lg ; i >= 0 ; i --)if(sz[par[i][lc]] < z)
+				lc = par[i][lc];
+			cout << val[par[0][lc]] << endl;
 		}
-		cout << r << endl;
+		else{
+			int l = 0 , r = m;
+			while(r - l > 1){
+				int mid = (l + r) / 2;
+				x = u  , y = v;
+				for(int i = lg ; i >= 0 ; i --)
+					if(val[par[i][x]] <= mid) x = par[i][x];
+				for(int i = lg ; i >= 0 ; i --)
+					if(val[par[i][y]] <= mid) y = par[i][y];
+				if(sz[x] + sz[y] >= z) r = mid;
+				else l = mid;
+			}
+			cout << r << endl;
+		}
 	}
 	return(0);
 }
