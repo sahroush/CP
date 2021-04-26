@@ -1,4 +1,20 @@
 {
+  "AC22099646": {
+    "contest_id": "agc002",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc002/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Stamp Rally",
+    "problem_url": "https://atcoder.jp/contests/agc002/tasks/agc002_d",
+    "submission_id": "AC22099646",
+    "submission_url": "https://atcoder.jp/contests/agc002/submissions/22099646",
+    "tags": [
+      "AtCoder",
+      "*1000"
+    ],
+    "timestamp": "Apr/26/2021 21:41"
+  },
   "AC22099950": {
     "contest_id": "agc002",
     "language": "C++ (GCC 9.2.1)",
