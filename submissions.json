@@ -2852,5 +2852,23 @@
       "*1800"
     ],
     "timestamp": "Mar/13/2021 14:04"
+  },
+  "CF114281221": {
+    "contest_id": 1063,
+    "language": "GNU C++17",
+    "path": "codeforces/1063/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "String Journey",
+    "problem_url": "https://codeforces.com/contest/1063/problem/F",
+    "submission_id": "CF114281221",
+    "submission_url": "https://codeforces.com/contest/1063/submission/114281221",
+    "tags": [
+      "data structures",
+      "dp",
+      "string suffix structures",
+      "*3300"
+    ],
+    "timestamp": "Apr/26/2021 17:27"
   }
 }
