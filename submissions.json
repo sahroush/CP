@@ -3246,5 +3246,24 @@
       "*200"
     ],
     "timestamp": "Feb/06/2020 18:40"
+  },
+  "CF114391765": {
+    "contest_id": 798,
+    "language": "GNU C++17",
+    "path": "codeforces/798/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Mike and code of a permutation",
+    "problem_url": "https://codeforces.com/contest/798/problem/E",
+    "submission_id": "CF114391765",
+    "submission_url": "https://codeforces.com/contest/798/submission/114391765",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "graphs",
+      "sortings",
+      "*3000"
+    ],
+    "timestamp": "Apr/27/2021 23:06"
   }
 }
