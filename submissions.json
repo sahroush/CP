@@ -9051,6 +9051,23 @@
     ],
     "timestamp": "Apr/27/2021 23:06"
   },
+  "CF114459628": {
+    "contest_id": 673,
+    "language": "GNU C++17",
+    "path": "codeforces/673/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Levels and Regions",
+    "problem_url": "https://codeforces.com/contest/673/problem/E",
+    "submission_id": "CF114459628",
+    "submission_url": "https://codeforces.com/contest/673/submission/114459628",
+    "tags": [
+      "divide and conquer",
+      "dp",
+      "*2400"
+    ],
+    "timestamp": "Apr/28/2021 19:18"
+  },
   "CF114478548": {
     "contest_id": 152,
     "language": "GNU C++17",
