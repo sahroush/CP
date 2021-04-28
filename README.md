@@ -13,7 +13,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1105 | [E - Two Permutations](https://codeforces.com/contest/213/problem/E) | [GNU C++17](./codeforces/213/E.cpp) | `data structures` `hashing` `strings` `*2700` | Apr/29/2021 23:44 | 
+1106 | [E - Two Permutations](https://codeforces.com/contest/213/problem/E) | [GNU C++17](./codeforces/213/E.cpp) | `data structures` `hashing` `strings` `*2700` | Apr/29/2021 23:44 | 
+1105 | [E - Garden](https://codeforces.com/contest/152/problem/E) | [GNU C++17](./codeforces/152/E.cpp) | `bitmasks` `dp` `graphs` `trees` `*2500` | Apr/28/2021 23:27 | 
 1104 | [E - Mike and code of a permutation](https://codeforces.com/contest/798/problem/E) | [GNU C++17](./codeforces/798/E.cpp) | `constructive algorithms` `data structures` `graphs` `sortings` `*3000` | Apr/27/2021 23:06 | 
 1103 | [D - Stamp Rally](https://atcoder.jp/contests/agc002/tasks/agc002_d) | [C++ (GCC 9.2.1)](./atcoder/agc002/D.cpp) | `AtCoder` `*1000` | Apr/26/2021 22:25 | 
 1102 | [E - Ciel and Gondolas](https://codeforces.com/contest/321/problem/E) | [GNU C++17](./codeforces/321/E.cpp) | `data structures` `divide and conquer` `dp` `*2600` | Apr/26/2021 19:59 | 
