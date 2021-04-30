@@ -4,14 +4,15 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-* Codeforces &nbsp; [![Codeforces](https://cp-logo.vercel.app/codeforces/Tet)](https://codeforces.com/profile/Tet)
-* AtCoder &nbsp; [![AtCoder](https://cp-logo.vercel.app/atcoder/soroush)](https://atcoder.jp/users/soroush)
+*  &nbsp; [![Codeforces](https://cp-logo.vercel.app/codeforces/Tet)](https://codeforces.com/profile/Tet)
+*  &nbsp; [![AtCoder](https://cp-logo.vercel.app/atcoder/soroush)](https://atcoder.jp/users/soroush)
 
 
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1109 | [A - Bark to Unlock](https://codeforces.com/contest/868/problem/A) | [GNU C++17](./codeforces/868/A.cpp) | `brute force` `implementation` `strings` `*900` | Apr/30/2021 11:18 | 
 1108 | [A - Array and Peaks](https://codeforces.com/contest/1513/problem/A) | [GNU C++17](./codeforces/1513/A.cpp) | `constructive algorithms` `implementation` `*800` | Apr/30/2021 11:14 | 
 1107 | [E - Two Permutations](https://codeforces.com/contest/213/problem/E) | [GNU C++17](./codeforces/213/E.cpp) | `data structures` `hashing` `strings` `*2700` | Apr/29/2021 23:44 | 
 1106 | [E - Garden](https://codeforces.com/contest/152/problem/E) | [GNU C++17](./codeforces/152/E.cpp) | `bitmasks` `dp` `graphs` `trees` `*2500` | Apr/28/2021 23:27 | 
