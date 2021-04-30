@@ -19,7 +19,7 @@ const ll mod = 1e9+7;
 ll pw(ll a, ll b, ll md = mod){ll res = 1;while(b){if(b&1){res=(a*res)%md;}a=(a*a)%md;b>>=1;}return(res);}
 
 ll n, k;
-ll a[maxn], dp[22][maxn] , cnt[maxn] , L , R;
+ll a[maxn], dp[maxn][22] , cnt[maxn] , L , R;
 ll cur = 0;
 
 ll c2 (ll x){
@@ -56,15 +56,15 @@ ll cost(int l , int r){
 
 void solve(int k , int l = 1 , int r = n , int ul = 1 , int ur = n){
 	if (k == 1){
-		for(int i = 1 ; i <= n ; i ++) dp[k][i] = cost(1 , i);
+		for(int i = 1 ; i <= n ; i ++) dp[i][k] = cost(1 , i);
 		return;
 	}
 	if(r < l)return;
 	int mid = (l + r) / 2, umid;
-	dp[k][mid] = 1e18;
+	dp[mid][k] = 1e18;
 	for(int i = min(ur , mid) ; i >= ul ; i --){
-		if(cost(i , mid) + dp[k-1][i-1] < dp[k][mid])
-			umid = i , dp[k][mid] = cost(i , mid) + dp[k-1][i-1];
+		if(cost(i , mid) + dp[i-1][k-1] < dp[mid][k])
+			umid = i , dp[mid][k] = cost(i , mid) + dp[i-1][k-1];
 	}
 	solve(k , mid+1 , r , umid , ur);
 	solve(k , l , mid-1 , ul , umid);
@@ -76,6 +76,6 @@ int32_t main(){
 	for(int i = 1 ; i <= n ; i ++) cin >> a[i];
 	L = R = 1 , cnt[a[1]]++;
 	for(int i = 1 ; i <= k ; i ++)solve(i);
-	cout << dp[k][n];
+	cout << dp[n][k];
 	return(0);
 }
