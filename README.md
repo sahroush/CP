@@ -12,9 +12,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1112 | [D - Adam and Tree](https://codeforces.com/contest/442/problem/D) | [GNU C++17](./codeforces/442/D.cpp) | `data structures` `trees` `*2600` | May/03/2021 10:35 | 
-1111 | [F - DFS](https://codeforces.com/contest/1074/problem/F) | [GNU C++17](./codeforces/1074/F.cpp) | `data structures` `trees` `*2700` | May/03/2021 08:43 | 
-1110 | [A - Spy Detected!](https://codeforces.com/contest/1512/problem/A) | [GNU C++17](./codeforces/1512/A.cpp) | `brute force` `implementation` `*800` | May/01/2021 23:15 | 
+1113 | [D - Adam and Tree](https://codeforces.com/contest/442/problem/D) | [GNU C++17](./codeforces/442/D.cpp) | `data structures` `trees` `*2600` | May/03/2021 10:35 | 
+1112 | [F - DFS](https://codeforces.com/contest/1074/problem/F) | [GNU C++17](./codeforces/1074/F.cpp) | `data structures` `trees` `*2700` | May/03/2021 08:43 | 
+1111 | [A - Spy Detected!](https://codeforces.com/contest/1512/problem/A) | [GNU C++17](./codeforces/1512/A.cpp) | `brute force` `implementation` `*800` | May/01/2021 23:15 | 
+1110 | [F - Yet Another Minimization Problem](https://codeforces.com/contest/868/problem/F) | [GNU C++17](./codeforces/868/F.cpp) | `divide and conquer` `dp` `*2500` | Apr/30/2021 15:16 | 
 1109 | [A - Bark to Unlock](https://codeforces.com/contest/868/problem/A) | [GNU C++17](./codeforces/868/A.cpp) | `brute force` `implementation` `strings` `*900` | Apr/30/2021 11:18 | 
 1108 | [A - Array and Peaks](https://codeforces.com/contest/1513/problem/A) | [GNU C++17](./codeforces/1513/A.cpp) | `constructive algorithms` `implementation` `*800` | Apr/30/2021 11:14 | 
 1107 | [E - Two Permutations](https://codeforces.com/contest/213/problem/E) | [GNU C++17](./codeforces/213/E.cpp) | `data structures` `hashing` `strings` `*2700` | Apr/29/2021 23:44 | 
