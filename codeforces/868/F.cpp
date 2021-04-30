@@ -26,7 +26,6 @@ ll c2 (ll x){
 	return x *(x-1) / 2;
 }
 
-#pragma GCC optimize("O3") 
 ll cost(int l , int r){
 	while(L > l){
 		L --;
