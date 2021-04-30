@@ -1,18 +1,18 @@
 Submissions
 ======================
-> *Auto-generated with ❤ using [Harwest](https://github.com/nileshsah/harwest-tool)*
 
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-* Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/Tet.svg)](https://codeforces.com/profile/Tet)
-* AtCoder &nbsp; [![AtCoder](https://run.kaist.ac.kr/badges/atcoder/soroush.svg)](https://atcoder.jp/users/soroush)
+* Codeforces &nbsp; [![Codeforces](https://cp-logo.vercel.app/codeforces/Tet)](https://codeforces.com/profile/Tet)
+* AtCoder &nbsp; [![AtCoder](https://cp-logo.vercel.app/atcoder/soroush)](https://atcoder.jp/users/soroush)
 
 
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1108 | [A - Array and Peaks](https://codeforces.com/contest/1513/problem/A) | [GNU C++17](./codeforces/1513/A.cpp) | `constructive algorithms` `implementation` `*800` | Apr/30/2021 11:14 | 
 1107 | [E - Two Permutations](https://codeforces.com/contest/213/problem/E) | [GNU C++17](./codeforces/213/E.cpp) | `data structures` `hashing` `strings` `*2700` | Apr/29/2021 23:44 | 
 1106 | [E - Garden](https://codeforces.com/contest/152/problem/E) | [GNU C++17](./codeforces/152/E.cpp) | `bitmasks` `dp` `graphs` `trees` `*2500` | Apr/28/2021 23:27 | 
 1105 | [E - Levels and Regions](https://codeforces.com/contest/673/problem/E) | [GNU C++17](./codeforces/673/E.cpp) | `divide and conquer` `dp` `*2400` | Apr/28/2021 19:18 | 
