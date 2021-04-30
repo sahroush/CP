@@ -66,8 +66,8 @@ void solve(int k , int l = 1 , int r = n , int ul = 1 , int ur = n){
 		if(cost(i , mid) + dp[k-1][i-1] < dp[k][mid])
 			umid = i , dp[k][mid] = cost(i , mid) + dp[k-1][i-1];
 	}
-	solve(k , l , mid-1 , ul , umid);
 	solve(k , mid+1 , r , umid , ur);
+	solve(k , l , mid-1 , ul , umid);
 }
 
 int32_t main(){
