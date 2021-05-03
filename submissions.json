@@ -9276,6 +9276,26 @@
     ],
     "timestamp": "May/03/2021 10:35"
   },
+  "CF115003890": {
+    "contest_id": 1305,
+    "language": "GNU C++17",
+    "path": "codeforces/1305/G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Kuroni and Antihype",
+    "problem_url": "https://codeforces.com/contest/1305/problem/G",
+    "submission_id": "CF115003890",
+    "submission_url": "https://codeforces.com/contest/1305/submission/115003890",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "dsu",
+      "graphs",
+      "*3500"
+    ],
+    "timestamp": "May/03/2021 11:42"
+  },
   "CF115003929": {
     "contest_id": 1305,
     "language": "GNU C++17",

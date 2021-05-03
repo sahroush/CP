@@ -1,6 +1,5 @@
 //曇り空 のぞいた予感
-#pragma GCC optimize ("O3,unroll-loops")
-#pragma GCC target ("avx2")
+#pragma GCC optimize ("Ofast")
 #include <bits/stdc++.h>
 
 using namespace std;
