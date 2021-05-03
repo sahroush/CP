@@ -11,7 +11,7 @@ typedef pair<int , int> pii;
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
-const int maxn = 1<<18;
+const int maxn = 3e6;
 const ll mod = 1e9+7;
 
 #define pb push_back
