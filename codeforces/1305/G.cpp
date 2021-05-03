@@ -1,6 +1,5 @@
 //曇り空 のぞいた予感
-#pragma GCC optimize ("O3,unroll-loops")
-#pragma GCC target ("avx2")
+#pragma GCC optimize ("Ofast")
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -33,7 +32,7 @@ int32_t main(){
 	cin >> n , cnt[0]++;
 	for(int i = 1 ; i <= n ; i ++)cin >> a[i] , sum += a[i] , cnt[a[i]]++;
 	for(int i = (1 << 18)-1 ; i >= 0 ; i --){
-		for(int j = i ; j > i^j ; j = (j - 1)&i){
+		for(int j = i ; j ; j = (j - 1)&i){
 			if(!cnt[getpar(i^j)] or !cnt[getpar(j)])continue;
 			if(getpar(j) == getpar(i^j))continue;
 			ans += 1ll * i * (cnt[getpar(j)] + cnt[getpar(j^i)] - 1);
