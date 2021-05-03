@@ -65,8 +65,7 @@ int32_t main(){
 	cin >> n;
 	for(int i = 1 ; i <= n ; i ++)cin >> a[i] , sum += a[i];
 	n++;
-	for(int t = 1 ; t ;){
-		t = 0;
+	for(int t = 0 ; t < 18 ; t ++){
 		build();
 		ms(Mx , 0);
 		for(int i = 1 ; i <= n ; i ++){
@@ -78,7 +77,7 @@ int32_t main(){
 					Mx[getpar(i)] = pii(i , mx[f][1].second);
 		}
 		for(int i = 1 ; i <= n ; i ++)if(Mx[getpar(i)].first)
-			merge(Mx[getpar(i)].first , Mx[getpar(i)].second) , t = 1;
+			merge(Mx[getpar(i)].first , Mx[getpar(i)].second);
 	}
 	cout << ans - sum;
 	return(0);
