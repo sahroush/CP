@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1114 | [G - Kuroni and Antihype](https://codeforces.com/contest/1305/problem/G) | [GNU C++17](./codeforces/1305/G.cpp) | `bitmasks` `brute force` `dp` `dsu` `graphs` `*3500` | May/03/2021 15:22 | 
 1113 | [D - Adam and Tree](https://codeforces.com/contest/442/problem/D) | [GNU C++17](./codeforces/442/D.cpp) | `data structures` `trees` `*2600` | May/03/2021 10:35 | 
 1112 | [F - DFS](https://codeforces.com/contest/1074/problem/F) | [GNU C++17](./codeforces/1074/F.cpp) | `data structures` `trees` `*2700` | May/03/2021 08:43 | 
 1111 | [A - Spy Detected!](https://codeforces.com/contest/1512/problem/A) | [GNU C++17](./codeforces/1512/A.cpp) | `brute force` `implementation` `*800` | May/01/2021 23:15 | 
