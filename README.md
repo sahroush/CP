@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1115 | [F - Katya and Segments Sets](https://codeforces.com/contest/1080/problem/F) | [GNU C++17](./codeforces/1080/F.cpp) | `data structures` `interactive` `sortings` `*2400` | May/04/2021 13:52 | 
 1114 | [G - Kuroni and Antihype](https://codeforces.com/contest/1305/problem/G) | [GNU C++17](./codeforces/1305/G.cpp) | `bitmasks` `brute force` `dp` `dsu` `graphs` `*3500` | May/03/2021 15:22 | 
 1113 | [D - Adam and Tree](https://codeforces.com/contest/442/problem/D) | [GNU C++17](./codeforces/442/D.cpp) | `data structures` `trees` `*2600` | May/03/2021 10:35 | 
 1112 | [F - DFS](https://codeforces.com/contest/1074/problem/F) | [GNU C++17](./codeforces/1074/F.cpp) | `data structures` `trees` `*2700` | May/03/2021 08:43 | 
