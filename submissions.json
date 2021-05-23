@@ -9494,6 +9494,28 @@
     ],
     "timestamp": "May/04/2021 13:52"
   },
+  "CF117056602": {
+    "contest_id": 739,
+    "language": "GNU C++17",
+    "path": "codeforces/739/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Gosha is hunting",
+    "problem_url": "https://codeforces.com/contest/739/problem/E",
+    "submission_id": "CF117056602",
+    "submission_url": "https://codeforces.com/contest/739/submission/117056602",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "flows",
+      "math",
+      "probabilities",
+      "sortings",
+      "*3000"
+    ],
+    "timestamp": "May/23/2021 08:01"
+  },
   "CF117257587": {
     "contest_id": 1528,
     "language": "PyPy 3",
