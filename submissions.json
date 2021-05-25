@@ -9494,6 +9494,26 @@
     ],
     "timestamp": "May/04/2021 13:52"
   },
+  "CF117292848": {
+    "contest_id": 1528,
+    "language": "GNU C++17",
+    "path": "codeforces/1528/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Parsa's Humongous Tree",
+    "problem_url": "https://codeforces.com/contest/1528/problem/A",
+    "submission_id": "CF117292848",
+    "submission_url": "https://codeforces.com/contest/1528/submission/117292848",
+    "tags": [
+      "dfs and similar",
+      "divide and conquer",
+      "dp",
+      "greedy",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "May/25/2021 11:23"
+  },
   "CF117406894": {
     "contest_id": 713,
     "language": "GNU C++17",
