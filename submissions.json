@@ -9494,6 +9494,24 @@
     ],
     "timestamp": "May/04/2021 13:52"
   },
+  "CF117505824": {
+    "contest_id": 866,
+    "language": "GNU C++17",
+    "path": "codeforces/866/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Buy Low Sell High",
+    "problem_url": "https://codeforces.com/contest/866/problem/D",
+    "submission_id": "CF117505824",
+    "submission_url": "https://codeforces.com/contest/866/submission/117505824",
+    "tags": [
+      "data structures",
+      "greedy",
+      "two pointers",
+      "*2400"
+    ],
+    "timestamp": "May/27/2021 19:01"
+  },
   "CF117521777": {
     "contest_id": 1114,
     "language": "GNU C++17",
